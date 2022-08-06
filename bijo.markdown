@@ -1,9 +1,6 @@
 ---
 layout: page
-permalink: /bijosebastian/
 ---
-
-# Bijo Sebastian
 
 <img align="left" style="padding: 10px" src="/images/bijo.jpg" alt="Picture not available" width="250" height="250">
 

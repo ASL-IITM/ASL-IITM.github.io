@@ -1,9 +1,6 @@
 ---
 layout: page
-permalink: /robotic_disassembly/
 ---
-
-# Robotic Disassembly
 
 <img align="left" style="padding: 10px" src="/videos/pose_track.gif" alt="Video not available" width="320" height="569">
 
