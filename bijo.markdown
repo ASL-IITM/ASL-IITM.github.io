@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Bijo Sebastian
+permalink: /bijosebastian/
+ribbon_display: no
 ---
 
 <img align="left" style="padding: 10px" src="/images/bijo.jpg" alt="Picture not available" width="250" height="250">

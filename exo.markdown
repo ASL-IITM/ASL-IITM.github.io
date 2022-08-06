@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Exo Glove
+permalink: /exoglove/
+ribbon_display: no
 ---
 
 ### Prior Work

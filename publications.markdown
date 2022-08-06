@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
+ribbon_display: yes
 ---
 
 ### Journals

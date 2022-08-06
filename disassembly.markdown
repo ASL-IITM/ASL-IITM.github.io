@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Robotic Disassembly
+permalink: /robotic_disassembly/
+ribbon_display: no
 ---
 
 <img align="left" style="padding: 10px" src="/videos/pose_track.gif" alt="Video not available" width="320" height="569">
@@ -13,4 +16,4 @@ In this context, battery recycling/reusability becomes a very important aspect. 
 ### Research goal
 Ongoing research at the Autonomous Systems Lab is aimed at creating a laboratory-level integrated system capable of performing complete disassembly of a standard Li-ion battery pack alongside a human operator through a huma-robot collaborative approach. This involves developing a laboratory-level integrated system consisting of a robotic manipulator, gripper, vision system, and associated software.
 
-While this research is focussed towards battery huma-robot collaborative disassembly of batteries, we expect that the technology developed under this research could be applied to advance the robotic assembly of products as well.
+While this research is focussed towards battery human-robot collaborative disassembly of batteries, we expect that the technology developed under this research could be applied to advance the robotic assembly of products as well.

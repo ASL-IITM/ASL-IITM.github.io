@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+ribbon_display: yes
 ---
 
 For additional information, please contact Dr. Bijo Sebastian
