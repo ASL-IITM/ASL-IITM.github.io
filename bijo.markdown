@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Bijo Sebastian
 permalink: /bijosebastian/
 ---
+
+# Bijo Sebastian
+
 <img align="left" style="padding: 10px" src="/images/bijo.jpg" alt="Picture not available" width="250" height="250">
 
 <p style="text-align: justify"> 

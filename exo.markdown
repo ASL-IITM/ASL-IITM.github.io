@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Exo Glove
 permalink: /exoglove/
 ---
+
+# Exo Glove
 
 ### Prior Work
 <img align="left" style="padding: 10px" src="/images/exo/exo.png" alt="Picture not available" width="400" height="255">
