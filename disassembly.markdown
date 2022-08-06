@@ -15,4 +15,4 @@ In this context, battery recylcing and reusability becomes a very important aspe
 ### Research goal
 Ongoing research at the Autonomous Systems Lab is aimed at creating a laboratory-level integrated system capable of performing complete disassembly of a standard Li-ion battery pack alongside a human operator through a huma-robot collaborative approach. This involves developing a laboratory-level integrated system consisting of a robotic manipulator, gripper, vision system, and associated software.
 
-While this research is focussed towards battery huma-robot collaborative disasembly of batteries, we expect that the technology developed under this research could be applied to advance the robotic assembly of products as well.</li>
+While this research is focussed towards battery huma-robot collaborative disasembly of batteries, we expect that the technology developed under this research could be applied to advance the robotic assembly of products as well.
