@@ -7,7 +7,7 @@ The Autonomous Systems Lab is a part of the
 at
 <a href="https://www.iitm.ac.in/"> {{ "IIT Madras. " | escape }}</a>
 The lab was established in 2021, under the guidance of 
-<a href="https://bijosebastian.wordpress.com/"> {{ "Dr. Bijo Sebastian. " | escape }}</a>
+<a href="{{ "bijosebastian/" | relative_url }}">{{ "Dr. Bijo Sebastian. " | escape }}</a>
 We focus on developing autonomous robotic solutions for a wide range of applications including exoskeleton systems for rehabilitation and autonomous mobile robotic systems for cooperative manipulation.
 </p>
 
