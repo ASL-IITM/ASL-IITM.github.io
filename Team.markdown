@@ -10,7 +10,7 @@ ribbon_display: yes
 | :-------------: |
 ||
 | __Faculty__ |
-| <img align="left" style="padding: 10px" src="/images/bijo.jpg" alt="Picture not available" width="150" height="150"> <br/> <br/> __Bijo Sebastian__ <br/>  Assitant Professor <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/bijo-sebastian-389153147/"> {{ "LinkedIn" | escape }}</a>|
+| <img align="left" style="padding: 10px" src="/images/bijo.jpg" alt="Picture not available" width="150" height="150"> <br/> <br/> __Bijo Sebastian__ <br/>  Assistant Professor <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/bijo-sebastian-389153147/"> {{ "LinkedIn" | escape }}</a>|
 | __MS Scholars__ |
 
 
