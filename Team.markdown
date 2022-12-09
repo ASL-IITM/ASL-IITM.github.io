@@ -10,7 +10,7 @@ ribbon_display: yes
 | :-------------: |
 ||
 | __Faculty__ |
-| <img align="left" style="padding: 10px" src="/images/bijo.jpg" alt="Picture not available" width="150" height="150"> <br/> <br/> <a href="https://github.com/ASL-IITM/ASL-IITM.github.io/blob/main/bijo.markdown/"> {{ "Bijo Sebastian" | escape }}</a>  <br/>  Assistant Professor <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/bijo-sebastian-389153147/"> {{ "LinkedIn" | escape }}</a>|
+| <img align="left" style="padding: 10px" src="/images/bijo.jpg" alt="Picture not available" width="150" height="150"> <br/> <br/> <a href="https://asl-iitm.github.io/bijosebastian/"> {{ "__Bijo Sebastian__" | escape }}</a>  <br/>  Assistant Professor <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/bijo-sebastian-389153147/"> {{ "LinkedIn" | escape }}</a>|
 | __MS Scholars__ |
 
 
