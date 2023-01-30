@@ -17,7 +17,6 @@ Prerequisites: <br>
 •	Prior experience in working with mobile robots (competitions or projects)<br>
 Preference for candidates	26 years of age or younger at the time of application <br>
 Appointment duration: Initially for 6 months, subject to extension based on candidate performance and availability of funds <br> 
-Application closing date: 25th January 2023 <br>
 
 ----
 
