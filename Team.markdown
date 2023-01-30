@@ -25,4 +25,4 @@ ribbon_display: yes
 ||
 | __Industry Partners__ |
 |<img align="left" style="padding: 10px" src="/images/industry_partners/accenture.png" alt="Picture not available" width="300"> <br/> <br/>|
-|<img align="left" style="padding: 10px" src="/images/industry_partners/caterpillar.png" alt="Picture not available" width="300"> <br/> <br/>|
+|<img align="left" style="padding: 10px" src="/images/industry_partners/caterpillar.jpg" alt="Picture not available" width="300"> <br/> <br/>|
