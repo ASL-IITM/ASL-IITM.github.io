@@ -1,7 +1,9 @@
 ---
 layout: home
+image_sliders_load_all: true
 image_sliders:
   - slider1
+
 ---
 <p style="text-align: justify">
 The Autonomous Systems Lab is a part of the
