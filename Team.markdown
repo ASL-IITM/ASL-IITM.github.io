@@ -13,6 +13,14 @@ ribbon_display: yes
 | <img align="left" style="padding: 10px" src="/images/bijo.jpg" alt="Picture not available" width="300"> <br/> <br/> <a href="https://asl-iitm.github.io/bijosebastian/"> {{ "__Bijo Sebastian__" | escape }}</a>  <br/>  Assistant Professor <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/bijo-sebastian-389153147/"> {{ "LinkedIn" | escape }}</a>|
 | __MS Scholars__ |
 
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
 <div class="col-sm-6 clearfix">
   <img src="/images/bijo.jpg" class="img-responsive" alt="Picture not available" width="25%" style="float: left" />
   <a href="https://asl-iitm.github.io/bijosebastian/"> {{ "__Bijo Sebastian__" | escape }}</a>  <br/>  Assistant Professor <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/bijo-sebastian-389153147/"> {{ "LinkedIn" | escape }}</a>|
@@ -20,6 +28,20 @@ ribbon_display: yes
 
   </ul>
 </div>
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<!-- -->
 
 | - | - | 
 | :-------------: | :-------------: |
