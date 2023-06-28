@@ -3,6 +3,8 @@ layout: page
 title: Exo Glove
 permalink: /exoglove/
 ribbon_display: no
+image_sliders:
+  - slider1
 ---
 
 ### Prior Work
@@ -17,7 +19,7 @@ In order to satisfy the above requirements, preliminary work led to the developm
 
 
 A five-finger version of the exo-glove was later built with series elastic actuation allowing for compliance and precise force control. The use of series elastic actuators (SEA) allows for precise force control on each finger. This allows the exo-glove to grasp objects of different stiffness, shape, and size. Additional details regarding the full five finger exo-glove and the SEA design can be found in [2]. The proposed SEA design and the integrated prototype is shown below:
-
+{% include slider.html selector="slider2" %}
 
 ### Ongoing Research 
 
