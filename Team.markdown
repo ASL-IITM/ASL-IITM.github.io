@@ -15,14 +15,22 @@ ribbon_display: yes
 <table>
   <thead>
     <tr>
-      <th width="500px"> __MS Scholars__</th>
+      <th width="500px"> MS Scholars</th>
       <th width="500px"> </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><img style="float: left" src="/images/students/durva.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> __Durva Gaikwad__ <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/durva-gaikwad-48a36120a/"> {{ "LinkedIn" | escape }}</a></td>
-      <td><img style="float: left" src="/images/students/shreyash.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> __Shreyash Gadgil__ <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/shreyash-gadgil/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img style="float: left" src="/images/students/durva.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> **Durva Gaikwad** <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/durva-gaikwad-48a36120a/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img style="float: left" src="/images/students/shreyash.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> **Shreyash Gadgil** <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/shreyash-gadgil/"> {{ "LinkedIn" | escape }}</a></td>
+    </tr>
+    <tr>
+      <td><img style="float: left" src="/images/students/eshant.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> __Eshant Jha__ <br/>   Interdisciplinary Research Programme (IDRP) <br/> Dept. of Ocean Engineering & Dept. of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/eshant-jha-b6a29a116/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img style="float: left" src="/images/students/eshant.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> __Eshant Jha__ <br/>   Interdisciplinary Research Programme (IDRP) <br/> Dept. of Ocean Engineering & Dept. of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/eshant-jha-b6a29a116/"> {{ "LinkedIn" | escape }}</a></td>
+    </tr>
+    <tr>
+      <td><img style="float: left" src="/images/students/vrijesh.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> __Vrijesh Kunwar__ <br/>   Junior Research Fellow <br/>Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/vrijesh-kunwar-47b236130/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img style="float: left" src="/images/students/sayooj.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> __Sayooj P Raveendran__ <br/>   Senior Project Engineer <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/sayooj-p/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
   </tbody>
 </table>
