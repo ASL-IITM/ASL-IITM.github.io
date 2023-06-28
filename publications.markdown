@@ -6,7 +6,7 @@ ribbon_display: yes
 ---
 
 ### Journals
-<details>
+<details open>
 <summary>Click to expand!</summary>
 
 <ol>
@@ -28,7 +28,7 @@ ribbon_display: yes
 <br/>
 
 ### Conferences
-<details>
+<details open>
 <summary>Click to expand!</summary>
 
 <ol>
@@ -49,7 +49,7 @@ ribbon_display: yes
 <br/>
 
 ### Patents
-<details>
+<details open>
 <summary>Click to expand!</summary>
 <ol>
 
