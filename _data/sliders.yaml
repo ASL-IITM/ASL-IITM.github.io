@@ -26,19 +26,20 @@
 
 - selector: slider2
   bullets: true
-  captions: true
   images:
-    - src: /img/1.jpg
-      title: Balloons!
-      alt: This slider has caption titles
-    - data-src: /img/2.jpg
-      title: This slider uses the fade effect
-      alt: Instead of the default slide effect
-    - data-src: /img/3.jpg
-      data-src-2x: /img/3@2x.jpg
-    - src: /img/4.jpg
-      title: Last image had no caption!
-      alt: Also, this image has no link
+    - src: /images/exo/exo.png
+      title: Exoskeleton glove
+      alt: Image not available
+    - src: /images/exo/sea.png
+      title: Series Elastic Actuator Design
+      alt: Image not available
+    - src: /images/mobile_manipulation/mobile_manipulation.jpg
+      title: cooperatiev manipulation and Transportation 
+    - src: /images/mobile_robot/indoor_autonomous_mobile_robot.png
+      alt: Image not available
+    - src:  images/mobile_robot/mobile.png
+      title: Autonomous mobile robot
+      alt: Image not available
   settings:
     height: "'auto'"
     effect: "'fade'"
