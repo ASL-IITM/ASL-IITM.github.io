@@ -12,6 +12,21 @@ ribbon_display: yes
 | __Faculty__ |
 | <img style="float: left" src="/images/bijo.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <a href="https://asl-iitm.github.io/bijosebastian/"> {{ "__Bijo Sebastian__" | escape }}</a>  <br/>  Assistant Professor <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/bijo-sebastian-389153147/"> {{ "LinkedIn" | escape }}</a>|
 
+<table>
+  <thead>
+    <tr>
+      <th width="500px"> __MS Scholars__</th>
+      <th width="500px"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img style="float: left" src="/images/students/durva.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> __Durva Gaikwad__ <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/durva-gaikwad-48a36120a/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img style="float: left" src="/images/students/shreyash.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> __Shreyash Gadgil__ <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/shreyash-gadgil/"> {{ "LinkedIn" | escape }}</a></td>
+    </tr>
+  </tbody>
+</table>
+
 | __MS Scholars__ |
 | - | - | 
 | :-----: | :------------------: |
@@ -28,7 +43,7 @@ ribbon_display: yes
 | :-------------: |
 ||
 | __Industry Partners__ |
-|<img style="float: left" src="/images/industry_partners/accenture.png" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <img style="float: left" src="/images/industry_partners/caterpillar.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/>|
+|<img style="float: left" src="/images/industry_partners/accenture.png" alt="Picture not available" class="img-responsive" width=300 height=100/> <br/> <br/> <img style="float: left" src="/images/industry_partners/caterpillar.jpg" alt="Picture not available" class="img-responsive" width=300 height=100/> <br/> <br/>|
 
 
 ---
