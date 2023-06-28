@@ -1,5 +1,7 @@
 ---
 layout: home
+image_sliders:
+  - slider1
 ---
 <p style="text-align: justify">
 The Autonomous Systems Lab is a part of the
@@ -11,13 +13,7 @@ The lab was established in 2021, under the guidance of
 We focus on developing autonomous robotic solutions for a wide range of applications including autonomous navigation for mobile robots in indoor and outdoor environment, multi-agent coordination, intelligent grasping and manipulation. 
 </p>
 
-  carousels:
-  - images: 
-    - image: /images/exo/exo.png
-    - image: /images/exo/sea.png
-    - image: /images/mobile_manipulation/mobile_manipulation.jpg
-    - image: /images/mobile_robot/indoor_autonomous_mobile_robot.png
-    - image: /images/mobile_robot/mobile.png
+  {% include slider.html selector="slider2" %}
     
 For more details visit our <a href="{{ "research/" | relative_url }}"> {{ "research page" | escape }}</a>
 
