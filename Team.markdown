@@ -24,10 +24,12 @@ ribbon_display: yes
       <td><img style="float: left" src="/images/students/durva.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Durva Gaikwad </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/durva-gaikwad-48a36120a/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img style="float: left" src="/images/students/shreyash.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Shreyash Gadgil </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/shreyash-gadgil/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
+    <tr></tr>
     <tr>
       <td><img style="float: left" src="/images/students/eshant.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Eshant Jha </b> <br/>   Interdisciplinary Research Programme (IDRP) <br/> Dept. of Ocean Engineering & Dept. of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/eshant-jha-b6a29a116/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img style="float: left" src="/images/students/manali.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Manali Jain </b> <br/>   Dept. of Applied Mechanics & Dept. of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/manali-jain-iitmadras/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
+    <tr></tr>
     <tr>
       <td><img style="float: left" src="/images/students/vrijesh.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Vrijesh Kunwar </b> <br/>   Junior Research Fellow <br/>Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/vrijesh-kunwar-47b236130/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img style="float: left" src="/images/students/sayooj.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sayooj P Raveendran </b> <br/>   Senior Project Engineer <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/sayooj-p/"> {{ "LinkedIn" | escape }}</a></td>
@@ -42,5 +44,5 @@ ribbon_display: yes
 | :-------------: |
 ||
 | __Industry Partners__ |
-|<img style="float: left" src="/images/industry_partners/accenture.png" alt="Picture not available" class="img-responsive" width=300 height=100/> <br/> <br/> <img style="float: left" src="/images/industry_partners/caterpillar.png" alt="Picture not available" class="img-responsive" width=300 height=100/> <br/> <br/>|
+|<img style="float: left" src="/images/industry_partners/accenture.png" alt="Picture not available" class="img-responsive" width=300 /> <br/> <br/> <img style="float: left" src="/images/industry_partners/caterpillar.png" alt="Picture not available" class="img-responsive" width=300 /> <br/> <br/>|
 
