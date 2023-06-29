@@ -5,7 +5,7 @@ permalink: /bijosebastian/
 ribbon_display: no
 ---
 
-<img style="float: left" src="/images/bijo.jpg" alt="Picture not available"class="img-responsive" width=300/>
+<img align="left" style="padding: 10px" src="/images/bijo.jpg" alt="Picture not available" width="250">
 
 <p style="text-align: justify"> 
 <br/>
