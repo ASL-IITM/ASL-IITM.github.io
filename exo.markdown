@@ -24,6 +24,15 @@ While the above system was an effective initial approach towards creating an ass
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z1tforALG-8/1.jpg)](https://www.youtube.com/watch?v=z1tforALG-8)
 
+<br><br>
+<div class="video">
+<div class="video__youtube" data-youtube>
+<img src="https://img.youtube.com/vi/z1tforALG-8/maxresdefault.jpg" class="video__placeholder" />
+<button class="video__button" data-youtube-button="https://www.youtube.com/watch?v=z1tforALG-8" >
+</button>
+</div>
+<center><h4>Language Guided Open-Set Navigation | Part of our RSS 2023 Publication</h4></center>
+</div>
 
 ### References
 <ol>
