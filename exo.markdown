@@ -22,9 +22,8 @@ A five-finger version of the exo-glove was later built with series elastic actua
 
 While the above system was an effective initial approach towards creating an assistive glove, the underlying mechanism for each finger has only a single DOF. As such the exo-glove could only be used to assist in achieving cylindrical grasp. Moreover, triggering the cylindrical grasp was achieved by the press of a button. Ongoing work on the exo-glove aims to improve the grasp capabilities of the previous design by incorporating two degrees of freedom in each finger. In addition, we are working on designing predictive controllers capable of recognizing user intent. This will result in a more naturalistic interaction between the user and the glove. An initial version of the single finger exoskeleton mechanism, with voice control capabaility, built at the Autonomous Systems Lab is shown below:
 
-[![Final video of fixing issues in your code in VS Code]
-(https://img.youtube.com/vi/z1tforALG-8/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=z1tforALG-8)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/z1tforALG-8/maxresdefault.jpg)](https://www.youtube.com/watch?v=z1tforALG-8)
+[![Click here for video](https://img.youtube.com/vi/z1tforALG-8/maxresdefault.jpg)](https://www.youtube.com/watch?v=z1tforALG-8)
 
 ### References
 <ol>
