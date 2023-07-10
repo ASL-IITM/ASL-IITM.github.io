@@ -9,10 +9,11 @@ ribbon_display: no
 
 <p style="text-align: justify"> 
 <br/>
-I am an Assistant Professor of the Engineering Design Department  and currently heading the Autonomous Systems Laboratory at the Indian Institute of Technology, Madras.
+<br/>
+I am an Assistant Professor of the Engineering Design Department and currently heading the Autonomous Systems Laboratory at the Indian Institute of Technology, Madras.
 <br/>
 <br/>
-My research interests include use of Exoskeleton devices for medical rehabilitation as well as developing autonomous navigation solutions for Mobile Robots. For more details on my prior research please refer to <a href="https://bijosebastian.wordpress.com/"> {{ "my personal blog. " | escape }}</a>
+My research interests include developing intelligent grasping and manipulation algorithms, developing autonomous navigation solutions for Mobile Robots and multi-agent systems. For more details on my prior research please refer to <a href="https://bijosebastian.wordpress.com/"> {{ "my personal blog. " | escape }}</a>
 <br/>
 <br/>
     <a href="https://scholar.google.com/citations?user=Z1nNEkcAAAAJ&hl=en"> {{ "Google Scholar, " | escape }}</a>
