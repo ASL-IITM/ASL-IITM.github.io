@@ -6,8 +6,8 @@ ribbon_display: yes
 ---
 
 We are currently looking for:
-1. MS student: Explore the role of LLMs as an interface for human-robot interaction 
-2. PhD student: Develop low speed collision warning and adaptive cruise control system for autonomous Electric vehicle 
+- 1 MS student: Explore the role of LLMs as an interface for human-robot interaction
+- 1 Ph.D student: Develop low speed collision warning and adaptive cruise control system for autonomous Electric vehicle 
 
 ----
 
