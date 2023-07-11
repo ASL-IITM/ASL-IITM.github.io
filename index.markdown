@@ -11,7 +11,7 @@ The lab was established in 2021, under the guidance of
 We focus on developing autonomous robotic solutions for a wide range of applications including autonomous navigation for mobile robots in indoor and outdoor environment, multi-agent coordination, intelligent grasping and manipulation. 
 </p>
     
-##### Following is a list of our research areas and projects:
+#### Following is a list of our research areas and projects:
 
 | - |
 | :-------------: |
