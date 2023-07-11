@@ -9,7 +9,7 @@ ribbon_display: no
 The proposed research aims to address the challenges of cooperative manipulation and transportation through a novel multistage approach. The high-level planning stage will compute a feasible path for the object from start to goal while avoiding the obstacles. The low-level Model Predictive Controller (MPC) computes the control commands to the individual robots to successfully manipulate and transport the object along the planned path. This research aims to address the cooperative manipulation and transportation of an object, in the presence of static obstacles, using mobile robots. Initial approach towards cooperative manipulation and transportation , along with proposed design of the system is shown below:
 
 <img style="float: left" src="/images/mobile_manipulation/mult-robot_system.png" alt="Picture not available" class="img-responsive" width=800/>
-<br/>
+<br clear="left"/>
 <br/>
 
 ### Motion planning for multi-agent systems: 
