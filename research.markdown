@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-ribbon_display: yes
+ribbon_display: no
 ---
 
 #### Following is a list of our research areas and projects:
