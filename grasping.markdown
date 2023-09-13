@@ -10,4 +10,4 @@ Autonomous grasping is an active research area primarily because of the wide ran
 
 Preliminary results on autonomous pick-and-place task through the use of artificial fiducial markers with a three finger Robotiq gripper is shown below:
 
-[![Click here for video](https://img.youtube.com/vi/rerv_xJ9qJs/0.jpg)](https://www.youtube.com/watch?v=rerv_xJ9qJs)
+[![Click here for video](https://img.youtube.com/vi/glKLp9OO6yQ/0.jpg)](https://www.youtube.com/watch?v=glKLp9OO6yQ)
