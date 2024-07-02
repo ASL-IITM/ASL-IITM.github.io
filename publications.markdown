@@ -32,7 +32,8 @@ ribbon_display: yes
 <summary>Click to expand!</summary>
 
 <ol>
-
+<li> Jain, M., <strong> Sebastian, B. </strong>, Muniyandi, M., “Shared Control for Telepresence Robot in Dynamic Virtual Reality Environment”, 22024 10th International Conference on Control, Automation and Robotics (ICCAR), Orchard District, Singapore, 2024. <a href="https://doi.org/10.1109/ICCAR61844.2024.10569672"> {{ "DOI: 10.1109/ICCAR61844.2024.10569672" | escape }}</a> </li>
+<li> Gadgil, S., Gaikwad, D., <strong> Sebastian, B. </strong>, Dubey, A., Upadhyay, A., “Semi-Autonomous Robotic System for Efficient Recycling of Lithium-Ion Batteries”, 2024 International Conference on E-mobility, Power Control and Smart Systems (ICEMPS), Thiruvananthapuram, India, 2024. <a href="https://doi.org/10.1109/ICEMPS60684.2024.10559331"> {{ "DOI: 10.1109/ICEMPS60684.2024.10559331" | escape }}</a> </li>
 <li> <strong> Sebastian, B. </strong>, Hailin, R., Ben-Tzvi, P., “Neural network based heterogeneous sensor fusion for robot motion planning”, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2019), Macau, China, Nov. 3- 8, 2019. <a href="https://doi.org/10.1109/IROS40897.2019.8967689"> {{ "DOI: 10.1109/IROS40897.2019.8967689" | escape }}</a> </li>
 <li> Refour, E., <strong> Sebastian, B. </strong>, Ben-Tzvi, P., "Design and Implementation of an Exoskeleton Glove for Infant Medical Rehabilitation", Proceedings of the 2018 ASME IDETC/CIE, 42nd Mechanisms & Robotics Conference, Quebec City, Canada, Aug. 26-29, 2018. <a href="https://doi.org/10.1115/DETC2018-85638"> {{ "DOI: 10.1115/DETC2018-85638" | escape }}</a> </li>
 <li> Vanteddu, T., <strong> Sebastian, B. </strong>, Ben-Tzvi, P., “Design Optimization of RML Glove for Improved Grasp Performance”, Proceedings of the ASME 2018 Dynamic Systems and Control Conf. (DSCC 2018), Atlanta, GA, Sep. 30 – Oct. 3, 2018. <a href="https://doi.org/10.1115/DSCC2018-9004"> {{ "DOI: 10.1115/DSCC2018-9004" | escape }}</a> </li>
@@ -53,7 +54,7 @@ ribbon_display: yes
 <summary>Click to expand!</summary>
 <ol>
 
-<li> Ben-Tzvi, P., <strong> Sebastian, B. </strong>, Refour, E., Xu, W., Pradhan, S., Guo, Y., “Robotic exoskeleton glove system,” U.S. Patent Pending No.16888993, December 3, 2020. </li>
+<li> Ben-Tzvi, P., <strong> Sebastian, B. </strong>, Refour, E., Xu, W., Pradhan, S., Guo, Y., “Robotic exoskeleton glove system,” U.S. Patent No.11986033, May 21, 2024. </li>
 <li> Ben-Tzvi, P., Williams, A., <strong> Sebastian, B. </strong>, Kumar, A., Saab, W., "Semi-Autonomous Victim Extraction Robot (SAVER)”, U.S. Provisional Patent Application No. 62/836,915, April 22, 2019. </li>
   
 </ol>
