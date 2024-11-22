@@ -10,7 +10,7 @@ ribbon_display: yes
 <summary>Click to expand!</summary>
 
 <ol>
-<li> Marveldoss, W. D., Joshika, B., and Sebastian, B., "Tracking and estimation approach for human-aware mobile robot navigation," IEEE Sensors Letters, <a href="https://doi.org/10.1109/LSENS.2024.3492373"> {{ "DOI: 10.1109/LSENS.2024.3492373" | escape }}</a> </li>
+<li> Marveldoss, W. D., Joshika, B., and Sebastian, B., "Tracking and estimation approach for human-aware mobile robot navigation," IEEE Sensors Letters, vol. 8, no. 12, pp. 1-4, Dec. 2024, <a href="https://doi.org/10.1109/LSENS.2024.3492373"> {{ "DOI: 10.1109/LSENS.2024.3492373" | escape }}</a> </li>
 <li> Sohal, S.S., Sebastian, B., Ben-Tzvi, P., "Autonomous Docking of Hybrid-Wheeled Modular Robots With an Integrated Active Genderless Docking Mechanism", Journal of Mechanisms and Robotics, Transactions of the ASME, Vol. 14, Issue 1, pp. 011010: 1-15, February 2022. <a href="https://doi.org/10.1115/1.4051519"> {{ "DOI: 10.1115/1.4051519" | escape }}</a> </li>
 <li> Feng, S., Sebastian, B., Ben-Tzvi, P., "A Collision Avoidance Method Based on Deep Reinforcement Learning", Robotics Journal, Vol. 10, Issue 2, pp. 1-19, May 2021. <a href="https://doi.org/10.3390/robotics10020073"> {{ "DOI: 10.3390/robotics10020073" | escape }}</a> </li>
 <li> Chauhan, R., Sebastian, B., and Ben-Tzvi, P., "Grasp Prediction Toward Naturalistic Exoskeleton Glove Control," IEEE Transactions on Human-Machine Systems, vol. 50, no. 1, pp. 22-31, February 2020. <a href="https://doi.org/10.1109/THMS.2019.2938139"> {{ "DOI: 10.1109/THMS.2019.2938139" | escape }}</a> </li>
