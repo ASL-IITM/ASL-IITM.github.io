@@ -29,13 +29,24 @@ ribbon_display: yes
       <td><img align="left" style="padding: 10px" src="/images/students/eshant.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Eshant Jha </b> <br/>   Interdisciplinary Research Programme (IDRP) <br/> Dept. of Ocean Engineering & Dept. of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/eshant-jha-b6a29a116/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/manali.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Manali Jain </b> <br/>   Dept. of Applied Mechanics & Dept. of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/manali-jain-iitmadras/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
-    <tr></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th width="500px"> Ph.D Scholars</th>
+      <th width="500px"> </th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td><img align="left" style="padding: 10px" src="/images/students/vrijesh.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Vrijesh Kunwar </b> <br/>   Junior Research Fellow <br/>Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/vrijesh-kunwar-47b236130/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/sayooj.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sayooj P Raveendran </b> <br/>   Senior Project Engineer <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/sayooj-p/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
   </tbody>
 </table>
+
 
 **We are  looking for new PhD students, Master students, and Undergraduates to join the team** 
 <a href="{{ "openings/" | relative_url }}"> {{ "__see openings__" | escape }}</a>
