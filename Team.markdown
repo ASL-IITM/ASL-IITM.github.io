@@ -41,9 +41,15 @@ ribbon_display: yes
   </thead>
   <tbody>
     <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/vrijesh.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Vrijesh Kunwar </b> <br/>   Junior Research Fellow <br/>Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/vrijesh-kunwar-47b236130/"> {{ "LinkedIn" | escape }}</a></td>
-      <td><img align="left" style="padding: 10px" src="/images/students/sayooj.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sayooj P Raveendran </b> <br/>   Senior Project Engineer <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/sayooj-p/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/vrijesh.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Vrijesh Kunwar </b> <br/>   Co-operative multi agent systems <br/>Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/vrijesh-kunwar-47b236130/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/sayooj.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sayooj P Raveendran </b> <br/>   Traversibility Estimation <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/sayooj-p/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
+    <tr></tr>
+    <tr>
+      <td><img align="left" style="padding: 10px" src="/images/students/Don.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Don Gideon D </b> <br/>  decentralized Control of Autonomous Surface Vessels <br/>Department of Engineering Design, IIT Madras <br/> <a href="https://in.linkedin.com/in/don-gideon-d-936414157"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/guna.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Gunabharathi </b> <br/>  Control of Pure Electric vehicles  <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/gunabharathi-selvaraj-74781017b/"> {{ "LinkedIn" | escape }}</a></td>
+    </tr>
+    
   </tbody>
 </table>
 
