@@ -29,6 +29,16 @@ ribbon_display: yes
       <td><img align="left" style="padding: 10px" src="/images/students/eshant.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Eshant Jha </b> <br/>   Interdisciplinary Research Programme (IDRP) <br/> Dept. of Ocean Engineering & Dept. of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/eshant-jha-b6a29a116/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/manali.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Manali Jain </b> <br/>   Dept. of Applied Mechanics & Dept. of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/manali-jain-iitmadras/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
+    <tr></tr>
+    <tr>
+      <td><img align="left" style="padding: 10px" src="/images/students/joseph.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Joseph Joshy </b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/joseph-joshy-robotics/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/santhosh.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Santhosh Rao Kotha </b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/santhoshraokotha/"> {{ "LinkedIn" | escape }}</a></td>
+    </tr>
+    <tr></tr>
+    <tr>
+      <td><img align="left" style="padding: 10px" src="/images/students/muni.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Muni Srinivas </b> <br/>    Interdisciplinary Research Programme (IDRP) <br/> Dept. of Engineering Design & Dept. of Civil Engineering  <br/> <a href="https://www.linkedin.com/in/joseph-joshy-robotics/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/sanker.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sanker Dev </b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/sanker-dev-p-68761b177/"> {{ "LinkedIn" | escape }}</a></td>
+    </tr>
   </tbody>
 </table>
 
