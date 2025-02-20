@@ -36,7 +36,7 @@ ribbon_display: yes
     </tr>
     <tr></tr>
     <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/muni.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Muni Srinivas </b> <br/>    Interdisciplinary Research Programme (IDRP) <br/> Department of Engineering Design, IIT Madras   <br/> <a href="https://www.linkedin.com/in/joseph-joshy-robotics/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/muni.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Muni Srinivas </b> <br/>    Interdisciplinary Research Programme (IDRP) <br/> Department of Engineering Design, IIT Madras   <br/> <a href="https://www.linkedin.com/in/munisrinivas/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/sanker.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sanker Dev </b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/sanker-dev-p-68761b177/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
   </tbody>
