@@ -61,7 +61,18 @@ ribbon_display: yes
 <li> Ben-Tzvi, P., Sebastian, B., Refour, E., Xu, W., Pradhan, S., Guo, Y., “Robotic exoskeleton glove system,” U.S. Patent No.11986033, May 21, 2024. </li>
 <li> Sebastian, B., “Bidirectional Rotary Series Elastic Actuator (R-SEA) Design Usin Coil Compression Springs,” Indian Patent No.544679, August 25, 2023. </li>
 <li> Ben-Tzvi, P., Williams, A., Sebastian, B., Kumar, A., Saab, W., "Semi-Autonomous Victim Extraction Robot (SAVER)”, U.S. Provisional Patent Application No. 62/836,915, April 22, 2019. </li>
-  
+</ol>
+
+</details>
+<br/>
+<br/>
+
+### Copyright
+<details open>
+<summary>Click to expand!</summary>
+<ol>
+
+<li> Sebastian, B., "Software stack for localization of mobile robots in absence of GPS", Indian Copyright SW-20151 2025. </li>  
 </ol>
 
 </details>
