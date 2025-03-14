@@ -51,7 +51,7 @@ ribbon_display: yes
   </thead>
   <tbody>
     <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/vrijesh.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Vrijesh Kunwar </b> <br/>   Co-operative multi agent systems <br/>Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/vrijesh-kunwar-47b236130/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/vrijesh.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Vrijesh Kunwar </b> <br/>   Co-operative multi agent systems <br/>Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/vrijesh-kunwar-47b236130/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/sayooj.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sayooj P Raveendran </b> <br/>   Traversibility Estimation <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/sayooj-p/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
     <tr></tr>
@@ -63,6 +63,22 @@ ribbon_display: yes
   </tbody>
 </table>
 
+
+<table>
+  <thead>
+    <tr>
+      <th width="500px"> Project Staffs</th>
+      <th width="500px"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img align="left" style="padding: 10px" src="/images/students/pritvi.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Prithvi Raj B </b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/prithvi-raj-b-97100a216/"> {{ "LinkedIn" | escape }}</a></td>
+      <td></td>
+    </tr>
+    
+  </tbody>
+</table>
 
 **We are  looking for new PhD students, Master students, and Undergraduates to join the team** 
 <a href="{{ "openings/" | relative_url }}"> {{ "__see openings__" | escape }}</a>
