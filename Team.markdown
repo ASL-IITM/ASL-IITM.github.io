@@ -45,7 +45,7 @@ ribbon_display: yes
 <table>
   <thead>
     <tr>
-      <th width="500px"> Ph.D Scholars</th>
+      <th width="500px"> Ph.D Scholars </th>
       <th width="500px"> </th>
     </tr>
   </thead>
