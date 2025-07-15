@@ -20,8 +20,8 @@ ribbon_display: yes
     </tr>
   </thead>
   <tbody>
-    <tr>
-<!--       <td><img align="left" style="padding: 10px" src="/images/students/durva.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Durva Gaikwad </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/durva-gaikwad-48a36120a/"> {{ "LinkedIn" | escape }}</a></td>
+<!--    <tr>
+       <td><img align="left" style="padding: 10px" src="/images/students/durva.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Durva Gaikwad </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/durva-gaikwad-48a36120a/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/shreyash.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Shreyash Gadgil </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/shreyash-gadgil/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
     <tr></tr>
@@ -80,7 +80,8 @@ ribbon_display: yes
   </tbody>
 </table>
 
-### Alumni (MS Scholars)
+
+**Alumni (MS Scholars)**
 
 - [Durva Gaikwad](https://www.linkedin.com/in/durva-gaikwad-48a36120a/)
 - [Shreyash Gadgil](https://www.linkedin.com/in/shreyash-gadgil/)
