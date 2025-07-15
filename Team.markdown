@@ -21,7 +21,7 @@ ribbon_display: yes
   </thead>
   <tbody>
     <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/durva.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Durva Gaikwad </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/durva-gaikwad-48a36120a/"> {{ "LinkedIn" | escape }}</a></td>
+<!--       <td><img align="left" style="padding: 10px" src="/images/students/durva.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Durva Gaikwad </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/durva-gaikwad-48a36120a/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/shreyash.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Shreyash Gadgil </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/shreyash-gadgil/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
     <tr></tr>
@@ -29,7 +29,7 @@ ribbon_display: yes
       <td><img align="left" style="padding: 10px" src="/images/students/eshant.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Eshant Jha </b> <br/>   Interdisciplinary Research Programme (IDRP) <br/> Dept. of Ocean Engineering & Dept. of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/eshant-jha-b6a29a116/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/manali.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Manali Jain </b> <br/>   Dept. of Applied Mechanics & Dept. of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/manali-jain-iitmadras/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
-    <tr></tr>
+    <tr></tr> -->
     <tr>
       <td><img align="left" style="padding: 10px" src="/images/students/joseph.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Joseph Joshy </b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/joseph-joshy-robotics/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/santhosh.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Santhosh Rao Kotha </b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/santhoshraokotha/"> {{ "LinkedIn" | escape }}</a></td>
@@ -79,6 +79,15 @@ ribbon_display: yes
     
   </tbody>
 </table>
+
+### Alumni (MS Scholars)
+
+- [Durva Gaikwad](https://www.linkedin.com/in/durva-gaikwad-48a36120a/)
+- [Shreyash Gadgil](https://www.linkedin.com/in/shreyash-gadgil/)
+- [Eshant Jha](https://www.linkedin.com/in/eshant-jha-b6a29a116/)
+- [Manali Jain](https://www.linkedin.com/in/manali-jain-iitmadras/)
+
+
 
 **We are  looking for new PhD students, Master students, and Undergraduates to join the team** 
 <a href="{{ "openings/" | relative_url }}"> {{ "__see openings__" | escape }}</a>
