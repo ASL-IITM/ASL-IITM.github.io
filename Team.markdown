@@ -68,7 +68,12 @@ ribbon_display: yes
   <tbody>
     <tr>
       <td><img align="left" style="padding: 10px" src="/images/students/pritvi.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Prithvi Raj B </b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/prithvi-raj-b-97100a216/"> {{ "LinkedIn" | escape }}</a></td>
-      <td></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/Dipshika.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Dipshikha Hazari </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/dipshikha-hazari-9878b2228/"> {{ "LinkedIn" | escape }}</a></td>
+    </tr>
+    <tr></tr>
+    <tr>
+      <td><img align="left" style="padding: 10px" src="/images/students/satyam.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Satyam Singh </b> <br/>    Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/dipshikha-hazari-9878b2228/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/Diya.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Diya S Dileep</b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/diya-s-dileep-b43a23232/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
     
   </tbody>
