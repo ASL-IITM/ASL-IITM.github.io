@@ -81,13 +81,14 @@ ribbon_display: yes
 </table>
 
 
-**Alumni (MS Scholars)**
+**Alumni**
 
+***MS Scholars***
 - [Durva Gaikwad](https://www.linkedin.com/in/durva-gaikwad-48a36120a/)
 - [Shreyash Gadgil](https://www.linkedin.com/in/shreyash-gadgil/)
+- [Anantharaam R](https://in.linkedin.com/in/anantharaam-r-821762229)
 - [Eshant Jha](https://www.linkedin.com/in/eshant-jha-b6a29a116/)
 - [Manali Jain](https://www.linkedin.com/in/manali-jain-iitmadras/)
-
 
 
 **We are  looking for new PhD students, Master students, and Undergraduates to join the team** 
