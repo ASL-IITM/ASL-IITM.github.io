@@ -61,7 +61,7 @@ ribbon_display: yes
 <table>
   <thead>
     <tr>
-      <th width="500px"> Project Staffs</th>
+      <th width="500px"> Project Staff</th>
       <th width="500px"> </th>
     </tr>
   </thead>
