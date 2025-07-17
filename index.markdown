@@ -56,64 +56,6 @@ We focus on developing autonomous robotic solutions for a wide range of applicat
 </div>
 
 <!-- Owl Carousel Scripts -->
----
-layout: home
----
-
-<!-- Lab Intro -->
-<p style="text-align: justify">
-The Autonomous Systems Lab is a part of the
-<a href="https://ed.iitm.ac.in/"> {{ "Engineering Design Department" | escape }}</a>
-at
-<a href="https://www.iitm.ac.in/"> {{ "IIT Madras. " | escape }}</a>
-The lab was established in 2021, under the guidance of 
-<a href="{{ "bijosebastian/" | relative_url }}">{{ "Dr. Bijo Sebastian. " | escape }}</a>
-We focus on developing autonomous robotic solutions for a wide range of applications including autonomous navigation for mobile robots in indoor and outdoor environment, multi-agent coordination, intelligent grasping and manipulation. 
-</p>
-
-<!-- Owl Carousel Styles -->
-<style>
-.owl-carousel-fullwidth .item img {
-  max-height: 400px; /* adjust as needed */
-  width: auto;
-  margin: 0 auto;
-  display: block;
-  object-fit: contain;
-}
-</style>
-
-<link rel="stylesheet" href="/css/owl.carousel.min.css">
-<link rel="stylesheet" href="/css/owl.theme.default.min.css">
-
-<!-- Carousel Section -->
-<div class="owl-carousel owl-carousel-fullwidth">
-  <div class="item">
-    <a href="#">
-      <img src="/images/homepage/ASLGroup.jpeg" alt="Slide 1">
-      <div class="slider-copy">
-        <!-- <h2>Research in Action</h2> -->
-      </div>
-    </a>
-  </div>
-  <div class="item">
-    <a href="#">
-      <img src="/images/homepage/Lab_outing.jpeg" alt="Slide 2">
-      <div class="slider-copy">
-        <!-- <h2>Multi-Robot Systems</h2> -->
-      </div>
-    </a>
-  </div>
-  <div class="item">
-    <a href="#">
-      <img src="/images/homepage/Outing_Fall2023.jpg" alt="Slide 3">
-      <div class="slider-copy">
-        <!-- <h2>Human-Robot Collaboration</h2> -->
-      </div>
-    </a>
-  </div>
-</div>
-
-<!-- Owl Carousel Scripts -->
 <script src="/js/jquery.min.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
 
