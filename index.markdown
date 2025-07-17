@@ -56,8 +56,6 @@ We focus on developing autonomous robotic solutions for a wide range of applicat
 </div>
 
 <!-- Owl Carousel Scripts -->
-<script src="/js/jquery.min.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
 <script>
   $(document).ready(function(){
     $(".owl-carousel-fullwidth").owlCarousel({
@@ -65,12 +63,14 @@ We focus on developing autonomous robotic solutions for a wide range of applicat
       loop: true,
       margin: 10,
       nav: true,
+      navText: ['&#10094;', '&#10095;'], // ← Left & Right arrow symbols
       autoplay: true,
       autoplayTimeout: 4000,
       autoplayHoverPause: true
     });
   });
 </script>
+
 
 #### Following is a list of our research areas and projects:
 
