@@ -21,25 +21,25 @@ We focus on developing autonomous robotic solutions for a wide range of applicat
 <div class="owl-carousel owl-carousel-fullwidth">
   <div class="item">
     <a href="#">
-      <img src="/images/exo/exo.png" alt="Slide 1">
+      <img src="/images/homepage/ASLGroup.png" alt="Slide 1">
       <div class="slider-copy">
-        <h2>Research in Action</h2>
+        <!-- <h2>Research in Action</h2> -->
       </div>
     </a>
   </div>
   <div class="item">
     <a href="#">
-      <img src="/images/exo/exo.png" alt="Slide 2">
+      <img src="/images/homepage/Lab_outing.png" alt="Slide 2">
       <div class="slider-copy">
-        <h2>Multi-Robot Systems</h2>
+        <!-- <h2>Multi-Robot Systems</h2> -->
       </div>
     </a>
   </div>
   <div class="item">
     <a href="#">
-      <img src="/images/exo/exo.png" alt="Slide 3">
+      <img src="/images/homepage/Outing_Fall2023.png" alt="Slide 3">
       <div class="slider-copy">
-        <h2>Human-Robot Collaboration</h2>
+        <!-- <h2>Human-Robot Collaboration</h2> -->
       </div>
     </a>
   </div>
