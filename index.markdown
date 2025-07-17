@@ -49,6 +49,30 @@ We focus on developing autonomous robotic solutions for a wide range of applicat
     <a href="#">
       <img src="/images/homepage/Outing_Fall2023.jpg" alt="Slide 3">
       <div class="slider-copy">
+        <!-- <h2>Multi-Robot Systems</h2> -->
+      </div>
+    </a>
+  </div>
+  <div class="item">
+    <a href="#">
+      <img src="/images/homepage/RoboticsGroup.JPG" alt="Slide 4">
+      <div class="slider-copy">
+        <!-- <h2>Multi-Robot Systems</h2> -->
+      </div>
+    </a>
+  </div>
+  <div class="item">
+    <a href="#">
+      <img src="/images/homepage/Shreyash_conf_presentation.jpg" alt="Slide 5">
+      <div class="slider-copy">
+        <!-- <h2>Multi-Robot Systems</h2> -->
+      </div>
+    </a>
+  </div>
+  <div class="item">
+    <a href="#">
+      <img src="/images/homepage/Talk at Accenture Labs_Bangalore.jpg" alt="Slide 6">
+      <div class="slider-copy">
         <!-- <h2>Human-Robot Collaboration</h2> -->
       </div>
     </a>
