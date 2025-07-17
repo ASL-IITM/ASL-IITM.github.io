@@ -51,7 +51,7 @@ ribbon_display: yes
     </tr>
     <tr></tr>
     <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/Sagar.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sagar Gupta </b> <br/>  Autonomous Navigation in Human-Centric Environments<br/> IIT Madras - Deakin University Joint PhD Program <br/> Dept. Engineering Design, IIT Madras <br/> School of Information Technology, Deakin University <br/> <a href="https://www.linkedin.com/in/sagargupta-dkn"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/sagar.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sagar Gupta </b> <br/>  Autonomous Navigation in Human-Centric Environments<br/> IIT Madras - Deakin University Joint PhD Program <br/> Dept. Engineering Design, IIT Madras <br/> School of Information Technology, Deakin University <br/> <a href="https://www.linkedin.com/in/sagargupta-dkn"> {{ "LinkedIn" | escape }}</a></td>
       <td></td>
     </tr>
   </tbody>
@@ -67,13 +67,13 @@ ribbon_display: yes
   </thead>
   <tbody>
     <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/pritvi.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Prithvi Raj B </b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/prithvi-raj-b-97100a216/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/satyam.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Satyam Singh </b> <br/>    Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/satyam-singh-0a6b7525a/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/Dipshika.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Dipshikha Hazari </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/dipshikha-hazari-9878b2228/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
     <tr></tr>
     <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/satyam.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Satyam Singh </b> <br/>    Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/dipshikha-hazari-9878b2228/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/Diya.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Diya S Dileep</b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/diya-s-dileep-b43a23232/"> {{ "LinkedIn" | escape }}</a></td>
+      <td></td>
     </tr>
     
   </tbody>
