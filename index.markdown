@@ -14,6 +14,16 @@ We focus on developing autonomous robotic solutions for a wide range of applicat
 </p>
 
 <!-- Owl Carousel Styles -->
+<style>
+.owl-carousel-fullwidth .item img {
+  max-height: 400px; /* adjust as needed */
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
+}
+</style>
+
 <link rel="stylesheet" href="/css/owl.carousel.min.css">
 <link rel="stylesheet" href="/css/owl.theme.default.min.css">
 
