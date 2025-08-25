@@ -21,6 +21,7 @@ My research interests include developing intelligent grasping and manipulation a
     <a href="https://github.com/BijoSebastian"> {{ "GitHub" | escape }}</a>
 <br/>   
     <a href="/bijo_academic_CV.pdf"> {{ "Click here for a brief CV" | escape }}</a>
+    <a  href="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7362865653768228864" height="773" width="504" frameborder="0" allowfullscreen="" title="Embedded post"> {{ "Link to recent post showcasing our labs work at IIT-M" | escape }}</a>
 </p>
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7362865653768228864" height="773" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 <br/>
@@ -76,4 +77,5 @@ My research interests include developing intelligent grasping and manipulation a
     - __First Prize__: 1st International Conference on Machines and Mechanisms (iNaCoMM 2013), Indian Institute of Technology, Roorkee; December 2013
 - Col. P. Vaidyanathan Memorial Endowment and K. Thomas Kora Memorial Award:
     - __Best Outgoing Mechanical Engineering Student__: College of Engineering, Thiruvananthapuram, India; March 2013
+
 
