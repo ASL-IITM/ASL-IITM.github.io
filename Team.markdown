@@ -91,7 +91,7 @@ ribbon_display: yes
 - [Joseph Joshy](https://www.linkedin.com/in/joseph-joshy-robotics/)
 
 ***Interns & Project Assistants***
-- [Prithvi Raj B](https://www.linkedin.com/in/prithvi-raj-b-97100a216/)
+- [Prithvi Raj B](https://www.linkedin.com/in/prithvi-raj-baskar-97100a216/)
 - [Winston Doss](https://www.linkedin.com/in/winston-doss-3b126a226/)
 
 **We are  looking for new PhD students, Master students, and Undergraduates to join the team** 
