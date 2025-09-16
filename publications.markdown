@@ -34,7 +34,9 @@ ribbon_display: yes
 <summary>Click to expand!</summary>
 
 <ol>
-<li> Devarakonda, V N, Satya Sai, T, and Sebastian, B. "Optimizing Artificial Landmark Placement for Improving Indoor Localization of Mobile Robots." Proceedings of the ASME 2024 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. Volume 7: 48th Mechanisms and Robotics Conference (MR). Washington, DC, USA. August 25–28, 2024. <a href="https://doi.org/10.1115/DETC2024-141919"> {{ "DOI: 10.1115/DETC2024-141919" | escape }}</a> </li>
+<li> Ravie, Ns., M, KV., Thondiyath, A., and Sebastian, B. "QuickGrasp: Lightweight Antipodal Grasp Planning with Point Clouds" 2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025, <a href="https://doi.org/10.1109/ICRA55743.2025.11128143"> {{ "DOI: 10.1109/ICRA55743.2025.11128143" | escape }}</a> </li>
+<li> Ravie, Ns., M, KV., Thondiyath, A., and Sebastian, B. "QuickGrasp: Lightweight Antipodal Grasp Planning with Point Clouds" 2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025, <a href="https://doi.org/10.1109/ICRA55743.2025.11128143"> {{ "DOI: 10.1109/ICRA55743.2025.11128143" | escape }}</a> </li>
+<li> Devarakonda, V N, Satya Sai, T, and Sebastian, B. "Optimizing Artificial Landmark Placement for Improving Indoor Localization of Mobile Robots" Proceedings of the ASME 2024 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. Volume 7: 48th Mechanisms and Robotics Conference (MR). Washington, DC, USA. August 25–28, 2024. <a href="https://doi.org/10.1115/DETC2024-141919"> {{ "DOI: 10.1115/DETC2024-141919" | escape }}</a> </li>
 <li> Jha, E., Somayajula, A., Gideon, D., Raveendran, S. P., and Sebastian, B., "COLREGs Inspired Decentralised Path Planning for Multi-Agent System," 2024 IEEE International Conference on Artificial Intelligence in Engineering and Technology (IICAIET), Kota Kinabalu, Malaysia, 2024. <a href="https://doi.org/10.1109/IICAIET62352.2024.10730739"> {{ "DOI: 10.1109/IICAIET62352.2024.10730739" | escape }}</a> </li>
 <li> Joshy, J., Sebastian, B., and Thondiyath, A., "Force Control and Slip Detection for A Non-Backdrivable Robotic Gripper," 2024 IEEE International Conference on Artificial Intelligence in Engineering and Technology (IICAIET), Kota Kinabalu, Malaysia, 2024. <a href="https://doi.org/10.1109/IICAIET62352.2024.10730714"> {{ "DOI: 10.1109/IICAIET62352.2024.10730714" | escape }}</a> </li>
 <li> Jain, M., Sebastian, B., Muniyandi, M., “Shared Control for Telepresence Robot in Dynamic Virtual Reality Environment”, 22024 10th International Conference on Control, Automation and Robotics (ICCAR), Orchard District, Singapore, 2024. <a href="https://doi.org/10.1109/ICCAR61844.2024.10569672"> {{ "DOI: 10.1109/ICCAR61844.2024.10569672" | escape }}</a> </li>
@@ -77,4 +79,5 @@ ribbon_display: yes
 </ol>
 
 </details>
+
 
