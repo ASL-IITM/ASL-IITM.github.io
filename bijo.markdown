@@ -22,6 +22,7 @@ My research interests include developing intelligent grasping and manipulation a
 <br/>   
     <a href="/bijo_academic_CV.pdf"> {{ "Click here for a brief CV" | escape }}</a>
 <br/>
+</p>
 <hr />
 <hr />
 <br/>
@@ -83,6 +84,7 @@ Below is a recent post showcasing our labs work at IIT-M
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7362865653768228864" height="773" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 </p>
 <br/>
+
 
 
 
