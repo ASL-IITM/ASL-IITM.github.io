@@ -77,13 +77,14 @@ My research interests include developing intelligent grasping and manipulation a
 
 <p style="text-align: justify"> 
 <br/>
-Below is a recent post showcasing our labs work at IIT-M
+Below is a recent post showcasing our lab's work at IIT-M
 </p>
 <br/>
 <p style="text-align: center"> 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7362865653768228864" height="773" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 </p>
 <br/>
+
 
 
 
