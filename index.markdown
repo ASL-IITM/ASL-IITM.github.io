@@ -109,6 +109,7 @@ We focus on developing autonomous robotic solutions for a wide range of applicat
 ||
 | <img align="left" style="padding: 10px" src="/images/mobile_manipulation/mobile_manipulation.jpg" alt="Picture not available" width="400"> <br/> <br/> <a href="{{ "multi_agent_systems/" | relative_url }}"> {{ "__Multi-agent systems:__" | escape }}</a> Robotic systems have been deployed extensively for manipulation and transportation tasks in warehouses. But the majority of these applications involve a single robot interacting with an object in a given instant. This in turn limits the size and weight of the object that can be handled. Multi-agent systems provide a natural solution in this scenario. **This project is funded by the Start-up Research Grant (SRG) under Science & Engineering Research Board (SERB).**| 
 ||
-| <img align="left" style="padding: 10px" src="/images/auto_drive/platfrom.jpg" alt="Picture not available" width="400" > <br/> <br/> <a href="{{ "auto_drive/" | relative_url }}"> {{ "__Autonomous driving & Advanced Driver-Assistance Systems (ADAS):__" | escape }}</a>  This research aims to ... **This project is funded by the New Faculty Seed Grant (NFSG) from IIT Madras.** |
+| <img align="left" style="padding: 10px" src="/images/auto_drive/platform.jpg" alt="Picture not available" width="400" > <br/> <br/> <a href="{{ "auto_drive/" | relative_url }}"> {{ "__Autonomous driving & Advanced Driver-Assistance Systems (ADAS):__" | escape }}</a>  This research aims to ... **This project is funded by the New Faculty Seed Grant (NFSG) from IIT Madras.** |
+
 
 
