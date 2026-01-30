@@ -34,6 +34,7 @@ ribbon_display: yes
 <summary>Click to expand!</summary>
 
 <ol>
+<li> Gaikwad, D., Joshy, J., Sebastian, B., Saurav, S., and Dubey, A., "Real-Time Perception and Planning for Human-Robot Collaboration over Shared Workspace" 2025 International Conference on Robotics and Mechatronics (ICRM), Kollam, India, 2025, <a href="https://doi.org/10.1109/ICRM66809.2025.11349032"> {{ "DOI: 10.1109/ICRM66809.2025.11349032" | escape }}</a> </li>
 <li> Ravie, NS., M, KV., Thondiyath, A., and Sebastian, B., "QuickGrasp: Lightweight Antipodal Grasp Planning with Point Clouds" 2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025, <a href="https://doi.org/10.1109/ICRA55743.2025.11128143"> {{ "DOI: 10.1109/ICRA55743.2025.11128143" | escape }}</a> </li>
 <li> Jain, M., Kanade, AS., Sebastian, B., and Muniyandi, M., "Enhancing Shared Control for Telepresence in Dynamic Environment using Large Language Models", Virtual, Augmented, and Mixed Reality for Human-Robot Interaction Workshop (VAM-HRI 2025), South Wharf Victoria, Australia, 2025 <a href="https://openreview.net/forum?id=Z2mh4OdDXX"> {{ "Open access" | escape }}</a> </li>
 <li> Devarakonda, V N, Satya Sai, T, and Sebastian, B. "Optimizing Artificial Landmark Placement for Improving Indoor Localization of Mobile Robots" Proceedings of the ASME 2024 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. Volume 7: 48th Mechanisms and Robotics Conference (MR). Washington, DC, USA. August 25–28, 2024. <a href="https://doi.org/10.1115/DETC2024-141919"> {{ "DOI: 10.1115/DETC2024-141919" | escape }}</a> </li>
@@ -79,6 +80,7 @@ ribbon_display: yes
 </ol>
 
 </details>
+
 
 
 
