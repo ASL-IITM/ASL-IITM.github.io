@@ -29,6 +29,7 @@ ribbon_display: yes
       <td><img align="left" style="padding: 10px" src="/images/students/muni.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Muni Srinivas </b> <br/>    Interdisciplinary Research Programme (IDRP) <br/> Department of Engineering Design,  IIT Madras   <br/> <a href="https://www.linkedin.com/in/munisrinivas/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/sanker.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sanker Dev </b> <br/>   Department of Engineering Design,  IIT Madras <br/> <a href="https://www.linkedin.com/in/sanker-dev-p-68761b177/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
+    <tr></tr>
         <tr>
       <td><img align="left" style="padding: 10px" src="/images/students/satyam.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Satyam Singh </b> <br/>    Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/satyam-singh-0a6b7525a/"> {{ "LinkedIn" | escape }}</a></td>
       <td><img align="left" style="padding: 10px" src="/images/students/Dipshika.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Dipshikha Hazari </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/dipshikha-hazari-9878b2228/"> {{ "LinkedIn" | escape }}</a></td>
