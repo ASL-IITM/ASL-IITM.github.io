@@ -5,7 +5,11 @@ permalink: /auto_drive/
 ribbon_display: no
 ---
 
-## Autonomous Vehicle Testbed
+> Exploring autonomous driving and driver assistance solutions specifically tailored for Indian roads, taking into account  diverse traffic, frequent congestion, unpredictable pedestrian movement, and varying road infrastructure.
+
+---
+
+### Autonomous Vehicle Testbed
 The test vehicle is a four-seater equipped with a 5 kW ACIM motor and is designed for low-speed operation. The primary goal of this platform is to demonstrate key capabilities in autonomous driving and safety features.
 
 The perception stack consists of two cameras, LiDAR, an IMU, and radar.
@@ -19,6 +23,8 @@ The ASL Lab is developing a complete low-speed autonomy stack with potential app
 - Airports and shipyards
 - Other controlled or semi-structured environments
 
+---
+
 ### Perception for autonomous navigation 
 
 Preliminary results on percpetion for autonomous driving is shown below:
@@ -27,11 +33,15 @@ The video visualizes detections from the LiDAR point cloud fused with camera-bas
 
 [![Click here for video](https://img.youtube.com/vi/pXp1Ph0vvJw/0.jpg)](https://www.youtube.com/watch?v=pXp1Ph0vvJw)
 
+---
+
 ### Trajectory prediction of surrounding vehicle
 
 This research work aims to predict the future trajectories of surrounding vehicles. Trajectory prediction is crucial for motion planning and vehicle control to ensure safer operation. This work presents a framework for multi-hypothesis trajectory prediction of detected vehicles over a fixed time horizon.
 
 [![Click here for video](https://img.youtube.com/vi/TLtha1oYV9o/0.jpg)](https://www.youtube.com/watch?v=TLtha1oYV9o)
+
+---
 
 ### Steer by wire 
 
@@ -41,6 +51,8 @@ The video shows the retrofitted BLDC motor mounted on the steering column, enabl
 
 [![Click here for video](https://img.youtube.com/vi/9l_K_9sOy7c/0.jpg)](https://www.youtube.com/watch?v=9l_K_9sOy7c)
 
+---
+
 ### Drive by wire
 
 As the next step, full drive-by-wire capability was implemented in the vehicle, including control over the throttle, motor brake, and manual brake using a linear actuator. The system also incorporates a safety override feature that allows the driver to take control through the throttle pedal, brake, or steering input.
@@ -48,6 +60,8 @@ As the next step, full drive-by-wire capability was implemented in the vehicle, 
 The video shows the vehicle being remotely controlled using a joystick.
 
 [![Click here for video](https://img.youtube.com/vi/3lOLpP2Ft0g/0.jpg)](https://www.youtube.com/watch?v=3lOLpP2Ft0g)
+
+---
 
 ### Autonomy Software stack 
 
