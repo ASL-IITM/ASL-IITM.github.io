@@ -52,7 +52,7 @@ ribbon_display: yes
     <tr></tr>
     <tr>
       <td><img align="left" style="padding: 10px" src="/images/students/Don.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Don Gideon D </b> <br/>  Formation Control of Autonomous Surface Vessels <br/> Interdisciplinary Research Programme (IDRP) <br/> Dept. of Engineering Design & Dept. of Ocean Engineering , IIT Madras <br/> <a href="https://in.linkedin.com/in/don-gideon-d-936414157"> {{ "LinkedIn" | escape }}</a></td>
-      <td><img align="left" style="padding: 10px" src="/images/students/guna.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Gunabharathi </b> <br/>  Vehicel Control System for Autonomous Electric Vehicles  <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/gunabharathi-selvaraj-74781017b/"> {{ "LinkedIn" | escape }}</a></td>
+      <td><img align="left" style="padding: 10px" src="/images/students/guna.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Gunabharathi </b> <br/>  Vehicle Control System for Autonomous Electric Vehicles  <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/gunabharathi-selvaraj-74781017b/"> {{ "LinkedIn" | escape }}</a></td>
     </tr>
     <tr></tr>
     <tr>
