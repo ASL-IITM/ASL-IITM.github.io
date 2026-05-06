@@ -18,4 +18,4 @@ Path planning is an essential task in robotics, and it becomes more complex when
 [![Click here for video](https://img.youtube.com/vi/fLK-2ZWy34o/maxresdefault.jpg)](https://www.youtube.com/watch?v=fLK-2ZWy34o)
 
 
-[![Click here for video](https://img.youtube.com/vi/fLK-2ZWy34o/maxresdefault.jpg)](https://www.youtube.com/watch?v=d-VF06MEgWs)
+[![Click here for video](https://img.youtube.com/vi/d-VF06MEgWs/maxresdefault.jpg)](https://www.youtube.com/watch?v=d-VF06MEgWs)
