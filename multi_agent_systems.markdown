@@ -16,3 +16,6 @@ The proposed research aims to address the challenges of cooperative manipulation
 Path planning is an essential task in robotics, and it becomes more complex when multiple robots are involved. Decentralized motion planning for mult-agent systems can be achieved by enabling communication between individual agents. Initial results from a decentralized multi-agent motion planning approach are shown below:
 
 [![Click here for video](https://img.youtube.com/vi/fLK-2ZWy34o/maxresdefault.jpg)](https://www.youtube.com/watch?v=fLK-2ZWy34o)
+
+
+[![Click here for video](https://img.youtube.com/vi/fLK-2ZWy34o/maxresdefault.jpg)](https://www.youtube.com/watch?v=d-VF06MEgWs)
