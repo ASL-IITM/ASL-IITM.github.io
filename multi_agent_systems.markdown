@@ -19,6 +19,6 @@ Path planning is an essential task in robotics, and it becomes more complex when
 
 [![Click here for video](https://img.youtube.com/vi/d-VF06MEgWs/maxresdefault.jpg)](https://www.youtube.com/watch?v=d-VF06MEgWs)   ### vrijesh work
 
-[![Click here for video](https://img.youtube.com/vi/iu-7_Ae4EMA/maxresdefault.jpg)](https://www.youtube.com/watch?v=iu-7_Ae4EMA)   ###  eshant
+[![Click here for video](https://img.youtube.com/vi/iu-7_Ae4EMA/maxresdefault.jpg)](https://www.youtube.com/watch?v=iu-7_Ae4EMA)   ###  eshant work
 
-[![Click here for video](https://img.youtube.com/vi/d-VF06MEgWs/maxresdefault.jpg)](https://www.youtube.com/watch?v=24zdboMZOkE)   ###  eshant
+[![Click here for video](https://img.youtube.com/vi/24zdboMZOkE/maxresdefault.jpg)](https://www.youtube.com/watch?v=24zdboMZOkE)   ###  eshant work
