@@ -15,10 +15,10 @@ The proposed research aims to address the challenges of cooperative manipulation
 ### Motion planning for multi-agent systems: 
 Path planning is an essential task in robotics, and it becomes more complex when multiple robots are involved. Decentralized motion planning for mult-agent systems can be achieved by enabling communication between individual agents. Initial results from a decentralized multi-agent motion planning approach are shown below:
 
-[![Click here for video](https://img.youtube.com/vi/fLK-2ZWy34o/maxresdefault.jpg)](https://www.youtube.com/watch?v=fLK-2ZWy34o)   ### eshant work
+[![Click here for video](https://img.youtube.com/vi/fLK-2ZWy34o/maxresdefault.jpg)](https://www.youtube.com/watch?v=fLK-2ZWy34o)   
 
-[![Click here for video](https://img.youtube.com/vi/d-VF06MEgWs/maxresdefault.jpg)](https://www.youtube.com/watch?v=d-VF06MEgWs)   ### vrijesh work
+[![Click here for video](https://img.youtube.com/vi/d-VF06MEgWs/maxresdefault.jpg)](https://www.youtube.com/watch?v=d-VF06MEgWs)   
 
-[![Click here for video](https://img.youtube.com/vi/iu-7_Ae4EMA/maxresdefault.jpg)](https://www.youtube.com/watch?v=iu-7_Ae4EMA)   ###  eshant work
+[![Click here for video](https://img.youtube.com/vi/iu-7_Ae4EMA/maxresdefault.jpg)](https://www.youtube.com/watch?v=iu-7_Ae4EMA)   
 
-[![Click here for video](https://img.youtube.com/vi/24zdboMZOkE/maxresdefault.jpg)](https://www.youtube.com/watch?v=24zdboMZOkE)   ###  eshant work
+[![Click here for video](https://img.youtube.com/vi/24zdboMZOkE/maxresdefault.jpg)](https://www.youtube.com/watch?v=24zdboMZOkE)   
