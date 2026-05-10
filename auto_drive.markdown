@@ -31,7 +31,9 @@ Preliminary results on percpetion for autonomous driving is shown below:
 
 The video visualizes detections from the LiDAR point cloud fused with camera-based detections to provide classification for the LiDAR detections. This represents an initial version of the 3D object detection pipeline. Further work is ongoing to implement multi-object tracking and trajectory prediction for the detected objects.
 
-[![Click here for video](https://img.youtube.com/vi/pXp1Ph0vvJw/0.jpg)](https://www.youtube.com/watch?v=pXp1Ph0vvJw)
+[![Click here for video](https://img.youtube.com/vi/pXp1Ph0vvJw/sddefault.jpg)](https://www.youtube.com/watch?v=pXp1Ph0vvJw)
+
+[![Click here for video](https://img.youtube.com/vi/EiqNRwigJp4/sddefault.jpg)](https://www.youtube.com/watch?v=EiqNRwigJp4)
 
 ---
 
@@ -39,7 +41,7 @@ The video visualizes detections from the LiDAR point cloud fused with camera-bas
 
 This research work aims to predict the future trajectories of surrounding vehicles. Trajectory prediction is crucial for motion planning and vehicle control to ensure safer operation. This work presents a framework for multi-hypothesis trajectory prediction of detected vehicles over a fixed time horizon.
 
-[![Click here for video](https://img.youtube.com/vi/TLtha1oYV9o/0.jpg)](https://www.youtube.com/watch?v=TLtha1oYV9o)
+[![Click here for video](https://img.youtube.com/vi/TLtha1oYV9o/sddefault.jpg)](https://www.youtube.com/watch?v=TLtha1oYV9o)
 
 ---
 
@@ -49,7 +51,7 @@ The vehicle does not have inherent drive-by-wire capabilities. As a first step, 
 
 The video shows the retrofitted BLDC motor mounted on the steering column, enabling steer-by-wire control.
 
-[![Click here for video](https://img.youtube.com/vi/9l_K_9sOy7c/0.jpg)](https://www.youtube.com/watch?v=9l_K_9sOy7c)
+[![Click here for video](https://img.youtube.com/vi/9l_K_9sOy7c/sddefault.jpg)](https://www.youtube.com/watch?v=9l_K_9sOy7c)
 
 ---
 
@@ -59,7 +61,7 @@ As the next step, full drive-by-wire capability was implemented in the vehicle, 
 
 The video shows the vehicle being remotely controlled using a joystick.
 
-[![Click here for video](https://img.youtube.com/vi/3lOLpP2Ft0g/0.jpg)](https://www.youtube.com/watch?v=3lOLpP2Ft0g)
+[![Click here for video](https://img.youtube.com/vi/3lOLpP2Ft0g/sddefault.jpg)](https://www.youtube.com/watch?v=3lOLpP2Ft0g)
 
 ---
 
@@ -69,6 +71,6 @@ Here we presents the initial results from ground-up development of a complete so
 
 The simulation presents L2 lvel Autonomy, and uses ROS2 and the Webots simulator, demonstrating local planning, steering control, and longitudinal control.
 
-[![Click here for video](https://img.youtube.com/vi/Ss8tQw8hjAE/0.jpg)](https://www.youtube.com/watch?v=Ss8tQw8hjAE)
+[![Click here for video](https://img.youtube.com/vi/Ss8tQw8hjAE/sddefault.jpg)](https://www.youtube.com/watch?v=Ss8tQw8hjAE)
 
 
