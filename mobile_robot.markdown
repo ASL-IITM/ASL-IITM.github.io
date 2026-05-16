@@ -3,9 +3,7 @@ layout: page
 title: Mobile Robots
 permalink: /mobile_robot/
 ribbon_display: no
-
 ---
-
 
 > Advancing autonomous mobile robotics through robust localization, intelligent motion planning, and LLM-driven embodied AI — enabling robots to perceive, reason, and act in complex, human-centric indoor environments.
 ---
