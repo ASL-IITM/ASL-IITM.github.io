@@ -3,7 +3,18 @@ layout: page
 title: Mobile Robots
 permalink: /mobile_robot/
 ribbon_display: no
+
 ---
+
+
+> Advancing autonomous mobile robotics through robust localization, intelligent motion planning, and LLM-driven embodied AI — enabling robots to perceive, reason, and act in complex, human-centric indoor environments.
+---
+
+### LLM-Driven Embodied AI Agent for Autonomous Mobile Robots:
+A modular agentic framework that uses a Large Language Model as the reasoning core of a mobile robot, enabling it to understand natural language commands and translate them into real-world actions. The robot can autonomously learn its environment, intelligently decide what action to take next based on real-time feedback, and execute complex multi-step navigation tasks — validated on a custom-built physical platform.
+
+[![Click here for video](https://img.youtube.com/vi/u8eALJEbG8E/0.jpg)](https://www.youtube.com/watch?v=u8eALJEbG8E)
+
 ---
 
 ### Localization in GPS denied environment:
