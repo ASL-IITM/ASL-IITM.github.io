@@ -6,6 +6,7 @@ ribbon_display: no
 ---
 
 > Advancing autonomous mobile robotics through robust localization, intelligent motion planning, and LLM-driven embodied AI — enabling robots to perceive, reason, and act in complex, human-centric indoor environments.
+
 ---
 
 ### LLM-Driven Embodied AI Agent for Autonomous Mobile Robots:
