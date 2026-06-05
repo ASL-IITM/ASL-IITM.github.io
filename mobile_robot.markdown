@@ -24,9 +24,17 @@ Initial results are shown below:
 
 ---
 
-### Motion planning in human-centric environments: 
-Motion planning in dynamic environments requires gracefully avoiding static and dynamic obstacles while making progress towards the goal point. Ongoing research aims at exploring communication strategies for the mobile robot to effectively communicate its intentions to the human beings present in the vicinity. Initial results on path planning and obstacle avoidance are shown below:
+### Map-Informed Path Planning for Human-Aware Navigation: 
+To integrate mobile robots smoothly into structured indoor environments, we employ a "defensive robot navigation" paradigm. By combining multi-hypothesis human trajectory predictions with predefined topological maps, the robot proactively anticipates navigational conflicts at structural bottlenecks, such as hallway intersections. Using a Safe Interval Path Planning (SIPP) framework alongside an A* global planner, the robot yields to pedestrians in advance rather than relying solely on reactive dodging. This map-informed approach reduces human personal space violations compared to standard reactive baselines and reduces interruptions to human trajectories navigating around the robot.
 
-[![Click here for video](https://img.youtube.com/vi/IiCSkex_U7w/0.jpg)](https://www.youtube.com/watch?v=IiCSkex_U7w)
+[![Click here for video](https://img.youtube.com/vi/dEotL10HdZs/0.jpg)](https://www.youtube.com/watch?v=dEotL10HdZs)
+
+---
+
+
+### Sidewalks as Lanes: A Soft-Boundary Approach for Urban Robots:
+Navigating crowded outdoor sidewalks requires flexibility beyond rigid path constraints. This framework models sidewalks similarly to vehicular lanes by utilizing semantic segmentation and clothoid curve fitting to extrapolate the path's geometry. This provides the robot with persistent spatial awareness, even when the sidewalk is temporarily out of its field of view. By treating the sidewalk edges as "soft" boundaries within a Hybrid A* global planner paired with an ORCA-based local controller, the robot can strategically step off the paved path to yield to pedestrians or bypass physical obstructions. This approach successfully mitigates gridlock and maintains high safety scores in dense urban scenarios.
+
+[![Click here for video](https://img.youtube.com/vi/1kwL0s3U940/0.jpg)](https://www.youtube.com/watch?v=1kwL0s3U940)
 
 ---
