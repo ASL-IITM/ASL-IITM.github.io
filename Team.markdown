@@ -85,10 +85,13 @@ ribbon_display: yes
 ***MS Scholars***
 - [Durva Gaikwad](https://www.linkedin.com/in/durva-gaikwad-48a36120a/)
 - [Shreyash Gadgil](https://www.linkedin.com/in/shreyash-gadgil/)
-- [Anantharaam R](https://in.linkedin.com/in/anantharaam-r-821762229)
 - [Eshant Jha](https://www.linkedin.com/in/eshant-jha-b6a29a116/)
 - [Manali Jain](https://www.linkedin.com/in/manali-jain-iitmadras/)
 - [Joseph Joshy](https://www.linkedin.com/in/joseph-joshy-robotics/)
+
+***M.Tech Scholars***
+- [Anantharaam R](https://in.linkedin.com/in/anantharaam-r-821762229)
+- [Shashwat Kant](https://www.linkedin.com/in/shashwat-kant-66b94a179/)
 
 ***Interns & Project Assistants***
 - [Prithvi Raj B](https://www.linkedin.com/in/prithvi-raj-baskar-97100a216/)
