@@ -74,12 +74,22 @@
 .team-card__dept {
   font-size: 0.8rem;
   color: $grey-color;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
-.team-card__link {
-  font-size: 0.85rem;
-  font-weight: 500;
+.team-card__overlay {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+
+  &:visited {
+    color: inherit;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 .alumni-section {
