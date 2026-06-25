@@ -10,7 +10,7 @@ ribbon_display: yes
 <div class="team-section">
   <h3 class="team-section__title">Faculty</h3>
   <div class="team-grid">
-    {% include team-member.html name="Bijo Sebastian" photo="/images/bijo.jpg" role="Assistant Professor" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/bijo-sebastian-389153147/" %}
+    {% include team-member.html name="Bijo Sebastian" photo="/images/bijo.jpg" role="Assistant Professor" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/bijo-sebastian-389153147/" url="/bijosebastian/" %}
   </div>
 </div>
 

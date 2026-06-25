@@ -3,7 +3,7 @@
     <img src="{{ include.photo }}" alt="Photo of {{ include.name }}" loading="lazy">
   </div>
   <div class="team-card__info">
-    <h4 class="team-card__name">{{ include.name }}</h4>
+    <h4 class="team-card__name">{% if include.url %}<a href="{{ include.url }}">{{ include.name }}</a>{% else %}{{ include.name }}{% endif %}</h4>
     {% if include.role %}<p class="team-card__role">{{ include.role }}</p>{% endif %}
     {% if include.dept %}<p class="team-card__dept">{{ include.dept }}</p>{% endif %}
     {% if include.linkedin %}<a class="team-card__link" href="{{ include.linkedin }}">LinkedIn</a>{% endif %}
