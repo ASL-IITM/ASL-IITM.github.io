@@ -1,13 +1,3 @@
-<!--
-  YouTube video thumbnail with lightbox playback.
-
-  Usage:
-    {% include youtube-video.html id="VIDEO_ID" title="Description of the video" %}
-
-  Parameters:
-    id    — YouTube video ID (required)
-    title — Accessible title for the video (required)
--->
 <div class="yt-thumb" data-yt-id="{{ include.id }}">
   <img src="https://img.youtube.com/vi/{{ include.id }}/mqdefault.jpg"
        alt="{{ include.title }}"

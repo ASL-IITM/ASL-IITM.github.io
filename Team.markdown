@@ -5,7 +5,7 @@ permalink: /team/
 ribbon_display: yes
 ---
 
-<!-- To add a new member, copy one {% include team-member.html %} line and fill in the parameters. -->
+<!-- To add a new member, copy one team-member.html include line and fill in the parameters. -->
 
 <div class="team-section">
   <h3 class="team-section__title">Faculty</h3>

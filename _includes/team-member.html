@@ -1,22 +1,3 @@
-<!--
-  Team member card.
-
-  Usage:
-    {% include team-member.html
-       name="Full Name"
-       photo="/images/students/photo.jpg"
-       role="Research topic or role"
-       dept="Department of Engineering Design, IIT Madras"
-       linkedin="https://www.linkedin.com/in/username/"
-    %}
-
-  Parameters:
-    name     — Full name (required)
-    photo    — Path to photo (required)
-    role     — Research area or role description (optional)
-    dept     — Department/affiliation (optional)
-    linkedin — LinkedIn profile URL (optional)
--->
 <div class="team-card">
   <div class="team-card__photo">
     <img src="{{ include.photo }}" alt="Photo of {{ include.name }}" loading="lazy">
