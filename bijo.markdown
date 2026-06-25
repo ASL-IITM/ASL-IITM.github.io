@@ -86,8 +86,9 @@ ribbon_display: no
 
 Below is a recent post showcasing our lab's work at IIT Madras:
 
-<p style="text-align: center">
+<div style="text-align: center">
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7362865653768228864"
         height="773" width="504" frameborder="0" allowfullscreen=""
-        title="LinkedIn post showcasing ASL lab work" loading="lazy"></iframe>
-</p>
+        title="LinkedIn post showcasing ASL lab work" loading="lazy"
+        style="max-width: 100%; border: none;"></iframe>
+</div>

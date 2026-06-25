@@ -432,6 +432,10 @@
   border-radius: 8px;
   overflow: hidden;
 
+  @include media-query($on-palm) {
+    width: 160px;
+  }
+
   img {
     width: 100%;
     height: auto;
@@ -442,6 +446,7 @@
 .faculty-profile__bio {
   flex: 1;
   text-align: justify;
+  overflow-x: auto;
 }
 
 
