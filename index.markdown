@@ -56,45 +56,14 @@ manipulation.
   });
 </script>
 
-<!-- ============================================================
-     RESEARCH AREAS
-     To add a new project, copy one {% include research-card.html %} block below.
-     ============================================================ -->
+<!-- To add a new project, copy one include line below. -->
 
 <h3 style="margin-top: 2rem; font-weight: 600;">Research Areas & Projects</h3>
 
-{% include research-card.html
-   title="Intelligent Grasping and Manipulation"
-   image="/images/disassembly/ur5.jpg"
-   alt="UR5 robot arm performing grasping task"
-   url="/intelligent_grasping/"
-   description="Developing perception, motion planning and control algorithms for intelligent grasping and manipulation in real world conditions, including human-robot collaborative workspaces."
-   funding="Funded by the Accenture – IIT Madras Centre of Excellence."
-%}
+{% include research-card.html title="Intelligent Grasping and Manipulation" image="/images/disassembly/ur5.jpg" alt="UR5 robot arm performing grasping task" url="/intelligent_grasping/" description="Developing perception, motion planning and control algorithms for intelligent grasping and manipulation in real world conditions, including human-robot collaborative workspaces." funding="Funded by the Accenture – IIT Madras Centre of Excellence." %}
 
-{% include research-card.html
-   title="Motion Planning for Mobile Robots"
-   image="/images/mobile_robot/mobile_vision.jpg"
-   alt="Indoor autonomous mobile robot with vision sensors"
-   url="/mobile_robot/"
-   description="Developing autonomous navigation capabilities for mobile robots in indoor and outdoor environments, including localization in GPS-denied environments and path planning in human-centric spaces."
-   funding="Funded by the New Faculty Initiation Grant (NFIG) from IIT Madras."
-%}
+{% include research-card.html title="Motion Planning for Mobile Robots" image="/images/mobile_robot/mobile_vision.jpg" alt="Indoor autonomous mobile robot with vision sensors" url="/mobile_robot/" description="Developing autonomous navigation capabilities for mobile robots in indoor and outdoor environments, including localization in GPS-denied environments and path planning in human-centric spaces." funding="Funded by the New Faculty Initiation Grant (NFIG) from IIT Madras." %}
 
-{% include research-card.html
-   title="Multi-Agent Systems"
-   image="/images/mobile_manipulation/mobile_manipulation.jpg"
-   alt="Multi-robot cooperative manipulation system"
-   url="/multi_agent_systems/"
-   description="Multi-agent systems for cooperative manipulation and transportation tasks, enabling multiple robots to handle objects beyond the capability of a single robot."
-   funding="Funded by the Start-up Research Grant (SRG) under SERB."
-%}
+{% include research-card.html title="Multi-Agent Systems" image="/images/mobile_manipulation/mobile_manipulation.jpg" alt="Multi-robot cooperative manipulation system" url="/multi_agent_systems/" description="Multi-agent systems for cooperative manipulation and transportation tasks, enabling multiple robots to handle objects beyond the capability of a single robot." funding="Funded by the Start-up Research Grant (SRG) under SERB." %}
 
-{% include research-card.html
-   title="Autonomous Driving & ADAS"
-   image="/images/auto_drive/vehicle_suite.png"
-   alt="Autonomous vehicle sensor suite"
-   url="/auto_drive/"
-   description="Development of autonomous driving and Advanced Driver-Assistance Systems tailored specifically for Indian road and traffic conditions, including perception, planning, and control for electric vehicles."
-   funding="Funded by the New Faculty Seed Grant (NFSG) from IIT Madras."
-%}
+{% include research-card.html title="Autonomous Driving and ADAS" image="/images/auto_drive/vehicle_suite.png" alt="Autonomous vehicle sensor suite" url="/auto_drive/" description="Development of autonomous driving and Advanced Driver-Assistance Systems tailored specifically for Indian road and traffic conditions, including perception, planning, and control for electric vehicles." funding="Funded by the New Faculty Seed Grant (NFSG) from IIT Madras." %}
