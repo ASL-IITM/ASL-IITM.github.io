@@ -340,11 +340,14 @@
   overflow: hidden;
 
   .item img {
-    max-height: 420px;
-    width: auto;
-    margin: 0 auto;
+    width: 100%;
+    height: 300px;
     display: block;
-    object-fit: contain;
+    object-fit: cover;
+
+    @include media-query($on-palm) {
+      height: 200px;
+    }
   }
 }
 
