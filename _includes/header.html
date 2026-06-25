@@ -10,7 +10,9 @@
         </a>
       </div>
 
-      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+        <img src="/images/ASL_logo.svg" alt="{{ site.title | escape }}" class="site-title__logo">
+      </a>
     </div>
 
     {%- assign default_paths = site.pages | map: "path" -%}
