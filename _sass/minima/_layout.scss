@@ -20,15 +20,23 @@
   display: flex;
   gap: 0.5rem;
   flex-shrink: 0;
+  align-items: center;
 
   img {
+    height: 50px;
+    width: auto;
     border-radius: 4px;
+
+    @include media-query($on-palm) {
+      height: 36px;
+    }
   }
 }
 
 .site-title {
   margin-bottom: 0;
   line-height: 1;
+  flex-shrink: 0;
 
   &,
   &:visited {
@@ -37,12 +45,12 @@
 }
 
 .site-title__logo {
-  height: 60px;
+  height: 50px;
   width: auto;
   display: block;
 
   @include media-query($on-palm) {
-    height: 45px;
+    height: 36px;
   }
 }
 
