@@ -4,16 +4,15 @@
 .site-header {
   border-top: 4px solid $brand-color;
   border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
   position: relative;
   background: #fff;
 }
 
 .site-header__inner {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   gap: 1rem;
-  padding: 0.5rem 0;
+  padding: 0.4rem 0;
 }
 
 .site-header__logos {
@@ -23,19 +22,20 @@
   align-items: center;
 
   img {
-    height: 50px;
+    height: 80px;
     width: auto;
     border-radius: 4px;
 
     @include media-query($on-palm) {
-      height: 36px;
+      height: 50px;
     }
   }
 }
 
 .site-title {
   margin-bottom: 0;
-  line-height: 1;
+  display: flex;
+  align-items: center;
   flex-shrink: 0;
 
   &,
@@ -45,12 +45,12 @@
 }
 
 .site-title__logo {
-  height: 50px;
+  height: 80px;
   width: auto;
   display: block;
 
   @include media-query($on-palm) {
-    height: 36px;
+    height: 50px;
   }
 }
 
