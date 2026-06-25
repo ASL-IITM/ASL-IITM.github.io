@@ -2,25 +2,41 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
+  border-top: 4px solid $brand-color;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-
-  // Positioning context for the mobile navigation icon
   position: relative;
+  background: #fff;
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
+}
+
+.site-header__logos {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+
+  img {
+    border-radius: 4px;
+  }
 }
 
 .site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  letter-spacing: -1px;
+  @include relative-font-size(1.5);
+  font-weight: 600;
+  letter-spacing: -0.5px;
   margin-bottom: 0;
-  float: left;
+  line-height: 1.3;
 
   &,
   &:visited {
     color: $grey-color-dark;
+    text-decoration: none;
   }
 }
 
@@ -29,7 +45,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -39,10 +55,15 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+    font-weight: 500;
+    font-size: 0.95rem;
 
-    // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:hover {
+      color: $brand-color;
     }
   }
 
@@ -101,18 +122,32 @@
 }
 
 
-
 /**
  * Site footer
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background: $grey-color-dark;
+  color: rgba(255, 255, 255, 0.8);
+
+  a {
+    color: lighten($brand-color, 25%);
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:visited {
+      color: lighten($brand-color, 20%);
+    }
+  }
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  color: #fff;
 }
 
 .contact-list,
@@ -123,7 +158,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: rgba(255, 255, 255, 0.7);
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -140,13 +175,13 @@
 }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+  width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+  width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -171,7 +206,6 @@
 }
 
 
-
 /**
  * Page content
  */
@@ -182,6 +216,7 @@
 
 .page-heading {
   @include relative-font-size(2);
+  font-weight: 600;
 }
 
 .post-list-heading {
@@ -208,7 +243,6 @@
 }
 
 
-
 /**
  * Posts
  */
@@ -220,6 +254,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  font-weight: 600;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);

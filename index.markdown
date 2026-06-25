@@ -2,87 +2,45 @@
 layout: home
 ---
 
-<!-- Lab Intro -->
 <p style="text-align: justify">
 The Autonomous Systems Lab is a part of the
-<a href="https://ed.iitm.ac.in/"> {{ "Engineering Design Department" | escape }}</a>
+<a href="https://ed.iitm.ac.in/">Engineering Design Department</a>
 at
-<a href="https://www.iitm.ac.in/"> {{ "IIT Madras. " | escape }}</a>
-The lab was established in 2021, under the guidance of 
-<a href="{{ "bijosebastian/" | relative_url }}">{{ "Dr. Bijo Sebastian. " | escape }}</a>
-We focus on developing autonomous robotic solutions for a wide range of applications including autonomous navigation for mobile robots in indoor and outdoor environment, multi-agent coordination, intelligent grasping and manipulation. 
+<a href="https://www.iitm.ac.in/">IIT Madras.</a>
+The lab was established in 2021, under the guidance of
+<a href="{{ 'bijosebastian/' | relative_url }}">Dr. Bijo Sebastian.</a>
+We focus on developing autonomous robotic solutions for a wide range of
+applications including autonomous navigation for mobile robots in indoor and
+outdoor environments, multi-agent coordination, intelligent grasping and
+manipulation.
 </p>
 
-<!-- Owl Carousel Styles -->
-<style>
-.owl-carousel-fullwidth .item img {
-  max-height: 400px; /* adjust as needed */
-  width: auto;
-  margin: 0 auto;
-  display: block;
-  object-fit: contain;
-}
-</style>
-
+<!-- Owl Carousel -->
 <link rel="stylesheet" href="/css/owl.carousel.min.css">
 <link rel="stylesheet" href="/css/owl.theme.default.min.css">
 
-<!-- Carousel Section -->
 <div class="owl-carousel owl-carousel-fullwidth">
   <div class="item">
-    <a href="#">
-      <img src="/images/homepage/ASLGroup.jpeg" alt="Slide 1">
-      <div class="slider-copy">
-        <!-- <h2>Research in Action</h2> -->
-      </div>
-    </a>
+    <img src="/images/homepage/ASLGroup.jpeg" alt="ASL research group photo" loading="eager">
   </div>
   <div class="item">
-    <a href="#">
-      <img src="/images/homepage/Lab_outing.jpeg" alt="Slide 2">
-      <div class="slider-copy">
-        <!-- <h2>Multi-Robot Systems</h2> -->
-      </div>
-    </a>
+    <img src="/images/homepage/Lab_outing.jpeg" alt="Lab outing" loading="lazy">
   </div>
   <div class="item">
-    <a href="#">
-      <img src="/images/homepage/Outing_Fall2023.jpg" alt="Slide 3">
-      <div class="slider-copy">
-        <!-- <h2>Multi-Robot Systems</h2> -->
-      </div>
-    </a>
+    <img src="/images/homepage/Outing_Fall2023.jpg" alt="Fall 2023 group outing" loading="lazy">
   </div>
   <div class="item">
-    <a href="#">
-      <img src="/images/homepage/RoboticsGroup.JPG" alt="Slide 4">
-      <div class="slider-copy">
-        <!-- <h2>Multi-Robot Systems</h2> -->
-      </div>
-    </a>
+    <img src="/images/homepage/RoboticsGroup.JPG" alt="Robotics research group" loading="lazy">
   </div>
   <div class="item">
-    <a href="#">
-      <img src="/images/homepage/Shreyash_conf_presentation.jpg" alt="Slide 5">
-      <div class="slider-copy">
-        <!-- <h2>Multi-Robot Systems</h2> -->
-      </div>
-    </a>
+    <img src="/images/homepage/Shreyash_conf_presentation.jpg" alt="Conference presentation by Shreyash" loading="lazy">
   </div>
   <div class="item">
-    <a href="#">
-      <img src="/images/homepage/Talk at Accenture Labs_Bangalore.jpg" alt="Slide 6">
-      <div class="slider-copy">
-        <!-- <h2>Human-Robot Collaboration</h2> -->
-      </div>
-    </a>
+    <img src="/images/homepage/Talk-at-Accenture-Labs-Bangalore.jpg" alt="Talk at Accenture Labs, Bangalore" loading="lazy">
   </div>
 </div>
 
-<!-- Owl Carousel Scripts -->
-<script src="/js/jquery.min.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
-
 <script>
   $(document).ready(function(){
     $(".owl-carousel-fullwidth").owlCarousel({
@@ -90,7 +48,7 @@ We focus on developing autonomous robotic solutions for a wide range of applicat
       loop: true,
       margin: 10,
       nav: true,
-      navText: ['&#10094;', '&#10095;'], // ← Left & Right arrow symbols
+      navText: ['&#10094;', '&#10095;'],
       autoplay: true,
       autoplayTimeout: 4000,
       autoplayHoverPause: true
@@ -98,22 +56,45 @@ We focus on developing autonomous robotic solutions for a wide range of applicat
   });
 </script>
 
+<!-- ============================================================
+     RESEARCH AREAS
+     To add a new project, copy one {% include research-card.html %} block below.
+     ============================================================ -->
 
-#### Following is a list of our research areas and projects:
+<h3 style="margin-top: 2rem; font-weight: 600;">Research Areas & Projects</h3>
 
-| - |
-| :-------------: |
-|<img align="left" style="padding: 10px" src="/images/disassembly/ur5.jpg" alt="Picture not available" width="400" > <br/> <br/> <a href="{{ "intelligent_grasping/" | relative_url }}"> {{ "__Intelligent grasping and manipulation:__" | escape }}</a>  : This research aims to develop perception, motion planning and control algorithms for intelligent grasping and manipulation in real world conditions. We also explore the application of intelligent grasping and manipulation for practical applications such as human-robot collaborative workspace. **This project is funded by the Accenture – IIT Madras Centre of Excellence.** |
-||
-| <img align="left" style="padding: 10px" src="/images/mobile_robot/mobile_vision.jpg" alt="Picture not available" width="400" > <br/> <br/> <a href="{{ "mobile_robot/" | relative_url }}"> {{ "__Motion Planning for Mobile Robots:__" | escape }}</a>  This research aims to develop autonomous navigation capabilities for mobile robots in indoor and outdoor environments. This includes localization of indoor mobile robots in GPS denied environment, and path planning in human centric environments as well. **This project is funded by the New Faculty Initiation Grant (NFIG) from IIT Madras.** |
-||
-| <img align="left" style="padding: 10px" src="/images/mobile_manipulation/mobile_manipulation.jpg" alt="Picture not available" width="400"> <br/> <br/> <a href="{{ "multi_agent_systems/" | relative_url }}"> {{ "__Multi-agent systems:__" | escape }}</a> Robotic systems have been deployed extensively for manipulation and transportation tasks in warehouses. But the majority of these applications involve a single robot interacting with an object in a given instant. This in turn limits the size and weight of the object that can be handled. Multi-agent systems provide a natural solution in this scenario. **This project is funded by the Start-up Research Grant (SRG) under Science & Engineering Research Board (SERB).**| 
-||
-| <img align="left" style="padding: 10px" src="/images/auto_drive/vehicle_suite.png" alt="Picture not available" width="400" > <br/> <br/> <a href="{{ "auto_drive/" | relative_url }}"> {{ "__Autonomous driving & Advanced Driver-Assistance Systems (ADAS):__" | escape }}</a>  The development of autonomous driving systems for electric vehicles (EVs) in India presents a distinct set of engineering challenges. Global autonomous driving models, which are primarily designed for the structured traffic environments typical for Western nations are not suitable for Indian road and traffic environment. This research focuses on development of Autonomous driving capabilities tailored specifically for Indian conditions. **This project is funded by the New Faculty Seed Grant (NFSG) from IIT Madras.** |
+{% include research-card.html
+   title="Intelligent Grasping and Manipulation"
+   image="/images/disassembly/ur5.jpg"
+   alt="UR5 robot arm performing grasping task"
+   url="/intelligent_grasping/"
+   description="Developing perception, motion planning and control algorithms for intelligent grasping and manipulation in real world conditions, including human-robot collaborative workspaces."
+   funding="Funded by the Accenture – IIT Madras Centre of Excellence."
+%}
 
+{% include research-card.html
+   title="Motion Planning for Mobile Robots"
+   image="/images/mobile_robot/mobile_vision.jpg"
+   alt="Indoor autonomous mobile robot with vision sensors"
+   url="/mobile_robot/"
+   description="Developing autonomous navigation capabilities for mobile robots in indoor and outdoor environments, including localization in GPS-denied environments and path planning in human-centric spaces."
+   funding="Funded by the New Faculty Initiation Grant (NFIG) from IIT Madras."
+%}
 
+{% include research-card.html
+   title="Multi-Agent Systems"
+   image="/images/mobile_manipulation/mobile_manipulation.jpg"
+   alt="Multi-robot cooperative manipulation system"
+   url="/multi_agent_systems/"
+   description="Multi-agent systems for cooperative manipulation and transportation tasks, enabling multiple robots to handle objects beyond the capability of a single robot."
+   funding="Funded by the Start-up Research Grant (SRG) under SERB."
+%}
 
-
-
-
-
+{% include research-card.html
+   title="Autonomous Driving & ADAS"
+   image="/images/auto_drive/vehicle_suite.png"
+   alt="Autonomous vehicle sensor suite"
+   url="/auto_drive/"
+   description="Development of autonomous driving and Advanced Driver-Assistance Systems tailored specifically for Indian road and traffic conditions, including perception, planning, and control for electric vehicles."
+   funding="Funded by the New Faculty Seed Grant (NFSG) from IIT Madras."
+%}

@@ -2,23 +2,26 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
     <div class="footer-col-wrapper">
+
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-            {%- if site.copyright -%}
-            <li> {{"Copyright"}} &copy; {{site.copyright}} {{ 'now' | date: "%Y" }}</li> 
-            {%- endif -%}
+          {%- if site.copyright -%}
+          <li>{{ "Copyright" }} &copy; {{ site.copyright }} {{ 'now' | date: "%Y" }}</li>
+          {%- endif -%}
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        <p style="text-align: left">
-        Autonomous Systems Lab <br>
-        Room # ED 406 <br>
-        Department of Engineering Design <br>
-        Indian Institute of Technology - Madras <br>
-        Tamil Nadu, India <br>
+        <p>
+          Autonomous Systems Lab<br>
+          Room # ED 406<br>
+          Department of Engineering Design<br>
+          Indian Institute of Technology Madras<br>
+          Tamil Nadu, India
         </p>
       </div>
 
@@ -27,7 +30,5 @@
       </div>
 
     </div>
-
   </div>
-
 </footer>

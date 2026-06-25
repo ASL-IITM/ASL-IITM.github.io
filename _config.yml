@@ -18,14 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#Common Variables 
+#Common Variables
 ##Lab specific
-title: Autonomous Systems Lab 
-description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Coming soon
-youtube_username: ASL-IITM 
+title: Autonomous Systems Lab
+description: >-
+  Autonomous Systems Lab at IIT Madras — research in mobile robotics,
+  intelligent grasping, multi-agent systems, and autonomous driving.
+baseurl: ""
+url: "https://asl-iitm.github.io"
+youtube_username: ASL-IITM
 copyright: "Autonomous Systems Lab"
 
 ##Personal

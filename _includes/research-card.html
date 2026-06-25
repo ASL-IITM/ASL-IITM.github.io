@@ -1,0 +1,33 @@
+<!--
+  Research project card for homepage / research listing.
+
+  Usage:
+    {% include research-card.html
+       title="Project Title"
+       image="/images/project/photo.jpg"
+       alt="Descriptive alt text"
+       url="/project_page/"
+       description="Brief description of the project."
+       funding="Funded by XYZ."
+    %}
+
+  Parameters:
+    title       — Project title (required)
+    image       — Thumbnail image path (required)
+    alt         — Image alt text (required)
+    url         — Link to the detail page (required)
+    description — Short description (required)
+    funding     — Funding source (optional)
+-->
+<div class="research-card">
+  <div class="research-card__image">
+    <a href="{{ include.url | relative_url }}">
+      <img src="{{ include.image }}" alt="{{ include.alt }}" loading="lazy">
+    </a>
+  </div>
+  <div class="research-card__body">
+    <h4><a href="{{ include.url | relative_url }}">{{ include.title }}</a></h4>
+    <p>{{ include.description }}</p>
+    {% if include.funding %}<p class="research-card__funding">{{ include.funding }}</p>{% endif %}
+  </div>
+</div>

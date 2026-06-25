@@ -1,0 +1,30 @@
+<!--
+  Team member card.
+
+  Usage:
+    {% include team-member.html
+       name="Full Name"
+       photo="/images/students/photo.jpg"
+       role="Research topic or role"
+       dept="Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/username/"
+    %}
+
+  Parameters:
+    name     — Full name (required)
+    photo    — Path to photo (required)
+    role     — Research area or role description (optional)
+    dept     — Department/affiliation (optional)
+    linkedin — LinkedIn profile URL (optional)
+-->
+<div class="team-card">
+  <div class="team-card__photo">
+    <img src="{{ include.photo }}" alt="Photo of {{ include.name }}" loading="lazy">
+  </div>
+  <div class="team-card__info">
+    <h4 class="team-card__name">{{ include.name }}</h4>
+    {% if include.role %}<p class="team-card__role">{{ include.role }}</p>{% endif %}
+    {% if include.dept %}<p class="team-card__dept">{{ include.dept }}</p>{% endif %}
+    {% if include.linkedin %}<a class="team-card__link" href="{{ include.linkedin }}">LinkedIn</a>{% endif %}
+  </div>
+</div>

@@ -5,105 +5,166 @@ permalink: /team/
 ribbon_display: yes
 ---
 
+<!-- ============================================================
+     TEAM PAGE
+     To add a new member, copy one {% include team-member.html %} block
+     and fill in the parameters: name, photo, role, dept, linkedin.
+     ============================================================ -->
 
-| - |
-| :-------------: |
-||
-| __Faculty__ |
-| <img style="float: left" src="/images/bijo.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <a href="https://asl-iitm.github.io/bijosebastian/"> {{ "__Bijo Sebastian__" | escape }}</a>  <br/>  Assistant Professor <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/bijo-sebastian-389153147/"> {{ "LinkedIn" | escape }}</a>|
-
-<table>
-  <thead>
-    <tr>
-      <th width="500px"> MS Scholars</th>
-      <th width="500px"> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/Dipshika.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Dipshikha Hazari </b> <br/>  Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/dipshikha-hazari-9878b2228/"> {{ "LinkedIn" | escape }}</a></td>
-      <td><img align="left" style="padding: 10px" src="/images/students/santhosh.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Santhosh Rao Kotha </b> <br/>   Department of Engineering Design,  IIT Madras <br/> <a href="https://www.linkedin.com/in/santhoshraokotha/"> {{ "LinkedIn" | escape }}</a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/muni.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Muni Srinivas </b> <br/>    Interdisciplinary Research Programme (IDRP) <br/> Department of Engineering Design,  IIT Madras   <br/> <a href="https://www.linkedin.com/in/munisrinivas/"> {{ "LinkedIn" | escape }}</a></td>
-      <td><img align="left" style="padding: 10px" src="/images/students/sanker.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sanker Dev </b> <br/>   Department of Engineering Design,  IIT Madras <br/> <a href="https://www.linkedin.com/in/sanker-dev-p-68761b177/"> {{ "LinkedIn" | escape }}</a></td>
-    </tr>
-    <tr></tr>
-        <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/satyam.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Satyam Singh </b> <br/>    Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/satyam-singh-0a6b7525a/"> {{ "LinkedIn" | escape }}</a></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th width="500px"> Ph.D Scholars </th>
-      <th width="500px"> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/vrijesh.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Vrijesh Kunwar </b> <br/>   Co-operative multi agent systems <br/>Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/vrijesh-kunwar-47b236130/"> {{ "LinkedIn" | escape }}</a></td>
-      <td><img align="left" style="padding: 10px" src="/images/students/sayooj.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sayooj P Raveendran </b> <br/>   Traversibility Estimation <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/sayooj-p/"> {{ "LinkedIn" | escape }}</a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/Don.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Don Gideon D </b> <br/>  Formation Control of Autonomous Surface Vessels <br/> Interdisciplinary Research Programme (IDRP) <br/> Dept. of Engineering Design & Dept. of Ocean Engineering , IIT Madras <br/> <a href="https://in.linkedin.com/in/don-gideon-d-936414157"> {{ "LinkedIn" | escape }}</a></td>
-      <td><img align="left" style="padding: 10px" src="/images/students/guna.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Gunabharathi </b> <br/>  Vehicle Control System for Autonomous Electric Vehicles  <br/> Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/gunabharathi-selvaraj-74781017b/"> {{ "LinkedIn" | escape }}</a></td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/sagar.jpg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Sagar Gupta </b> <br/>  Autonomous Navigation in Human-Centric Environments<br/> IIT Madras - Deakin University Joint PhD Program <br/> Dept. Engineering Design, IIT Madras <br/> School of Information Technology, Deakin University <br/> <a href="https://www.linkedin.com/in/sagargupta-dkn"> {{ "LinkedIn" | escape }}</a></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+<div class="team-section">
+  <h3 class="team-section__title">Faculty</h3>
+  <div class="team-grid">
+    {% include team-member.html
+       name="Bijo Sebastian"
+       photo="/images/bijo.jpg"
+       role="Assistant Professor"
+       dept="Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/bijo-sebastian-389153147/"
+    %}
+  </div>
+</div>
 
 
-<table>
-  <thead>
-    <tr>
-      <th width="500px"> Project Staff</th>
-      <th width="500px"> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img align="left" style="padding: 10px" src="/images/students/rahul.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Rahul K Mukundan </b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/rahul-k-mukundan-ba85a71b9/"> {{ "LinkedIn" | escape }}</a></td>
-      <td><img align="left" style="padding: 10px" src="/images/students/asif.jpeg" alt="Picture not available" class="img-responsive" width=300/> <br/> <br/> <b> Asif Ali </b> <br/>   Department of Engineering Design, IIT Madras <br/> <a href="https://www.linkedin.com/in/asifalitp/"> {{ "LinkedIn" | escape }}</a></td>
-    </tr>
-    
-  </tbody>
-</table>
+<div class="team-section">
+  <h3 class="team-section__title">Ph.D Scholars</h3>
+  <div class="team-grid">
+    {% include team-member.html
+       name="Vrijesh Kunwar"
+       photo="/images/students/vrijesh.jpg"
+       role="Co-operative multi-agent systems"
+       dept="Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/vrijesh-kunwar-47b236130/"
+    %}
+    {% include team-member.html
+       name="Sayooj P Raveendran"
+       photo="/images/students/sayooj.jpeg"
+       role="Traversability Estimation"
+       dept="Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/sayooj-p/"
+    %}
+    {% include team-member.html
+       name="Don Gideon D"
+       photo="/images/students/Don.jpg"
+       role="Formation Control of Autonomous Surface Vessels"
+       dept="IDRP — Dept. of Engineering Design & Dept. of Ocean Engineering, IIT Madras"
+       linkedin="https://in.linkedin.com/in/don-gideon-d-936414157"
+    %}
+    {% include team-member.html
+       name="Gunabharathi"
+       photo="/images/students/guna.jpg"
+       role="Vehicle Control System for Autonomous Electric Vehicles"
+       dept="Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/gunabharathi-selvaraj-74781017b/"
+    %}
+    {% include team-member.html
+       name="Sagar Gupta"
+       photo="/images/students/sagar.jpg"
+       role="Autonomous Navigation in Human-Centric Environments"
+       dept="IIT Madras — Deakin University Joint PhD Program"
+       linkedin="https://www.linkedin.com/in/sagargupta-dkn"
+    %}
+  </div>
+</div>
 
 
-**Alumni**
+<div class="team-section">
+  <h3 class="team-section__title">MS Scholars</h3>
+  <div class="team-grid">
+    {% include team-member.html
+       name="Dipshikha Hazari"
+       photo="/images/students/Dipshika.jpg"
+       role=""
+       dept="Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/dipshikha-hazari-9878b2228/"
+    %}
+    {% include team-member.html
+       name="Santhosh Rao Kotha"
+       photo="/images/students/santhosh.jpg"
+       role=""
+       dept="Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/santhoshraokotha/"
+    %}
+    {% include team-member.html
+       name="Muni Srinivas"
+       photo="/images/students/muni.jpg"
+       role=""
+       dept="IDRP — Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/munisrinivas/"
+    %}
+    {% include team-member.html
+       name="Sanker Dev"
+       photo="/images/students/sanker.jpg"
+       role=""
+       dept="Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/sanker-dev-p-68761b177/"
+    %}
+    {% include team-member.html
+       name="Satyam Singh"
+       photo="/images/students/satyam.jpg"
+       role=""
+       dept="Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/satyam-singh-0a6b7525a/"
+    %}
+  </div>
+</div>
 
-***MS Scholars***
-- [Durva Gaikwad](https://www.linkedin.com/in/durva-gaikwad-48a36120a/)
-- [Shreyash Gadgil](https://www.linkedin.com/in/shreyash-gadgil/)
-- [Eshant Jha](https://www.linkedin.com/in/eshant-jha-b6a29a116/)
-- [Manali Jain](https://www.linkedin.com/in/manali-jain-iitmadras/)
-- [Joseph Joshy](https://www.linkedin.com/in/joseph-joshy-robotics/)
 
-***M.Tech Scholars***
-- [Anantharaam R](https://in.linkedin.com/in/anantharaam-r-821762229)
-- [Shashwat Kant](https://www.linkedin.com/in/shashwat-kant-66b94a179/)
+<div class="team-section">
+  <h3 class="team-section__title">Project Staff</h3>
+  <div class="team-grid">
+    {% include team-member.html
+       name="Rahul K Mukundan"
+       photo="/images/students/rahul.jpeg"
+       role=""
+       dept="Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/rahul-k-mukundan-ba85a71b9/"
+    %}
+    {% include team-member.html
+       name="Asif Ali"
+       photo="/images/students/asif.jpeg"
+       role=""
+       dept="Department of Engineering Design, IIT Madras"
+       linkedin="https://www.linkedin.com/in/asifalitp/"
+    %}
+  </div>
+</div>
 
-***Interns & Project Assistants***
-- [Prithvi Raj B](https://www.linkedin.com/in/prithvi-raj-baskar-97100a216/)
-- [Winston Doss](https://www.linkedin.com/in/winston-doss-3b126a226/)
-- [Diya S Dileep](https://www.linkedin.com/in/diya-s-dileep-b43a23232/)
 
-**We are  looking for new PhD students, Master students, and Undergraduates to join the team** 
-<a href="{{ "openings/" | relative_url }}"> {{ "__see openings__" | escape }}</a>
+<div class="team-section alumni-section">
+  <h3 class="team-section__title">Alumni</h3>
 
-| - |
-| :-------------: |
-||
-| __Industry Partners__ |
-|<img style="float: left" src="/images/industry_partners/accenture.png" alt="Picture not available" class="img-responsive" width=300 /> <br/> <br/> <img style="float: left" src="/images/industry_partners/caterpillar.png" alt="Picture not available" class="img-responsive" width=300 /> <br/> <br/>|
+  <h4>MS Scholars</h4>
+  <ul>
+    <li><a href="https://www.linkedin.com/in/durva-gaikwad-48a36120a/">Durva Gaikwad</a></li>
+    <li><a href="https://www.linkedin.com/in/shreyash-gadgil/">Shreyash Gadgil</a></li>
+    <li><a href="https://www.linkedin.com/in/eshant-jha-b6a29a116/">Eshant Jha</a></li>
+    <li><a href="https://www.linkedin.com/in/manali-jain-iitmadras/">Manali Jain</a></li>
+    <li><a href="https://www.linkedin.com/in/joseph-joshy-robotics/">Joseph Joshy</a></li>
+  </ul>
 
+  <h4>M.Tech Scholars</h4>
+  <ul>
+    <li><a href="https://in.linkedin.com/in/anantharaam-r-821762229">Anantharaam R</a></li>
+    <li><a href="https://www.linkedin.com/in/shashwat-kant-66b94a179/">Shashwat Kant</a></li>
+  </ul>
+
+  <h4>Interns & Project Assistants</h4>
+  <ul>
+    <li><a href="https://www.linkedin.com/in/prithvi-raj-baskar-97100a216/">Prithvi Raj B</a></li>
+    <li><a href="https://www.linkedin.com/in/winston-doss-3b126a226/">Winston Doss</a></li>
+    <li><a href="https://www.linkedin.com/in/diya-s-dileep-b43a23232/">Diya S Dileep</a></li>
+  </ul>
+</div>
+
+
+<p><strong>We are looking for new PhD students, Master students, and Undergraduates to join the team</strong>
+— <a href="{{ 'openings/' | relative_url }}">see openings</a></p>
+
+
+<div class="team-section">
+  <h3 class="team-section__title">Industry Partners</h3>
+  <div class="partners-grid">
+    <img src="/images/industry_partners/accenture.png" alt="Accenture" loading="lazy">
+    <img src="/images/industry_partners/caterpillar.png" alt="Caterpillar" loading="lazy">
+  </div>
+</div>
