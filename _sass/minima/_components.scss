@@ -616,18 +616,19 @@
   }
 }
 
-.research-detail__videos {
+.research-detail .research-detail__videos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 0.75rem;
   margin-bottom: 1rem;
   clear: both;
+  float: none;
 
   .yt-thumb {
-    float: none;
-    display: block;
-    margin: 0;
-    max-width: 100%;
+    float: none !important;
+    display: block !important;
+    margin: 0 !important;
+    max-width: 100% !important;
   }
 }
 
