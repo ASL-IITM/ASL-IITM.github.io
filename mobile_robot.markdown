@@ -5,6 +5,12 @@ permalink: /mobile_robot/
 ribbon_display: no
 ---
 
+<!--
+  HOW TO ADD A NEW RESEARCH ITEM: Copy a research-detail block.
+  Single video: { % include youtube-video.html id="VIDEO_ID" title="Title" % }
+  Multiple videos: wrap in <div class="research-detail__videos">...</div>
+-->
+
 > Advancing autonomous mobile robotics through robust localization, intelligent motion planning, and LLM-driven embodied AI — enabling robots to perceive, reason, and act in complex, human-centric indoor environments.
 
 <div class="research-detail">

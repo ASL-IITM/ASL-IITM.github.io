@@ -5,7 +5,18 @@ permalink: /team/
 ribbon_display: yes
 ---
 
-<!-- To add a new member, copy one team-member.html include line and fill in the parameters. -->
+<!--
+  HOW TO ADD A NEW TEAM MEMBER:
+  Copy one of the include lines below into the appropriate section.
+  Parameters: name, photo, role, dept, linkedin, url (optional, makes name clickable).
+
+  Example:
+  { % include team-member.html name="Full Name" photo="/images/students/photo.jpg" role="Research Topic" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/username/" % }
+
+  HOW TO ADD AN ALUMNUS:
+  Add a <li> inside the appropriate <ul> in the Alumni section:
+  <li><a href="https://www.linkedin.com/in/username/">Full Name</a></li>
+-->
 
 <div class="team-section">
   <h3 class="team-section__title">Faculty</h3>

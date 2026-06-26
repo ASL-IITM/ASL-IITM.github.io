@@ -5,7 +5,13 @@ permalink: /research/
 ribbon_display: no
 ---
 
-<!-- To add a new project, copy one include line below. -->
+<!--
+  HOW TO ADD A NEW RESEARCH PROJECT:
+  1. Create a new markdown page (e.g. new_project.markdown) with layout: page and ribbon_display: no.
+  2. Add a research-card include line below (also add it to index.markdown).
+
+  { % include research-card.html title="Project Title" image="/images/folder/photo.jpg" alt="Alt text" url="/permalink/" description="Short description." funding="Funding source." % }
+-->
 
 <h3 style="font-weight: 600;">Research Areas & Projects</h3>
 

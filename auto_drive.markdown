@@ -5,6 +5,12 @@ permalink: /auto_drive/
 ribbon_display: no
 ---
 
+<!--
+  HOW TO ADD A NEW RESEARCH ITEM: Copy a research-detail block.
+  Single video: { % include youtube-video.html id="VIDEO_ID" title="Title" % }
+  Multiple videos: wrap in <div class="research-detail__videos">...</div>
+-->
+
 > Exploring autonomous driving and driver assistance solutions specifically tailored for Indian roads, taking into account diverse traffic, frequent congestion, unpredictable pedestrian movement, and varying road infrastructure.
 
 <div class="research-detail">

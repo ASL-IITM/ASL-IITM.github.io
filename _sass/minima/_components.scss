@@ -518,7 +518,6 @@
 .news-ticker {
   height: 385px;
   overflow: hidden;
-  position: relative;
   border: 1px solid $grey-color-light;
   border-top: none;
   border-radius: 0 0 6px 6px;
@@ -527,10 +526,19 @@
   @include media-query($on-palm) {
     height: 250px;
   }
+
+  &:hover .news-ticker__track {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes ticker-scroll {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
 }
 
 .news-ticker__track {
-  padding: 0.5rem 0;
+  animation: ticker-scroll 40s linear infinite;
 }
 
 .news-ticker__item {

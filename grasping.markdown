@@ -5,6 +5,23 @@ permalink: /intelligent_grasping/
 ribbon_display: no
 ---
 
+<!--
+  HOW TO ADD A NEW RESEARCH ITEM:
+  Copy the block below and fill in the video ID, title, and description.
+
+  <div class="research-detail">
+  <h3>Section Title</h3>
+  { % include youtube-video.html id="YOUTUBE_VIDEO_ID" title="Video description" % }
+  <p>Brief description of the research work.</p>
+  </div>
+
+  For multiple videos, wrap them in a research-detail__videos div:
+  <div class="research-detail__videos">
+  { % include youtube-video.html id="ID1" title="Title 1" % }
+  { % include youtube-video.html id="ID2" title="Title 2" % }
+  </div>
+-->
+
 > Exploring the intersection of perception, language, and motion planning to enable robots to grasp and manipulate objects autonomously in unstructured, real-world environments.
 
 <div class="research-detail">

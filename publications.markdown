@@ -5,7 +5,20 @@ permalink: /publications/
 ribbon_display: yes
 ---
 
-<!-- To add a new entry, insert a <li> at the top of the relevant <ol>. -->
+<!--
+  HOW TO ADD A NEW PUBLICATION:
+  1. Find the correct section (Journals, Conferences, Patents, or Copyright).
+  2. Insert a new <li> at the TOP of the <ol> in that section (newest first).
+
+  Journal format:
+  <li> Authors, "Title", Journal Name, Vol. X, Issue Y, pp. Z, Month Year. <a href="https://doi.org/DOI">DOI: DOI</a></li>
+
+  Conference format:
+  <li> Authors, "Title", Conference Name, Location, Year. <a href="https://doi.org/DOI">DOI: DOI</a></li>
+
+  Patent format:
+  <li> Inventors, "Title," Patent Type No. XXXXX, Date.</li>
+-->
 
 <div class="pub-section">
 <h3>Journals</h3>

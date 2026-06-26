@@ -54,7 +54,60 @@ layout: home
     <h4 class="news-ticker__title">Latest News</h4>
     <div class="news-ticker">
       <div class="news-ticker__track">
-        <!-- To add a news item, copy one news-ticker__item div. Newest first. -->
+        <!--
+          HOW TO ADD A NEWS ITEM:
+          Copy one news-ticker__item block below. Place newest items first.
+          Both copies (set 1 and set 2) must be identical for seamless looping.
+
+          <div class="news-ticker__item">
+            <span class="news-ticker__date">Mon YYYY</span>
+            <span class="news-ticker__text">Your news text here.</span>
+          </div>
+        -->
+
+        <!-- ===== SET 1 (original items) ===== -->
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Jun 2026</span>
+          <span class="news-ticker__text">Paper on LiDAR-based vehicle classification accepted at IEEE APSCON 2026, Delhi.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">May 2026</span>
+          <span class="news-ticker__text">Journal paper on cooperative manipulation published in ASME J. Mechanisms and Robotics.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Dec 2025</span>
+          <span class="news-ticker__text">Best Paper Award at IEEE STPEC 2025, NIT Goa for intelligent grasp planning work.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Oct 2025</span>
+          <span class="news-ticker__text">QuickGrasp paper accepted at IEEE ICRA 2025, Atlanta.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Sep 2025</span>
+          <span class="news-ticker__text">Journal paper on three-finger grasp planning published in J. Intelligent &amp; Robotic Systems.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">2025</span>
+          <span class="news-ticker__text">Dr. Bijo Sebastian receives Award for Excellence in Teaching, IIT Madras.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Dec 2024</span>
+          <span class="news-ticker__text">Two papers presented at IEEE IICAIET 2024, Kota Kinabalu, Malaysia.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Aug 2024</span>
+          <span class="news-ticker__text">Paper on landmark placement for indoor localization presented at ASME IDETC/CIE 2024.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Apr 2024</span>
+          <span class="news-ticker__text">Best Presentation Award at IEEE ICCAR 2024, Singapore.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">May 2024</span>
+          <span class="news-ticker__text">U.S. Patent No. 11986033 granted for robotic exoskeleton glove system.</span>
+        </div>
+
+        <!-- ===== SET 2 (exact duplicate for seamless loop) ===== -->
         <div class="news-ticker__item">
           <span class="news-ticker__date">Jun 2026</span>
           <span class="news-ticker__text">Paper on LiDAR-based vehicle classification accepted at IEEE APSCON 2026, Delhi.</span>
@@ -116,37 +169,6 @@ layout: home
     });
   });
 
-  // News ticker auto-scroll with seamless loop
-  $(window).on('load', function(){
-    var ticker = document.querySelector('.news-ticker');
-    if (!ticker) return;
-    var track = ticker.querySelector('.news-ticker__track');
-    if (!track || track.scrollHeight <= ticker.clientHeight) return;
-
-    var items = track.innerHTML;
-    track.innerHTML = items + items;
-
-    var speed = 0.3;
-    var paused = false;
-
-    ticker.addEventListener('mouseenter', function(){ paused = true; });
-    ticker.addEventListener('mouseleave', function(){ paused = false; });
-
-    setTimeout(function(){
-      var halfHeight = track.scrollHeight / 2;
-
-      function step() {
-        if (!paused) {
-          ticker.scrollTop += speed;
-          if (ticker.scrollTop >= halfHeight) {
-            ticker.scrollTop = 0;
-          }
-        }
-        requestAnimationFrame(step);
-      }
-      requestAnimationFrame(step);
-    }, 500);
-  });
 </script>
 
 <div class="section-heading">

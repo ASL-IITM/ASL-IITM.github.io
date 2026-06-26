@@ -5,6 +5,12 @@ permalink: /multi_agent_systems/
 ribbon_display: no
 ---
 
+<!--
+  HOW TO ADD A NEW RESEARCH ITEM: Copy a research-detail block.
+  Single video: { % include youtube-video.html id="VIDEO_ID" title="Title" % }
+  Multiple videos: wrap in <div class="research-detail__videos">...</div>
+-->
+
 <div class="research-detail">
 <h3>Multi-Robot Cooperative Manipulation and Transportation</h3>
 {% include youtube-video.html id="d-VF06MEgWs" title="Multi-robot cooperative manipulation and transportation" %}
