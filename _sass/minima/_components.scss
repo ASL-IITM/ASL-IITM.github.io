@@ -617,8 +617,8 @@
 }
 
 .research-detail .research-detail__videos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 0.75rem;
   margin-bottom: 1rem;
   clear: both;
@@ -628,7 +628,13 @@
     float: none !important;
     display: block !important;
     margin: 0 !important;
-    max-width: 100% !important;
+    max-width: 320px !important;
+    width: 320px;
+
+    @include media-query($on-palm) {
+      max-width: 100% !important;
+      width: 100%;
+    }
   }
 }
 

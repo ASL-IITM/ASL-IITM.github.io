@@ -9,8 +9,6 @@ ribbon_display: no
 <h3>Multi-Robot Cooperative Manipulation and Transportation</h3>
 {% include youtube-video.html id="d-VF06MEgWs" title="Multi-robot cooperative manipulation and transportation" %}
 <p>The proposed research aims to address the challenges of cooperative manipulation and transportation through a novel multistage approach. The high-level planning stage computes a feasible path for the object from start to goal while avoiding obstacles. The low-level Model Predictive Controller (MPC) computes the control commands to the individual robots to successfully manipulate and transport the object along the planned path.</p>
-<div style="clear:both"></div>
-<img src="/images/mobile_manipulation/mult-robot_system.png" alt="Multi-robot cooperative system design" loading="lazy" style="max-width: 600px; display: block; margin: 1rem 0;">
 </div>
 
 <div class="research-detail">
