@@ -534,23 +534,17 @@
 }
 
 .research-detail__videos {
-  float: left;
-  margin: 0.25rem 1.25rem 0.75rem 0;
-
-  @include media-query($on-palm) {
-    float: none;
-    margin: 0 0 1rem 0;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  clear: both;
 
   .yt-thumb {
-    display: block;
     float: none;
-    margin: 0 0 0.5rem 0;
-    max-width: 320px;
-
-    @include media-query($on-palm) {
-      max-width: 100%;
-    }
+    display: block;
+    margin: 0;
+    max-width: 100%;
   }
 }
 
