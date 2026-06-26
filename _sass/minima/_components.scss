@@ -462,7 +462,6 @@
   display: flex;
   gap: $spacing-unit;
   margin: $spacing-unit 0;
-  align-items: stretch;
 
   @include media-query($on-palm) {
     flex-direction: column;
@@ -478,10 +477,12 @@
   flex: 0 0 280px;
   display: flex;
   flex-direction: column;
+  max-height: 420px;
 
   @include media-query($on-palm) {
     flex: none;
     width: 100%;
+    max-height: 300px;
   }
 }
 
@@ -506,10 +507,11 @@
 .news-ticker__title {
   font-weight: 600;
   font-size: 1rem;
-  color: $grey-color-dark;
-  padding-bottom: 0.4rem;
-  border-bottom: 2px solid $brand-color;
+  color: #fff;
+  background: $grey-color-dark;
+  padding: 0.6rem 0.85rem;
   margin-bottom: 0;
+  border-radius: 6px 6px 0 0;
 }
 
 .news-ticker {
@@ -519,6 +521,7 @@
   border-top: none;
   border-radius: 0 0 6px 6px;
   background: #fff;
+  min-height: 0;
 }
 
 .news-ticker__track {
