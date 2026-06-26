@@ -15,32 +15,6 @@ layout: home
     outdoor environments, multi-agent coordination, intelligent grasping and
     manipulation.
   </p>
-  <div class="lab-snapshot__grid">
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">2021</span>
-      <span class="lab-snapshot__label">Established</span>
-    </div>
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">5</span>
-      <span class="lab-snapshot__label">PhD Scholars</span>
-    </div>
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">5</span>
-      <span class="lab-snapshot__label">MS Scholars</span>
-    </div>
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">13</span>
-      <span class="lab-snapshot__label">Journal Papers</span>
-    </div>
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">22</span>
-      <span class="lab-snapshot__label">Conference Papers</span>
-    </div>
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">4</span>
-      <span class="lab-snapshot__label">Patents</span>
-    </div>
-  </div>
   <div class="lab-snapshot__actions">
     <a href="{{ 'openings/' | relative_url }}" class="lab-snapshot__btn lab-snapshot__btn--primary">Join Our Team</a>
     <a href="{{ 'publications/' | relative_url }}" class="lab-snapshot__btn lab-snapshot__btn--outline">View Publications</a>

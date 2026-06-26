@@ -337,10 +337,15 @@
 .lab-snapshot {
   background: $grey-color-dark;
   color: #fff;
-  border-radius: 8px;
-  padding: $spacing-unit $spacing-unit * 1.2;
-  margin-bottom: $spacing-unit;
+  border-radius: 0;
+  padding: $spacing-unit * 1.2 $spacing-unit;
+  margin: 0 #{-$spacing-unit} $spacing-unit;
   text-align: center;
+
+  @include media-query($on-palm) {
+    margin: 0 #{-$spacing-unit / 2} $spacing-unit;
+    padding: $spacing-unit $spacing-unit / 2;
+  }
 }
 
 .lab-snapshot__desc {
