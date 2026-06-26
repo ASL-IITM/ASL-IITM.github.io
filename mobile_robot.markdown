@@ -5,28 +5,28 @@ permalink: /mobile_robot/
 ribbon_display: no
 ---
 
-> Robust localization, intelligent motion planning, and LLM-driven embodied AI for mobile robots in complex indoor environments.
+> Advancing autonomous mobile robotics through robust localization, intelligent motion planning, and LLM-driven embodied AI — enabling robots to perceive, reason, and act in complex, human-centric indoor environments.
 
 <div class="research-detail">
 <h3>LLM-Driven Embodied AI Agent for Autonomous Mobile Robots</h3>
 {% include youtube-video.html id="u8eALJEbG8E" title="LLM-driven embodied AI agent for mobile robot navigation" %}
-<p>A modular framework using an LLM as the reasoning core, enabling a mobile robot to understand natural language commands and execute multi-step navigation tasks.</p>
+<p>A modular agentic framework that uses a Large Language Model as the reasoning core of a mobile robot, enabling it to understand natural language commands and translate them into real-world actions. The robot can autonomously learn its environment, intelligently decide what action to take next based on real-time feedback, and execute complex multi-step navigation tasks — validated on a custom-built physical platform.</p>
 </div>
 
 <div class="research-detail">
 <h3>Localization in GPS-Denied Environments</h3>
 {% include youtube-video.html id="69TlcWPwAac" title="Indoor mobile robot localization with sensor fusion" %}
-<p>Fusing motor encoders, IMU, 2D LiDAR, and camera to accurately estimate indoor mobile robot pose without GPS.</p>
+<p>Localization is essential for a mobile robot to navigate on a given map, especially in GPS-denied environments. This work effectively estimates the pose of an indoor mobile robot in a given map by fusing estimates from different sensors like motor encoders, IMU, 2D LiDAR, and camera, combining them to arrive at a more accurate estimate.</p>
 </div>
 
 <div class="research-detail">
 <h3>Map-Informed Path Planning for Human-Aware Navigation</h3>
 {% include youtube-video.html id="dEotL10HdZs" title="Map-informed human-aware navigation for mobile robots" %}
-<p>Defensive navigation combining human trajectory prediction with topological maps, using Safe Interval Path Planning to yield to pedestrians proactively.</p>
+<p>To integrate mobile robots smoothly into structured indoor environments, we employ a "defensive robot navigation" paradigm. By combining multi-hypothesis human trajectory predictions with predefined topological maps, the robot proactively anticipates navigational conflicts at structural bottlenecks, such as hallway intersections. Using a Safe Interval Path Planning (SIPP) framework alongside an A* global planner, the robot yields to pedestrians in advance rather than relying solely on reactive dodging.</p>
 </div>
 
 <div class="research-detail">
 <h3>Sidewalks as Lanes: A Soft-Boundary Approach for Urban Robots</h3>
 {% include youtube-video.html id="1kwL0s3U940" title="Soft-boundary sidewalk navigation for urban robots" %}
-<p>Modeling sidewalks as soft-boundary lanes using semantic segmentation and Hybrid A* planning, allowing robots to step off-path to yield to pedestrians.</p>
+<p>Navigating crowded outdoor sidewalks requires flexibility beyond rigid path constraints. This framework models sidewalks similarly to vehicular lanes by utilizing semantic segmentation and clothoid curve fitting to extrapolate the path's geometry. By treating the sidewalk edges as "soft" boundaries within a Hybrid A* global planner paired with an ORCA-based local controller, the robot can strategically step off the paved path to yield to pedestrians or bypass physical obstructions.</p>
 </div>
