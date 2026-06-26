@@ -15,8 +15,8 @@ For additional information, please contact Dr. Bijo Sebastian
 
 <div class="contact-block">
 Assistant Professor<br>
-Room # ED 406<br>
-Engineering Design Department<br>
+Room # ED 411<br>
+Department of Engineering Design<br>
 Indian Institute of Technology Madras<br>
 &#128222; +91 44 2257 4749<br>
 <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
