@@ -2,18 +2,50 @@
 layout: home
 ---
 
-<p style="text-align: justify">
-The Autonomous Systems Lab is a part of the
-<a href="https://ed.iitm.ac.in/">Engineering Design Department</a>
-at
-<a href="https://www.iitm.ac.in/">IIT Madras.</a>
-The lab was established in 2021, under the guidance of
-<a href="{{ 'bijosebastian/' | relative_url }}">Dr. Bijo Sebastian.</a>
-We focus on developing autonomous robotic solutions for a wide range of
-applications including autonomous navigation for mobile robots in indoor and
-outdoor environments, multi-agent coordination, intelligent grasping and
-manipulation.
-</p>
+<div class="lab-snapshot">
+  <p class="lab-snapshot__desc">
+    The Autonomous Systems Lab is a part of the
+    <a href="https://ed.iitm.ac.in/">Engineering Design Department</a>
+    at
+    <a href="https://www.iitm.ac.in/">IIT Madras.</a>
+    The lab was established in 2021, under the guidance of
+    <a href="{{ 'bijosebastian/' | relative_url }}">Dr. Bijo Sebastian.</a>
+    We focus on developing autonomous robotic solutions for a wide range of
+    applications including autonomous navigation for mobile robots in indoor and
+    outdoor environments, multi-agent coordination, intelligent grasping and
+    manipulation.
+  </p>
+  <div class="lab-snapshot__grid">
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">2021</span>
+      <span class="lab-snapshot__label">Established</span>
+    </div>
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">5</span>
+      <span class="lab-snapshot__label">PhD Scholars</span>
+    </div>
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">5</span>
+      <span class="lab-snapshot__label">MS Scholars</span>
+    </div>
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">13</span>
+      <span class="lab-snapshot__label">Journal Papers</span>
+    </div>
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">22</span>
+      <span class="lab-snapshot__label">Conference Papers</span>
+    </div>
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">4</span>
+      <span class="lab-snapshot__label">Patents</span>
+    </div>
+  </div>
+  <div class="lab-snapshot__actions">
+    <a href="{{ 'openings/' | relative_url }}" class="lab-snapshot__btn lab-snapshot__btn--primary">Join Our Team</a>
+    <a href="{{ 'publications/' | relative_url }}" class="lab-snapshot__btn lab-snapshot__btn--outline">View Publications</a>
+  </div>
+</div>
 
 <!-- Owl Carousel -->
 <link rel="stylesheet" href="/css/owl.carousel.min.css">
@@ -56,40 +88,9 @@ manipulation.
   });
 </script>
 
-<div class="lab-snapshot">
-  <div class="lab-snapshot__grid">
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">2021</span>
-      <span class="lab-snapshot__label">Established</span>
-    </div>
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">5</span>
-      <span class="lab-snapshot__label">PhD Scholars</span>
-    </div>
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">5</span>
-      <span class="lab-snapshot__label">MS Scholars</span>
-    </div>
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">13</span>
-      <span class="lab-snapshot__label">Journal Papers</span>
-    </div>
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">22</span>
-      <span class="lab-snapshot__label">Conference Papers</span>
-    </div>
-    <div class="lab-snapshot__item">
-      <span class="lab-snapshot__value">4</span>
-      <span class="lab-snapshot__label">Patents</span>
-    </div>
-  </div>
-  <div class="lab-snapshot__actions">
-    <a href="{{ 'openings/' | relative_url }}" class="lab-snapshot__btn lab-snapshot__btn--primary">Join Our Team</a>
-    <a href="{{ 'publications/' | relative_url }}" class="lab-snapshot__btn lab-snapshot__btn--outline">View Publications</a>
-  </div>
+<div class="section-heading">
+  <h3>Research Areas & Projects</h3>
 </div>
-
-<h3 style="margin-top: 2rem; font-weight: 600;">Research Areas & Projects</h3>
 
 {% include research-card.html title="Intelligent Grasping and Manipulation" image="/images/disassembly/ur5.jpg" alt="UR5 robot arm performing grasping task" url="/intelligent_grasping/" description="Developing perception, motion planning and control algorithms for intelligent grasping and manipulation in real world conditions, including human-robot collaborative workspaces." funding="Funded by the Accenture – IIT Madras Centre of Excellence." %}
 
