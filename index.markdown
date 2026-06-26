@@ -25,25 +25,80 @@ layout: home
 <link rel="stylesheet" href="/css/owl.carousel.min.css">
 <link rel="stylesheet" href="/css/owl.theme.default.min.css">
 
-<div class="owl-carousel owl-carousel-fullwidth">
-  <div class="item">
-    <img src="/images/homepage/ASLGroup.jpeg" alt="ASL research group photo" loading="eager">
+<div class="carousel-news-row">
+
+  <div class="carousel-news-row__carousel">
+    <div class="owl-carousel owl-carousel-fullwidth">
+      <div class="item">
+        <img src="/images/homepage/ASLGroup.jpeg" alt="ASL research group photo" loading="eager">
+      </div>
+      <div class="item">
+        <img src="/images/homepage/Lab_outing.jpeg" alt="Lab outing" loading="lazy">
+      </div>
+      <div class="item">
+        <img src="/images/homepage/Outing_Fall2023.jpg" alt="Fall 2023 group outing" loading="lazy">
+      </div>
+      <div class="item">
+        <img src="/images/homepage/RoboticsGroup.JPG" alt="Robotics research group" loading="lazy">
+      </div>
+      <div class="item">
+        <img src="/images/homepage/Shreyash_conf_presentation.jpg" alt="Conference presentation by Shreyash" loading="lazy">
+      </div>
+      <div class="item">
+        <img src="/images/homepage/Talk-at-Accenture-Labs-Bangalore.jpg" alt="Talk at Accenture Labs, Bangalore" loading="lazy">
+      </div>
+    </div>
   </div>
-  <div class="item">
-    <img src="/images/homepage/Lab_outing.jpeg" alt="Lab outing" loading="lazy">
+
+  <div class="carousel-news-row__news">
+    <h4 class="news-ticker__title">Latest News</h4>
+    <div class="news-ticker">
+      <div class="news-ticker__track">
+        <!-- To add a news item, copy one news-ticker__item div. Newest first. -->
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Jun 2026</span>
+          <span class="news-ticker__text">Paper on LiDAR-based vehicle classification accepted at IEEE APSCON 2026, Delhi.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">May 2026</span>
+          <span class="news-ticker__text">Journal paper on cooperative manipulation published in ASME J. Mechanisms and Robotics.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Dec 2025</span>
+          <span class="news-ticker__text">Best Paper Award at IEEE STPEC 2025, NIT Goa for intelligent grasp planning work.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Oct 2025</span>
+          <span class="news-ticker__text">QuickGrasp paper accepted at IEEE ICRA 2025, Atlanta.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Sep 2025</span>
+          <span class="news-ticker__text">Journal paper on three-finger grasp planning published in J. Intelligent &amp; Robotic Systems.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">2025</span>
+          <span class="news-ticker__text">Dr. Bijo Sebastian receives Award for Excellence in Teaching, IIT Madras.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Dec 2024</span>
+          <span class="news-ticker__text">Two papers presented at IEEE IICAIET 2024, Kota Kinabalu, Malaysia.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Aug 2024</span>
+          <span class="news-ticker__text">Paper on landmark placement for indoor localization presented at ASME IDETC/CIE 2024.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Apr 2024</span>
+          <span class="news-ticker__text">Best Presentation Award at IEEE ICCAR 2024, Singapore.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">May 2024</span>
+          <span class="news-ticker__text">U.S. Patent No. 11986033 granted for robotic exoskeleton glove system.</span>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="item">
-    <img src="/images/homepage/Outing_Fall2023.jpg" alt="Fall 2023 group outing" loading="lazy">
-  </div>
-  <div class="item">
-    <img src="/images/homepage/RoboticsGroup.JPG" alt="Robotics research group" loading="lazy">
-  </div>
-  <div class="item">
-    <img src="/images/homepage/Shreyash_conf_presentation.jpg" alt="Conference presentation by Shreyash" loading="lazy">
-  </div>
-  <div class="item">
-    <img src="/images/homepage/Talk-at-Accenture-Labs-Bangalore.jpg" alt="Talk at Accenture Labs, Bangalore" loading="lazy">
-  </div>
+
 </div>
 
 <script src="/js/owl.carousel.min.js"></script>
@@ -60,6 +115,29 @@ layout: home
       autoplayHoverPause: true
     });
   });
+
+  // News ticker auto-scroll
+  (function(){
+    var ticker = document.querySelector('.news-ticker');
+    if (!ticker) return;
+    var track = ticker.querySelector('.news-ticker__track');
+    var speed = 0.5;
+    var paused = false;
+
+    ticker.addEventListener('mouseenter', function(){ paused = true; });
+    ticker.addEventListener('mouseleave', function(){ paused = false; });
+
+    function step() {
+      if (!paused) {
+        ticker.scrollTop += speed;
+        if (ticker.scrollTop >= track.scrollHeight - ticker.clientHeight) {
+          ticker.scrollTop = 0;
+        }
+      }
+      requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  })();
 </script>
 
 <div class="section-heading">
