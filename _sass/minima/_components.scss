@@ -461,7 +461,9 @@
 .carousel-news-row {
   display: flex;
   gap: $spacing-unit;
-  margin: $spacing-unit 0;
+  margin: $spacing-unit auto;
+  max-width: $content-width;
+  justify-content: center;
 
   @include media-query($on-palm) {
     flex-direction: column;
@@ -469,33 +471,36 @@
 }
 
 .carousel-news-row__carousel {
-  flex: 1;
+  flex: 1 1 50%;
   min-width: 0;
 }
 
 .carousel-news-row__news {
-  flex: 0 0 280px;
+  flex: 1 1 50%;
+  min-width: 0;
   display: flex;
   flex-direction: column;
-  max-height: 420px;
 
   @include media-query($on-palm) {
     flex: none;
     width: 100%;
-    max-height: 300px;
   }
 }
 
 .owl-carousel-fullwidth {
   border-radius: 8px;
   overflow: hidden;
+  height: 100%;
 
   .item img {
-    max-height: 420px;
-    width: auto;
-    margin: 0 auto;
+    width: 100%;
+    height: 380px;
     display: block;
-    object-fit: contain;
+    object-fit: cover;
+
+    @include media-query($on-palm) {
+      height: 250px;
+    }
   }
 }
 
@@ -515,13 +520,16 @@
 }
 
 .news-ticker {
-  flex: 1;
+  height: 348px;
   overflow: hidden;
   border: 1px solid $grey-color-light;
   border-top: none;
   border-radius: 0 0 6px 6px;
   background: #fff;
-  min-height: 0;
+
+  @include media-query($on-palm) {
+    height: 250px;
+  }
 }
 
 .news-ticker__track {
