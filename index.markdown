@@ -56,7 +56,38 @@ manipulation.
   });
 </script>
 
-<!-- To add a new project, copy one include line below. -->
+<div class="lab-snapshot">
+  <div class="lab-snapshot__grid">
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">2021</span>
+      <span class="lab-snapshot__label">Established</span>
+    </div>
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">5</span>
+      <span class="lab-snapshot__label">PhD Scholars</span>
+    </div>
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">5</span>
+      <span class="lab-snapshot__label">MS Scholars</span>
+    </div>
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">13</span>
+      <span class="lab-snapshot__label">Journal Papers</span>
+    </div>
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">22</span>
+      <span class="lab-snapshot__label">Conference Papers</span>
+    </div>
+    <div class="lab-snapshot__item">
+      <span class="lab-snapshot__value">4</span>
+      <span class="lab-snapshot__label">Patents</span>
+    </div>
+  </div>
+  <div class="lab-snapshot__actions">
+    <a href="{{ 'openings/' | relative_url }}" class="lab-snapshot__btn lab-snapshot__btn--primary">Join Our Team</a>
+    <a href="{{ 'publications/' | relative_url }}" class="lab-snapshot__btn lab-snapshot__btn--outline">View Publications</a>
+  </div>
+</div>
 
 <h3 style="margin-top: 2rem; font-weight: 600;">Research Areas & Projects</h3>
 

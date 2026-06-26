@@ -331,6 +331,104 @@
 
 
 // ============================================================
+// LAB SNAPSHOT / HERO BANNER
+// ============================================================
+
+.lab-snapshot {
+  background: $grey-color-dark;
+  color: #fff;
+  border-radius: 8px;
+  padding: $spacing-unit $spacing-unit * 1.2;
+  margin-bottom: $spacing-unit;
+  text-align: center;
+}
+
+.lab-snapshot__grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  margin-bottom: $spacing-unit;
+
+  @include media-query($on-laptop) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include media-query($on-palm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.lab-snapshot__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+}
+
+.lab-snapshot__value {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: lighten($brand-color, 30%);
+}
+
+.lab-snapshot__label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 0.3rem;
+}
+
+.lab-snapshot__actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lab-snapshot__btn {
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+
+  &--primary {
+    background: $brand-color;
+    color: #fff;
+
+    &:hover {
+      background: darken($brand-color, 10%);
+      color: #fff;
+    }
+
+    &:visited {
+      color: #fff;
+    }
+  }
+
+  &--outline {
+    background: transparent;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+
+    &:hover {
+      border-color: #fff;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+
+    &:visited {
+      color: #fff;
+    }
+  }
+}
+
+
+// ============================================================
 // HOMEPAGE CAROUSEL (OWL)
 // ============================================================
 
