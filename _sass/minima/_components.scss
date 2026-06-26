@@ -516,8 +516,9 @@
 }
 
 .news-ticker {
-  height: 380px;
+  height: 385px;
   overflow: hidden;
+  position: relative;
   border: 1px solid $grey-color-light;
   border-top: none;
   border-radius: 0 0 6px 6px;
