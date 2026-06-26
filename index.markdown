@@ -116,13 +116,19 @@ layout: home
     });
   });
 
-  // News ticker auto-scroll
+  // News ticker auto-scroll with seamless loop
   (function(){
     var ticker = document.querySelector('.news-ticker');
     if (!ticker) return;
     var track = ticker.querySelector('.news-ticker__track');
-    var speed = 0.5;
+
+    // Duplicate items for seamless looping
+    var items = track.innerHTML;
+    track.innerHTML = items + items;
+
+    var speed = 0.3;
     var paused = false;
+    var halfHeight = track.scrollHeight / 2;
 
     ticker.addEventListener('mouseenter', function(){ paused = true; });
     ticker.addEventListener('mouseleave', function(){ paused = false; });
@@ -130,7 +136,7 @@ layout: home
     function step() {
       if (!paused) {
         ticker.scrollTop += speed;
-        if (ticker.scrollTop >= track.scrollHeight - ticker.clientHeight) {
+        if (ticker.scrollTop >= halfHeight) {
           ticker.scrollTop = 0;
         }
       }
