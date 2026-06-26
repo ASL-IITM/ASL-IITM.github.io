@@ -21,6 +21,7 @@
   var closeBtn = lightbox.querySelector('.yt-lightbox__close');
 
   function open(videoId) {
+    if (!/^[a-zA-Z0-9_-]{11}$/.test(videoId)) return;
     iframe.src = 'https://www.youtube-nocookie.com/embed/' + videoId + '?autoplay=1&rel=0';
     lightbox.classList.add('is-active');
     lightbox.setAttribute('aria-hidden', 'false');

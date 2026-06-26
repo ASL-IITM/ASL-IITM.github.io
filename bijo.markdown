@@ -41,9 +41,9 @@ ribbon_display: no
 
 | Degree | University | Department | Year |
 |:---:|:---:|:---:|:---:|
-| Ph.D. | [Virginia Tech](http://www.me.vt.edu/) | Mechanical Engineering | 2019 |
-| M. Tech | [AcSIR-CMERI](http://acsir.res.in/) | Mechatronics | 2015 |
-| B. Tech | [University of Kerala](http://www.keralauniversity.ac.in/) | Mechanical Engineering | 2013 |
+| Ph.D. | [Virginia Tech](https://www.me.vt.edu/) | Mechanical Engineering | 2019 |
+| M. Tech | [AcSIR-CMERI](https://acsir.res.in/) | Mechatronics | 2015 |
+| B. Tech | [University of Kerala](https://www.keralauniversity.ac.in/) | Mechanical Engineering | 2013 |
 
 ---
 
@@ -66,7 +66,7 @@ ribbon_display: no
 
 ### Research Experience
 
-- **Graduate Research Assistant** — [Robotics & Mechatronics Lab, Virginia Tech](http://rmlab.org/)
+- **Graduate Research Assistant** — [Robotics & Mechatronics Lab, Virginia Tech](https://rmlab.org/)
     - January 2016 – October 2019
 - **Project Fellow** — [Surface Robotics Lab, CSIR – CMERI](https://www.cmeri.res.in/)
     - June 2014 – November 2015
@@ -86,9 +86,8 @@ ribbon_display: no
 
 Below is a recent post showcasing our lab's work at IIT Madras:
 
-<div style="text-align: center">
+<div class="embed-responsive">
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7362865653768228864"
         height="773" width="504" frameborder="0" allowfullscreen=""
-        title="LinkedIn post showcasing ASL lab work" loading="lazy"
-        style="max-width: 100%; border: none;"></iframe>
+        title="LinkedIn post showcasing ASL lab work" loading="lazy"></iframe>
 </div>

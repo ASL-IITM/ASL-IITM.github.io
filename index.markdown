@@ -155,21 +155,7 @@ layout: home
 </div>
 
 <script src="/js/owl.carousel.min.js"></script>
-<script>
-  $(document).ready(function(){
-    $(".owl-carousel-fullwidth").owlCarousel({
-      items: 1,
-      loop: true,
-      margin: 10,
-      nav: true,
-      navText: ['&#10094;', '&#10095;'],
-      autoplay: true,
-      autoplayTimeout: 4000,
-      autoplayHoverPause: true
-    });
-  });
-
-</script>
+<script src="/js/site.js"></script>
 
 <div class="section-heading">
   <h3>Research Areas & Projects</h3>
