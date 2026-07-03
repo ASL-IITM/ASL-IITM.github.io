@@ -40,12 +40,11 @@ ribbon_display: yes
 
 <div class="team-section">
   <h3 class="team-section__title">MS Scholars</h3>
-  <div class="team-grid">
-    {% include team-member.html name="Dipshikha Hazari" photo="/images/students/Dipshika.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/dipshikha-hazari-9878b2228/" %}
-    {% include team-member.html name="Santhosh Rao Kotha" photo="/images/students/santhosh.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/santhoshraokotha/" %}
+  <div class="team-grid">    
     {% include team-member.html name="Muni Srinivas" photo="/images/students/muni.jpg" role="" dept="IDRP, Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/munisrinivas/" %}
     {% include team-member.html name="Sanker Dev" photo="/images/students/sanker.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/sanker-dev-p-68761b177/" %}
     {% include team-member.html name="Satyam Singh" photo="/images/students/satyam.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/satyam-singh-0a6b7525a/" %}
+    {% include team-member.html name="Dipshikha Hazari" photo="/images/students/Dipshika.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/dipshikha-hazari-9878b2228/" %}
   </div>
 </div>
 
@@ -69,6 +68,7 @@ ribbon_display: yes
     <li><a href="https://www.linkedin.com/in/eshant-jha-b6a29a116/">Eshant Jha</a></li>
     <li><a href="https://www.linkedin.com/in/manali-jain-iitmadras/">Manali Jain</a></li>
     <li><a href="https://www.linkedin.com/in/joseph-joshy-robotics/">Joseph Joshy</a></li>
+    <li><a href="https://www.linkedin.com/in/santhoshraokotha/">Santhosh Rao Kotha</a></li>
   </ul>
 
   <h4>M.Tech Scholars</h4>
