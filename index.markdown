@@ -161,7 +161,7 @@ layout: home
   <h3>Research Areas & Projects</h3>
 </div>
 
-{% include research-card.html title="Intelligent Grasping and Manipulation" image="/images/disassembly/ur5.jpg" alt="UR5 robot arm performing grasping task" url="/intelligent_grasping/" description="Developing perception, motion planning and control algorithms for intelligent grasping and manipulation in real world conditions, including human-robot collaborative workspaces." funding="Funded by the Accenture – IIT Madras Centre of Excellence." %}
+{% include research-card.html title="Intelligent Grasping and Manipulation" image="/images/disassembly/UR5_human.png" alt="UR5 robot arm performing grasping task" url="/intelligent_grasping/" description="Developing perception, motion planning and control algorithms for intelligent grasping and manipulation in real world conditions, including human-robot collaborative workspaces." funding="Funded by the Accenture – IIT Madras Centre of Excellence." %}
 
 {% include research-card.html title="Motion Planning for Mobile Robots" image="/images/mobile_robot/mobile_vision.jpg" alt="Indoor autonomous mobile robot with vision sensors" url="/mobile_robot/" description="Developing autonomous navigation capabilities for mobile robots in indoor and outdoor environments, including localization in GPS-denied environments and path planning in human-centric spaces." funding="Funded by the New Faculty Initiation Grant (NFIG) from IIT Madras." %}
 
