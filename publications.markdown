@@ -82,9 +82,13 @@ ribbon_display: yes
 <details open>
 <summary>Click to expand</summary>
 <ol>
-<li> Ben-Tzvi, P., Sebastian, B., Refour, E., Xu, W., Pradhan, S., Guo, Y., "Robotic exoskeleton glove system," U.S. Patent No. 11986033, May 21, 2024.</li>
-<li> Sebastian, B., "Bidirectional Rotary Series Elastic Actuator (R-SEA) Design Using Coil Compression Springs," Indian Patent No. 544679, August 25, 2023.</li>
-<li> Patel, N., Sebastian, B., "Compound Offset Epicyclic Drive (COED)," Indian Patent No. 579416, July 28, 2023.</li>
+<li> Sebastian, B., Gadgil, S., Gaikwad, D., Dubey, A., Upadhyay, A., "Battery Disassembly System", Indian Patent Application No. 202341051709, July 10, 2026.</li>
+<li> Sebastian, B., Gadgil, S., Dubey, A., Upadhyay, A., "System And Method for Prediction of Grasping Position of Robotic Gripping Mechanism on an Object", Indian Patent Application No. 202441057093, January 30, 2026.</li>
+<li> Patel, N., Sebastian, B., Jayaganthan, R., Bagaria, V., Grampurohit, N., "System and Method for LLM-Based Autonomous Robot Task Planning and Feasibility Validation", Indian Patent Application No. 202541133628, January 9, 2026.</li>
+<li> Sebastian, B., Chandan, S., "A UAV Deployable Emission Flux Measurement Apparatus", Indian Patent Application No. 202541101347, November 28, 2025.</li>
+<li> Ben-Tzvi, P., Sebastian, B., Refour, E., Xu, W., Pradhan, S., Guo, Y., "Robotic exoskeleton glove system", U.S. Patent No. 11986033, May 21, 2024.</li>
+<li> Sebastian, B., "Bidirectional Rotary Series Elastic Actuator Design Using Coil Compression Springs", Indian Patent No. 544679, August 25, 2023.</li>
+<li> Patel, N., Sebastian, B., "Compound Offset Epicyclic Drive", Indian Patent No. 579416, July 28, 2023.</li>
 <li> Ben-Tzvi, P., Williams, A., Sebastian, B., Kumar, A., Saab, W., "Semi-Autonomous Victim Extraction Robot (SAVER)", U.S. Provisional Patent Application No. 62/836,915, April 22, 2019.</li>
 </ol>
 </details>
