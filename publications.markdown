@@ -101,7 +101,7 @@ ribbon_display: yes
 <details open>
 <summary>Click to expand</summary>
 <ol>
-<li> Sebastian, B., "Software stack for Multi-Agent Task Scheduling Using Time-Space Network Approach", Indian Copyright SW-21808 2025.</li>
+<li> Sebastian, B., Raveendran, S., "Software stack for Multi-Agent Task Scheduling Using Time-Space Network Approach", Indian Copyright SW-21808 2025.</li>
 <li> Sebastian, B., "Software stack for level two autonomous driving on robots or software defined vehicles", Indian Copyright SW-21807 2025.</li>
 <li> Sebastian, B., "Software stack for localization of mobile robots in absence of GPS", Indian Copyright SW-20151 2025.</li>
 </ol>
