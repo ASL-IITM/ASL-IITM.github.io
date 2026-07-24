@@ -42,7 +42,7 @@ ribbon_display: yes
 <div class="team-section">
   <h3 class="team-section__title">MS Scholars</h3>
   <div class="team-grid">    
-    {% include team-member.html name="Komal" photo="/images/students/Komal.jpeg" role="Autonomous Soft-Body Manipulation" dept="School of Interdisciplinary Studies, IIT Madras" linkedin="https://www.linkedin.com/in/komal012/" %}
+    {% include team-member.html name="Komal" photo="/images/students/Komal.jpeg" role="" dept="School of Interdisciplinary Studies, IIT Madras" linkedin="https://www.linkedin.com/in/komal012/" %}
     {% include team-member.html name="Muni Srinivas" photo="/images/students/muni.jpg" role="" dept="IDRP, Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/munisrinivas/" %}
     {% include team-member.html name="Sanker Dev" photo="/images/students/sanker.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/sanker-dev-p-68761b177/" %}
     {% include team-member.html name="Satyam Singh" photo="/images/students/satyam.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/satyam-singh-0a6b7525a/" %}
