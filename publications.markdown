@@ -25,6 +25,7 @@ ribbon_display: yes
 <details open>
 <summary>Click to expand</summary>
 <ol>
+<li> Kotha, S. S. R., Kannikeshwwar,  K., Selvaraj, G., and Sebastian, B., "Model Based Adaptive Cruise Control with Real time Hardware Validation in Stop-and-Go Traffic",  IEEE Access, July 2026. <a href="https://doi.org/10.1109/ACCESS.2026.3716361">DOI: 10.1109/ACCESS.2026.3716361</a></li>
 <li> Kunwar, V., Sai, T. S., Sebastian, B., "Hierarchical approach towards cooperative manipulation and transportation using mobile robots", ASME Journal of Mechanisms and Robotics, March 2026; 18(3): 031006. <a href="https://doi.org/10.1115/1.4070892">DOI: 10.1115/1.4070892</a></li>
 <li> Gadgil, S., Baskar, P. R., Sebastian, B., Dubey, A., and Upadhyay, A., "Grasp Planning for Underactuated Three-Finger Grippers Using a Novel Triangular Representation", Journal of Intelligent &amp; Robotic Systems, vol. 111, article no. 101, Sept. 2025. <a href="https://doi.org/10.1007/s10846-025-02307-3">DOI: 10.1007/s10846-025-02307-3</a></li>
 <li> Marveldoss, W. D., Joshika, B., and Sebastian, B., "Tracking and estimation approach for human-aware mobile robot navigation", IEEE Sensors Letters, vol. 8, no. 12, pp. 1-4, Dec. 2024. <a href="https://doi.org/10.1109/LSENS.2024.3492373">DOI: 10.1109/LSENS.2024.3492373</a></li>

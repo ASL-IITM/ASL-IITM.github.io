@@ -33,7 +33,8 @@ ribbon_display: yes
     {% include team-member.html name="Sayooj P Raveendran" photo="/images/students/sayooj.jpeg" role="Traversability Estimation" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/sayooj-p/" %}
     {% include team-member.html name="Don Gideon D" photo="/images/students/Don.jpg" role="Formation Control of Autonomous Surface Vessels" dept="IDRP, Dept. of Engineering Design and Dept. of Ocean Engineering, IIT Madras" linkedin="https://in.linkedin.com/in/don-gideon-d-936414157" %}
     {% include team-member.html name="Gunabharathi" photo="/images/students/guna.jpg" role="Vehicle Control System for Autonomous Electric Vehicles" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/gunabharathi-selvaraj-74781017b/" %}
-    {% include team-member.html name="Sagar Gupta" photo="/images/students/sagar.jpg" role="Autonomous Navigation in Human-Centric Environments" dept="IIT Madras, Deakin University Joint PhD Program" linkedin="https://www.linkedin.com/in/sagargupta-dkn" %}
+    {% include team-member.html name="Sagar Gupta" photo="/images/students/sagar.jpg" role="Autonomous Navigation in Human-Centric Environments" dept="IIT Madras - Deakin University Joint PhD Program" linkedin="https://www.linkedin.com/in/sagargupta-dkn" %}
+    {% include team-member.html name="Anju Jakhar" photo="/images/students/Anju.jpg" role="Practical, Reliable and Scalable Self-Driving Laboratories" dept="School of Interdisciplinary Studies, IIT Madras" linkedin="https://www.linkedin.com/in/anju-jakhar-571010239/" %}
   </div>
 </div>
 
@@ -41,6 +42,7 @@ ribbon_display: yes
 <div class="team-section">
   <h3 class="team-section__title">MS Scholars</h3>
   <div class="team-grid">    
+    {% include team-member.html name="Komal" photo="/images/students/Komal.jpeg" role="Autonomous Soft-Body Manipulation" dept="School of Interdisciplinary Studies, IIT Madras" linkedin="https://www.linkedin.com/in/komal012/" %}
     {% include team-member.html name="Muni Srinivas" photo="/images/students/muni.jpg" role="" dept="IDRP, Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/munisrinivas/" %}
     {% include team-member.html name="Sanker Dev" photo="/images/students/sanker.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/sanker-dev-p-68761b177/" %}
     {% include team-member.html name="Satyam Singh" photo="/images/students/satyam.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/satyam-singh-0a6b7525a/" %}
