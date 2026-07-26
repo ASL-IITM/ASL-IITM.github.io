@@ -108,3 +108,17 @@ ribbon_display: yes
 </ol>
 </details>
 </div>
+
+<br/>
+
+<div class="pub-section">
+<h3>Dataset</h3>
+<details open>
+<summary>Click to expand</summary>
+<ol>
+<li> Srinivasulu, B. M., Sebastian, B., and Vanajakshi, L., “Chennai Traffic Dataset”. Zenodo, Jul. 25, 2026. <a href="https://doi.org/10.5281/zenodo.21545806">DOI: 10.5281/zenodo.21545806</a></li>
+</ol>
+</details>
+</div>
+
+<br/>
