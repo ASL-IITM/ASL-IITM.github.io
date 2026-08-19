@@ -55,6 +55,7 @@ ribbon_display: yes
   <h3 class="team-section__title">Project Staff</h3>
   <div class="team-grid">
     {% include team-member.html name="Rahul K Mukundan" photo="/images/students/rahul.jpeg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/rahul-k-mukundan-ba85a71b9/" %} 
+    {% include team-member.html name="Gowrynanda P S" photo="/images/students/gowry.jpeg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/gowrynandaps/" %} 
   </div>
 </div>
 
