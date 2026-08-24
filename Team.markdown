@@ -47,6 +47,7 @@ ribbon_display: yes
     {% include team-member.html name="Dipshikha Hazari" photo="/images/students/Dipshika.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/dipshikha-hazari-9878b2228/" %}
     {% include team-member.html name="Komal" photo="/images/students/Komal.jpeg" role="" dept="School of Interdisciplinary Studies, IIT Madras" linkedin="https://www.linkedin.com/in/komal012/" %}
     {% include team-member.html name="Asif Ali" photo="/images/students/asif.jpeg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/asifalitp/" %}
+    {% include team-member.html name="Athira" photo="/images/students/Athira.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/athira-babu-m-b-2001" %}
   </div>
 </div>
 
@@ -54,8 +55,9 @@ ribbon_display: yes
 <div class="team-section">
   <h3 class="team-section__title">Project Staff</h3>
   <div class="team-grid">
-    {% include team-member.html name="Rahul K Mukundan" photo="/images/students/rahul.jpeg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/rahul-k-mukundan-ba85a71b9/" %} 
-    {% include team-member.html name="Gowrynanda P S" photo="/images/students/gowry.jpeg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/gowrynandaps/" %} 
+    {% include team-member.html name="Rahul K Mukundan" photo="/images/students/rahul.jpeg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/rahul-k-mukundan-ba85a71b9/" %}
+    {% include team-member.html name="Gowrynanda P S" photo="/images/students/gowry.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/gowrynandaps" %}
+    {% include team-member.html name="Devika" photo="/images/students/Devika.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="http://www.linkedin.com/in/devika-anitha-gopan" %}
   </div>
 </div>
 
