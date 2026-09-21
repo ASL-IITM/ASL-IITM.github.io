@@ -49,12 +49,12 @@ ribbon_display: yes
 <h3>Conferences</h3>
 <details open>
 <summary>Click to expand</summary>
-<ol>
-<li> Joshy, J., Gopan, D.A., Sebastian, B., "Optimal Motion Planning for a Robotic Manipulator Using Voxel-Based A* and Redundant IK Solutions", Computational Kinematics (CK2025 2025) Mechanisms and Machine Science, vol 203. Springer, Singapore, 2026. <a href="https://doi.org/10.1007/978-981-95-7155-0_12">DOI: 10.1007/978-981-95-7155-0_12</a></li>  
+<ol> 
 <li> B., M.S., Dileep, D.S., Sebastian, B., and Vanajakshi, L., "Fusion of Geometric and Kinematic Features for LiDAR-Based Vehicle Classification", 2026 IEEE Applied Sensing Conference (APSCON), Delhi, India, 2026. <a href="https://doi.org/10.1109/APSCON68325.2026.11497160">DOI: 10.1109/APSCON68325.2026.11497160</a></li>
 <li> Gurumoorthi, A.R., Bagaria, V., and Sebastian, B., "Interactive Steering for Seamless Transition During Control Handover in Autonomous Driving", 2025 IEEE STPEC, Goa, India, 2025. <a href="https://doi.org/10.1109/STPEC66316.2025.11490991">DOI: 10.1109/STPEC66316.2025.11490991</a></li>
 <li> B., M.S., Sebastian, B., and Vanajakshi, L., "Multi-Hypotheses Trajectory Prediction of On-Road Vehicles Using MC-EKF with Map Constraints", 2025 IEEE STPEC, Goa, India, 2025. <a href="https://doi.org/10.1109/STPEC66316.2025.11490651">DOI: 10.1109/STPEC66316.2025.11490651</a></li>
 <li> Baskar, P.R., Sebastian, B., Dubey, A., and Kuriakose, S. M., "Intelligent Grasp Planning Using Open-Vocabulary Image Segmentation and Large Language Models", 2025 IEEE STPEC, Goa, India, 2025. <a href="https://doi.org/10.1109/STPEC66316.2025.11490732">DOI: 10.1109/STPEC66316.2025.11490732</a></li>
+<li> Joshy, J., Gopan, D.A., Sebastian, B., "Optimal Motion Planning for a Robotic Manipulator Using Voxel-Based A* and Redundant IK Solutions", Computational Kinematics (CK2025 2025) Mechanisms and Machine Science, vol 203. Springer, Singapore, 2025. <a href="https://doi.org/10.1007/978-981-95-7155-0_12">DOI: 10.1007/978-981-95-7155-0_12</a></li>
 <li> Ramanathan, A. K. S., Ronanki, D., and Sebastian, B., "Investigation on Switched Reluctance Motors Without and With Permanent Magnets", 2025 IEEE PESGRE, Dharwad, India, 2025. <a href="https://doi.org/10.1109/PESGRE65581.2025.11521560">DOI: 10.1109/PESGRE65581.2025.11521560</a></li>
 <li> Gaikwad, D., Joshy, J., Sebastian, B., Saurav, S., and Dubey, A., "Real-Time Perception and Planning for Human-Robot Collaboration over Shared Workspace", 2025 ICRM, Kollam, India, 2025. <a href="https://doi.org/10.1109/ICRM66809.2025.11349032">DOI: 10.1109/ICRM66809.2025.11349032</a></li>
 <li> Ravie, N. S., M, K. V., Thondiyath, A., and Sebastian, B., "QuickGrasp: Lightweight Antipodal Grasp Planning with Point Clouds", 2025 IEEE ICRA, Atlanta, GA, USA, 2025. <a href="https://doi.org/10.1109/ICRA55743.2025.11128143">DOI: 10.1109/ICRA55743.2025.11128143</a></li>
