@@ -51,7 +51,7 @@ ribbon_display: yes
 <summary>Click to expand</summary>
 <ol> 
 <li> R., Anantharaam, Sebastian, B., and Varghese, K., "Assessment of Motion Planning Complexity for Rebar Placement Tasks Capturing Geometric, Spatial and Computational Aspects", 43rd International Symposium on 
-Automation and Robotics in Construction Singapore (ISARC 2026), Singapore, 2026. <a href="https://doi.org/10.22260/ISARC2026/0017">DOI: 10.22260/ISARC2026/0017</a></li>
+Automation and Robotics in Construction (ISARC 2026), Singapore, 2026. <a href="https://doi.org/10.22260/ISARC2026/0017">DOI: 10.22260/ISARC2026/0017</a></li>
 <li> B., M.S., Dileep, D.S., Sebastian, B., and Vanajakshi, L., "Fusion of Geometric and Kinematic Features for LiDAR-Based Vehicle Classification", 2026 IEEE Applied Sensing Conference (APSCON), Delhi, India, 2026. <a href="https://doi.org/10.1109/APSCON68325.2026.11497160">DOI: 10.1109/APSCON68325.2026.11497160</a></li>
 <li> Gurumoorthi, A.R., Bagaria, V., and Sebastian, B., "Interactive Steering for Seamless Transition During Control Handover in Autonomous Driving", 2025 IEEE STPEC, Goa, India, 2025. <a href="https://doi.org/10.1109/STPEC66316.2025.11490991">DOI: 10.1109/STPEC66316.2025.11490991</a></li>
 <li> B., M.S., Sebastian, B., and Vanajakshi, L., "Multi-Hypotheses Trajectory Prediction of On-Road Vehicles Using MC-EKF with Map Constraints", 2025 IEEE STPEC, Goa, India, 2025. <a href="https://doi.org/10.1109/STPEC66316.2025.11490651">DOI: 10.1109/STPEC66316.2025.11490651</a></li>
