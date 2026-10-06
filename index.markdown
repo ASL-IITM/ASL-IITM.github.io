@@ -83,7 +83,11 @@ layout: home
           <span class="news-ticker__text">Paper on LiDAR-based vehicle classification accepted at IEEE APSCON 2026, Delhi.</span>
         </div>
         <div class="news-ticker__item">
-          <span class="news-ticker__date">May 2026</span>
+          <span class="news-ticker__date">Jun 2026</span>
+          <span class="news-ticker__text">Paper on motion planning complexity for rebar placement tasks published at ISARC 2026, Singapore.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Mar 2026</span>
           <span class="news-ticker__text">Journal paper on cooperative manipulation published in ASME J. Mechanisms and Robotics.</span>
         </div>
         <div class="news-ticker__item">
@@ -92,11 +96,23 @@ layout: home
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Dec 2025</span>
+          <span class="news-ticker__text">Paper on switched reluctance motors presented at IEEE PESGRE 2025, Dharwad.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Dec 2025</span>
           <span class="news-ticker__text">Best Paper Award at IEEE STPEC 2025, NIT Goa for intelligent grasp planning work.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Nov 2025</span>
+          <span class="news-ticker__text">Paper on optimal manipulator motion planning published in Springer Computational Kinematics (CK2025).</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Nov 2025</span>
           <span class="news-ticker__text">Indian patent application filed for a UAV-deployable emission flux measurement apparatus.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Oct 2025</span>
+          <span class="news-ticker__text">Paper on real-time perception and planning for human-robot collaboration presented at ICRM 2025, Kollam.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Sep 2025</span>
@@ -149,7 +165,11 @@ layout: home
           <span class="news-ticker__text">Paper on LiDAR-based vehicle classification accepted at IEEE APSCON 2026, Delhi.</span>
         </div>
         <div class="news-ticker__item">
-          <span class="news-ticker__date">May 2026</span>
+          <span class="news-ticker__date">Jun 2026</span>
+          <span class="news-ticker__text">Paper on motion planning complexity for rebar placement tasks published at ISARC 2026, Singapore.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Mar 2026</span>
           <span class="news-ticker__text">Journal paper on cooperative manipulation published in ASME J. Mechanisms and Robotics.</span>
         </div>
         <div class="news-ticker__item">
@@ -158,11 +178,23 @@ layout: home
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Dec 2025</span>
+          <span class="news-ticker__text">Paper on switched reluctance motors presented at IEEE PESGRE 2025, Dharwad.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Dec 2025</span>
           <span class="news-ticker__text">Best Paper Award at IEEE STPEC 2025, NIT Goa for intelligent grasp planning work.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Nov 2025</span>
+          <span class="news-ticker__text">Paper on optimal manipulator motion planning published in Springer Computational Kinematics (CK2025).</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Nov 2025</span>
           <span class="news-ticker__text">Indian patent application filed for a UAV-deployable emission flux measurement apparatus.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Oct 2025</span>
+          <span class="news-ticker__text">Paper on real-time perception and planning for human-robot collaboration presented at ICRM 2025, Kollam.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Sep 2025</span>
