@@ -22,30 +22,30 @@ layout: home
 </div>
 
 <!-- Owl Carousel -->
-<link rel="stylesheet" href="/css/owl.carousel.min.css">
-<link rel="stylesheet" href="/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="{{ '/css/owl.carousel.min.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/css/owl.theme.default.min.css' | relative_url }}">
 
 <div class="carousel-news-row">
 
   <div class="carousel-news-row__carousel">
     <div class="owl-carousel owl-carousel-fullwidth">
       <div class="item">
-        <img src="/images/homepage/ASLGroup.jpeg" alt="ASL research group photo" loading="eager">
+        <img src="{{ '/images/homepage/ASLGroup.jpeg' | relative_url }}" alt="ASL research group photo" loading="eager">
       </div>
       <div class="item">
-        <img src="/images/homepage/Lab_outing.jpeg" alt="Lab outing" loading="lazy">
+        <img src="{{ '/images/homepage/Lab_outing.jpeg' | relative_url }}" alt="Lab outing" loading="lazy">
       </div>
       <div class="item">
-        <img src="/images/homepage/Outing_Fall2023.jpg" alt="Fall 2023 group outing" loading="lazy">
+        <img src="{{ '/images/homepage/Outing_Fall2023.jpg' | relative_url }}" alt="Fall 2023 group outing" loading="lazy">
       </div>
       <div class="item">
-        <img src="/images/homepage/RoboticsGroup.JPG" alt="Robotics research group" loading="lazy">
+        <img src="{{ '/images/homepage/RoboticsGroup.JPG' | relative_url }}" alt="Robotics research group" loading="lazy">
       </div>
       <div class="item">
-        <img src="/images/homepage/Shreyash_conf_presentation.jpg" alt="Conference presentation by Shreyash" loading="lazy">
+        <img src="{{ '/images/homepage/Shreyash_conf_presentation.jpg' | relative_url }}" alt="Conference presentation by Shreyash" loading="lazy">
       </div>
       <div class="item">
-        <img src="/images/homepage/Talk-at-Accenture-Labs-Bangalore.jpg" alt="Talk at Accenture Labs, Bangalore" loading="lazy">
+        <img src="{{ '/images/homepage/Talk-at-Accenture-Labs-Bangalore.jpg' | relative_url }}" alt="Talk at Accenture Labs, Bangalore" loading="lazy">
       </div>
     </div>
   </div>
@@ -99,12 +99,12 @@ layout: home
           <span class="news-ticker__text">Paper on landmark placement for indoor localization presented at ASME IDETC/CIE 2024.</span>
         </div>
         <div class="news-ticker__item">
-          <span class="news-ticker__date">Apr 2024</span>
-          <span class="news-ticker__text">Best Presentation Award at IEEE ICCAR 2024, Singapore.</span>
-        </div>
-        <div class="news-ticker__item">
           <span class="news-ticker__date">May 2024</span>
           <span class="news-ticker__text">U.S. Patent No. 11986033 granted for robotic exoskeleton glove system.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Apr 2024</span>
+          <span class="news-ticker__text">Best Presentation Award at IEEE ICCAR 2024, Singapore.</span>
         </div>
 
         <!-- ===== SET 2 (exact duplicate for seamless loop) ===== -->
@@ -141,12 +141,12 @@ layout: home
           <span class="news-ticker__text">Paper on landmark placement for indoor localization presented at ASME IDETC/CIE 2024.</span>
         </div>
         <div class="news-ticker__item">
-          <span class="news-ticker__date">Apr 2024</span>
-          <span class="news-ticker__text">Best Presentation Award at IEEE ICCAR 2024, Singapore.</span>
-        </div>
-        <div class="news-ticker__item">
           <span class="news-ticker__date">May 2024</span>
           <span class="news-ticker__text">U.S. Patent No. 11986033 granted for robotic exoskeleton glove system.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Apr 2024</span>
+          <span class="news-ticker__text">Best Presentation Award at IEEE ICCAR 2024, Singapore.</span>
         </div>
       </div>
     </div>
@@ -154,8 +154,8 @@ layout: home
 
 </div>
 
-<script src="/js/owl.carousel.min.js"></script>
-<script src="/js/site.js"></script>
+<script src="{{ '/js/owl.carousel.min.js' | relative_url }}"></script>
+<script src="{{ '/js/site.js' | relative_url }}"></script>
 
 <div class="section-heading">
   <h3>Research Areas & Projects</h3>

@@ -57,7 +57,7 @@ ribbon_display: yes
   <div class="team-grid">
     {% include team-member.html name="Rahul K Mukundan" photo="/images/students/rahul.jpeg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/rahul-k-mukundan-ba85a71b9/" %}
     {% include team-member.html name="Gowrynanda P S" photo="/images/students/gowry.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/gowrynandaps" %}
-    {% include team-member.html name="Devika" photo="/images/students/Devika.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="http://www.linkedin.com/in/devika-anitha-gopan" %}
+    {% include team-member.html name="Devika" photo="/images/students/Devika.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/devika-anitha-gopan" %}
   </div>
 </div>
 
@@ -98,7 +98,7 @@ ribbon_display: yes
 <div class="team-section">
   <h3 class="team-section__title">Industry Partners</h3>
   <div class="partners-grid">
-    <img src="/images/industry_partners/accenture.png" alt="Accenture" loading="lazy">
-    <img src="/images/industry_partners/caterpillar.png" alt="Caterpillar" loading="lazy">
+    <img src="{{ '/images/industry_partners/accenture.png' | relative_url }}" alt="Accenture" loading="lazy">
+    <img src="{{ '/images/industry_partners/caterpillar.png' | relative_url }}" alt="Caterpillar" loading="lazy">
   </div>
 </div>

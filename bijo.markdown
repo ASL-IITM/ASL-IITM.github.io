@@ -7,7 +7,7 @@ ribbon_display: no
 
 <div class="faculty-profile">
   <div class="faculty-profile__photo">
-    <img src="/images/bijo.jpg" alt="Photo of Dr. Bijo Sebastian">
+    <img src="{{ '/images/bijo.jpg' | relative_url }}" alt="Photo of Dr. Bijo Sebastian">
   </div>
   <div class="faculty-profile__bio">
     <p>
@@ -30,7 +30,7 @@ ribbon_display: no
       <a href="https://www.linkedin.com/in/bijo-sebastian-389153147/">LinkedIn</a> &middot;
       <a href="https://github.com/BijoSebastian">GitHub</a>
       <br>
-      <a href="/bijo_academic_CV.pdf">Click here for a brief CV</a>
+      <a href="{{ '/bijo_academic_CV.pdf' | relative_url }}">Click here for a brief CV</a>
     </p>
   </div>
 </div>

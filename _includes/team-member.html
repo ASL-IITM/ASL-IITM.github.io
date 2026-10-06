@@ -1,7 +1,7 @@
 <div class="team-card">
-  {% if include.url %}<a href="{{ include.url }}" class="team-card__overlay">{% elsif include.linkedin %}<a href="{{ include.linkedin }}" class="team-card__overlay">{% endif %}
+  {% if include.url %}<a href="{{ include.url | relative_url }}" class="team-card__overlay">{% elsif include.linkedin %}<a href="{{ include.linkedin }}" class="team-card__overlay">{% endif %}
   <div class="team-card__photo">
-    <img src="{{ include.photo }}" alt="Photo of {{ include.name }}" loading="lazy">
+    <img src="{{ include.photo | relative_url }}" alt="Photo of {{ include.name }}" loading="lazy">
   </div>
   <div class="team-card__info">
     <h4 class="team-card__name">{{ include.name }}</h4>

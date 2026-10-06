@@ -3,15 +3,15 @@
     <div class="site-header__inner">
       <div class="site-header__logos">
         <a href="https://www.iitm.ac.in/">
-          <img src="/images/iit.jpg" alt="IIT Madras logo" width="60" height="60" loading="eager">
+          <img src="{{ '/images/iit.jpg' | relative_url }}" alt="IIT Madras logo" width="60" height="60" loading="eager">
         </a>
         <a href="https://ed.iitm.ac.in/">
-          <img src="/images/ed.jpg" alt="Engineering Design Department logo" width="60" height="60" loading="eager">
+          <img src="{{ '/images/ed.jpg' | relative_url }}" alt="Engineering Design Department logo" width="60" height="60" loading="eager">
         </a>
       </div>
 
       <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
-        <img src="/images/Logo.jpg" alt="{{ site.title | escape }}" class="site-title__logo">
+        <img src="{{ '/images/Logo.jpg' | relative_url }}" alt="{{ site.title | escape }}" class="site-title__logo">
       </a>
     </div>
 

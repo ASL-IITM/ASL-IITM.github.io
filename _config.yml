@@ -27,6 +27,7 @@ description: >-
 baseurl: ""
 url: "https://asl-iitm.github.io"
 youtube_username: ASL-IITM
+youtube_url: "https://youtube.com/@ASL-IITM-it7nh/videos"
 copyright: "Autonomous Systems Lab"
 
 ##Personal
