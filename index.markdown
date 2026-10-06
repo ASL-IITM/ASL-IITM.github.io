@@ -67,6 +67,18 @@ layout: home
 
         <!-- ===== SET 1 (original items) ===== -->
         <div class="news-ticker__item">
+          <span class="news-ticker__date">Jul 2026</span>
+          <span class="news-ticker__text">Journal paper on model-based adaptive cruise control published in IEEE Access.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Jul 2026</span>
+          <span class="news-ticker__text">Indian patent application filed for a battery disassembly system.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Jul 2026</span>
+          <span class="news-ticker__text">Chennai Traffic Dataset released on Zenodo.</span>
+        </div>
+        <div class="news-ticker__item">
           <span class="news-ticker__date">Jun 2026</span>
           <span class="news-ticker__text">Paper on LiDAR-based vehicle classification accepted at IEEE APSCON 2026, Delhi.</span>
         </div>
@@ -75,15 +87,23 @@ layout: home
           <span class="news-ticker__text">Journal paper on cooperative manipulation published in ASME J. Mechanisms and Robotics.</span>
         </div>
         <div class="news-ticker__item">
+          <span class="news-ticker__date">Jan 2026</span>
+          <span class="news-ticker__text">Two Indian patent applications filed: grasp position prediction for robotic grippers, and LLM-based robot task planning.</span>
+        </div>
+        <div class="news-ticker__item">
           <span class="news-ticker__date">Dec 2025</span>
           <span class="news-ticker__text">Best Paper Award at IEEE STPEC 2025, NIT Goa for intelligent grasp planning work.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Nov 2025</span>
+          <span class="news-ticker__text">Indian patent application filed for a UAV-deployable emission flux measurement apparatus.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Sep 2025</span>
           <span class="news-ticker__text">Journal paper on three-finger grasp planning published in J. Intelligent &amp; Robotic Systems.</span>
         </div>
         <div class="news-ticker__item">
-          <span class="news-ticker__date">2025</span>
+          <span class="news-ticker__date">Sep 2025</span>
           <span class="news-ticker__text">Dr. Bijo Sebastian receives Award for Excellence in Teaching, IIT Madras.</span>
         </div>
         <div class="news-ticker__item">
@@ -93,6 +113,10 @@ layout: home
         <div class="news-ticker__item">
           <span class="news-ticker__date">Dec 2024</span>
           <span class="news-ticker__text">Two papers presented at IEEE IICAIET 2024, Kota Kinabalu, Malaysia.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Dec 2024</span>
+          <span class="news-ticker__text">Journal paper on tracking and estimation for human-aware robot navigation published in IEEE Sensors Letters.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Aug 2024</span>
@@ -109,6 +133,18 @@ layout: home
 
         <!-- ===== SET 2 (exact duplicate for seamless loop) ===== -->
         <div class="news-ticker__item">
+          <span class="news-ticker__date">Jul 2026</span>
+          <span class="news-ticker__text">Journal paper on model-based adaptive cruise control published in IEEE Access.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Jul 2026</span>
+          <span class="news-ticker__text">Indian patent application filed for a battery disassembly system.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Jul 2026</span>
+          <span class="news-ticker__text">Chennai Traffic Dataset released on Zenodo.</span>
+        </div>
+        <div class="news-ticker__item">
           <span class="news-ticker__date">Jun 2026</span>
           <span class="news-ticker__text">Paper on LiDAR-based vehicle classification accepted at IEEE APSCON 2026, Delhi.</span>
         </div>
@@ -117,15 +153,23 @@ layout: home
           <span class="news-ticker__text">Journal paper on cooperative manipulation published in ASME J. Mechanisms and Robotics.</span>
         </div>
         <div class="news-ticker__item">
+          <span class="news-ticker__date">Jan 2026</span>
+          <span class="news-ticker__text">Two Indian patent applications filed: grasp position prediction for robotic grippers, and LLM-based robot task planning.</span>
+        </div>
+        <div class="news-ticker__item">
           <span class="news-ticker__date">Dec 2025</span>
           <span class="news-ticker__text">Best Paper Award at IEEE STPEC 2025, NIT Goa for intelligent grasp planning work.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Nov 2025</span>
+          <span class="news-ticker__text">Indian patent application filed for a UAV-deployable emission flux measurement apparatus.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Sep 2025</span>
           <span class="news-ticker__text">Journal paper on three-finger grasp planning published in J. Intelligent &amp; Robotic Systems.</span>
         </div>
         <div class="news-ticker__item">
-          <span class="news-ticker__date">2025</span>
+          <span class="news-ticker__date">Sep 2025</span>
           <span class="news-ticker__text">Dr. Bijo Sebastian receives Award for Excellence in Teaching, IIT Madras.</span>
         </div>
         <div class="news-ticker__item">
@@ -135,6 +179,10 @@ layout: home
         <div class="news-ticker__item">
           <span class="news-ticker__date">Dec 2024</span>
           <span class="news-ticker__text">Two papers presented at IEEE IICAIET 2024, Kota Kinabalu, Malaysia.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Dec 2024</span>
+          <span class="news-ticker__text">Journal paper on tracking and estimation for human-aware robot navigation published in IEEE Sensors Letters.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Aug 2024</span>
