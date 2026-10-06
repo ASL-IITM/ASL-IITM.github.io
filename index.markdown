@@ -79,16 +79,16 @@ layout: home
           <span class="news-ticker__text">Best Paper Award at IEEE STPEC 2025, NIT Goa for intelligent grasp planning work.</span>
         </div>
         <div class="news-ticker__item">
-          <span class="news-ticker__date">Oct 2025</span>
-          <span class="news-ticker__text">QuickGrasp paper accepted at IEEE ICRA 2025, Atlanta.</span>
-        </div>
-        <div class="news-ticker__item">
           <span class="news-ticker__date">Sep 2025</span>
           <span class="news-ticker__text">Journal paper on three-finger grasp planning published in J. Intelligent &amp; Robotic Systems.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">2025</span>
           <span class="news-ticker__text">Dr. Bijo Sebastian receives Award for Excellence in Teaching, IIT Madras.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">May 2025</span>
+          <span class="news-ticker__text">QuickGrasp paper accepted at IEEE ICRA 2025, Atlanta.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Dec 2024</span>
@@ -121,16 +121,16 @@ layout: home
           <span class="news-ticker__text">Best Paper Award at IEEE STPEC 2025, NIT Goa for intelligent grasp planning work.</span>
         </div>
         <div class="news-ticker__item">
-          <span class="news-ticker__date">Oct 2025</span>
-          <span class="news-ticker__text">QuickGrasp paper accepted at IEEE ICRA 2025, Atlanta.</span>
-        </div>
-        <div class="news-ticker__item">
           <span class="news-ticker__date">Sep 2025</span>
           <span class="news-ticker__text">Journal paper on three-finger grasp planning published in J. Intelligent &amp; Robotic Systems.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">2025</span>
           <span class="news-ticker__text">Dr. Bijo Sebastian receives Award for Excellence in Teaching, IIT Madras.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">May 2025</span>
+          <span class="news-ticker__text">QuickGrasp paper accepted at IEEE ICRA 2025, Atlanta.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Dec 2024</span>
