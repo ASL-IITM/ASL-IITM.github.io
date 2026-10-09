@@ -36,7 +36,7 @@ ribbon_display: yes
 <li> Sebastian, B., Ben-Tzvi, P., "Support Vector Machine Based Real-time Terrain Estimation for Tracked Robots", Mechatronics, Elsevier, Vol. 62, pp. 102260, October 2019. <a href="https://doi.org/10.1016/j.mechatronics.2019.102260">DOI: 10.1016/j.mechatronics.2019.102260</a></li>
 <li> Sebastian, B., Ben-Tzvi, P., "Physics Based Path Planning for Autonomous Tracked Vehicle in Challenging Terrain", Journal of Intelligent and Robotic Systems, Springer, Vol. 95, Issue 2, pp. 511-526, August 2019. <a href="https://doi.org/10.1007/s10846-018-0851-3">DOI: 10.1007/s10846-018-0851-3</a></li>
 <li> Sebastian, B., Ben-Tzvi, P., "Active disturbance rejection control for handling slip in tracked vehicle locomotion", Journal of Mechanisms and Robotics, Vol. 11, Issue 2, pp. 021003:1-12, April 2019. <a href="https://doi.org/10.1115/1.4042347">DOI: 10.1115/1.4042347</a></li>
-<li> Williams, A., Sebastian, B., Ben-Tzvi, P., "A Robotic Head Stabilization Mechanism for Medical Transport", Robotics, Vol. 8, Issue 1, pp. 23, March 2019. <a href="https://doi.org/10.3390/robotics8010023">DOI: 10.3390/robotics8010023</a></li>
+<li> Williams, A., Sebastian, B., Ben-Tzvi, P., "A Robotic Head Stabilization Device for Medical Transport", Robotics, Vol. 8, Issue 1, pp. 23, March 2019. <a href="https://doi.org/10.3390/robotics8010023">DOI: 10.3390/robotics8010023</a></li>
 <li> Williams, A., Sebastian, B., Ben-Tzvi, P., "Review and Analysis of Search, Extraction, Evacuation, and Medical Field Treatment Robots", Journal of Intelligent and Robotic Systems, Springer, Vol. 96, pp. 401-418, February 2019. <a href="https://doi.org/10.1007/s10846-019-00991-6">DOI: 10.1007/s10846-019-00991-6</a></li>
 <li> Refour, E., Sebastian, B., Ben-Tzvi, P., "Two-Digit Robotic Exoskeleton Glove Mechanism: Design and Integration", Journal of Mechanisms and Robotics, Vol. 10, Issue 2, pp. 025002: 1-9, April 2018. <a href="https://doi.org/10.1115/1.4038775">DOI: 10.1115/1.4038775</a></li>
 </ol>
@@ -91,7 +91,7 @@ Automation and Robotics in Construction (ISARC 2026), Singapore, 2026. <a href="
 <li> Patel, N., Sebastian, B., Jayaganthan, R., Bagaria, V., Grampurohit, N., "System and Method for LLM-Based Autonomous Robot Task Planning and Feasibility Validation", Indian Patent Application No. 202541133628, January 9, 2026.</li>
 <li> Sebastian, B., Chandan, S., "A UAV Deployable Emission Flux Measurement Apparatus", Indian Patent Application No. 202541101347, November 28, 2025.</li>
 <li> Ben-Tzvi, P., Sebastian, B., Refour, E., Xu, W., Pradhan, S., Guo, Y., "Robotic exoskeleton glove system", U.S. Patent No. 11986033, May 21, 2024.</li>
-<li> Sebastian, B., "Bidirectional Rotary Series Elastic Actuator Design Using Coil Compression Springs", Indian Patent No. 544679, August 25, 2023.</li>
+<li> Sebastian, B., "Bidirectional Rotary Series Elastic Actuator Design Using Coil Compression Springs", Indian Patent No. 544379, August 25, 2023.</li>
 <li> Patel, N., Sebastian, B., "Compound Offset Epicyclic Drive", Indian Patent No. 579416, July 28, 2023.</li>
 <li> Ben-Tzvi, P., Williams, A., Sebastian, B., Kumar, A., Saab, W., "Semi-Autonomous Victim Extraction Robot (SAVER)", U.S. Provisional Patent Application No. 62/836,915, April 22, 2019.</li>
 </ol>
