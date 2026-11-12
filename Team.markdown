@@ -56,7 +56,6 @@ ribbon_display: yes
   <h3 class="team-section__title">Project Staff</h3>
   <div class="team-grid">
     {% include team-member.html name="Rahul K Mukundan" photo="/images/students/rahul.jpeg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/rahul-k-mukundan-ba85a71b9/" %}
-    {% include team-member.html name="Gowrynanda P S" photo="/images/students/gowry.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/gowrynandaps" %}
     {% include team-member.html name="Devika" photo="/images/students/Devika.jpg" role="" dept="Department of Engineering Design, IIT Madras" linkedin="https://www.linkedin.com/in/devika-anitha-gopan" %}
   </div>
 </div>
@@ -87,6 +86,7 @@ ribbon_display: yes
     <li><a href="https://www.linkedin.com/in/prithvi-raj-baskar-97100a216/">Prithvi Raj B</a></li>
     <li><a href="https://www.linkedin.com/in/winston-doss-3b126a226/">Winston Doss</a></li>
     <li><a href="https://www.linkedin.com/in/diya-s-dileep-b43a23232/">Diya S Dileep</a></li>
+    <li><a href="https://www.linkedin.com/in/gowrynandaps/">Gowrynanda P S</a></li>
   </ul>
 </div>
 
