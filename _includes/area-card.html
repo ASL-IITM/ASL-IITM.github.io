@@ -1,0 +1,26 @@
+{%- comment -%}
+  Home-page research area card (styles: .area-card in _sass/minima/_research-page.scss).
+  steps: comma-separated "Label:anchor" pairs, linking to sections of the area page.
+  The clip only loads and plays on hover; otherwise the poster is shown.
+{%- endcomment -%}
+<article class="area-card{% if include.class %} {{ include.class }}{% endif %}">
+  <a class="area-card__media" href="{{ include.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    <video muted loop playsinline preload="none" poster="{{ include.poster | relative_url }}" data-hover-src="{{ include.video | relative_url }}"></video>
+  </a>
+  <div class="area-card__body">
+    <p class="gr-kicker">{{ include.num }} · Research area</p>
+    <h4><a href="{{ include.url | relative_url }}">{{ include.title }}</a></h4>
+    <p class="area-card__lead">{{ include.lead }}</p>
+    <ol class="area-card__steps" aria-label="Research roadmap">
+      {%- assign steps = include.steps | split: "," -%}
+      {%- for s in steps -%}
+        {%- assign parts = s | split: ":" -%}
+        <li><a href="{{ include.url | relative_url }}#{{ parts[1] }}">{{ parts[0] }}</a></li>
+      {%- endfor -%}
+    </ol>
+    <p class="area-card__foot">
+      <a class="area-card__more" href="{{ include.url | relative_url }}">Explore the research &rarr;</a>
+      {% if include.funding %}<span class="area-card__funding">{{ include.funding }}</span>{% endif %}
+    </p>
+  </div>
+</article>

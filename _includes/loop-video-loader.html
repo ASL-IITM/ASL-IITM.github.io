@@ -37,3 +37,18 @@
   videos.forEach(function (v) { io.observe(v); });
 })();
 </script>
+<script>
+// Home-page area cards: load and play the clip only while hovered.
+(function(){
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  document.querySelectorAll('.area-card').forEach(function (card) {
+    var v = card.querySelector('video[data-hover-src]');
+    if (!v) return;
+    card.addEventListener('mouseenter', function () {
+      if (!v.getAttribute('src')) v.src = v.dataset.hoverSrc;
+      v.play().catch(function(){});
+    });
+    card.addEventListener('mouseleave', function () { v.pause(); });
+  });
+})();
+</script>
