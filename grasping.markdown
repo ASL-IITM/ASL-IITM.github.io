@@ -27,7 +27,7 @@ ribbon_display: no
     <p>We build towards this in layers. Fast, reliable grasps make it possible to work in clutter. Working in clutter and around people makes real deployments possible. Language and memory then let the robot take on whole tasks, not just single picks.</p>
   </div>
   <div class="gr-hero__media">
-    {% include loop-video.html src="/videos/grasping/ur5_multi_pick.mp4" poster="/videos/grasping/ur5_multi_pick.jpg" alt="UR5e arm with a three-finger gripper picking up several objects from a table" caption="Our UR5e manipulation testbed with a three-finger adaptive gripper (2× speed)." %}
+    {% include loop-video.html src="/videos/grasping/ur5_multi_pick.mp4" poster="/videos/grasping/ur5_multi_pick.jpg" alt="UR5e arm with a three-finger gripper picking up several objects from a table" caption="Open-vocabulary, language-driven grasp planning on our UR5e testbed (2× speed)." %}
   </div>
 </div>
 
@@ -68,7 +68,7 @@ ribbon_display: no
 
   <div class="gr-work gr-work--flip">
     <div class="gr-work__media">
-      {% include loop-video.html src="/videos/grasping/three_finger_prism.mp4" poster="/videos/grasping/three_finger_prism.jpg" alt="Three-finger gripper on a UR5e grasping and lifting a blue prism" caption="Three-finger grasp execution on the UR5e (2× speed)." %}    </div>
+      {% include loop-video.html src="/videos/grasping/three_finger_prism.mp4" poster="/videos/grasping/three_finger_prism.jpg" alt="Three-finger gripper on a UR5e grasping and lifting a blue prism" caption="Learned three-finger grasp planning, executed on the UR5e (2× speed)." %}    </div>
     <div class="gr-work__text">
       <h3>Grasp planning for underactuated three-finger grippers</h3>
       <p>Most learned grasp planners assume a two-finger parallel-jaw gripper. We introduced an SE(3) + triangle grasp representation, in which each vertex of a triangle is a fingertip, and trained a network to predict three-finger grasps directly from RGB-D images. Grasp quality matched the GraspIt! planner, and the predictions transferred from simulation to the real robot.</p>
@@ -127,11 +127,13 @@ ribbon_display: no
 
   <div class="gr-work gr-work--flip">
     <div class="gr-work__media">
-      {% include youtube-video.html id="HLudJf04hnI" title="Real-time perception and motion planning for human-robot collaboration" quality="sddefault" %}
+      {% include youtube-video.html id="HLudJf04hnI" title="Real-time perception and motion planning for human-robot collaboration" poster="/images/grasping/hrc_trial2.jpg" %}
+      <p class="gr-caption">User-study trial: the UR5e re-plans around a person working at the same table (left), with the robot's view of the scene (right).</p>
     </div>
     <div class="gr-work__text">
       <h3>Real-time perception and planning for a shared workspace</h3>
       <p>We fuse live human tracking with occupancy-grid motion planning on a UR5e. As the person moves, the robot re-plans its trajectory around them and carries on with its task, avoiding collisions without halting.</p>
+      <p class="gr-stat"><strong>87% fewer</strong> collisions in a 16-person user study (mean 4.44 → 0.56 per trial)</p>
       <figure class="gr-figure gr-figure--inline">
         <img src="{{ '/images/disassembly/UR5_human.png' | relative_url }}" alt="A person and a UR5e arm working at the same table" loading="lazy">
       </figure>
@@ -160,7 +162,7 @@ ribbon_display: no
     </div>
     <div class="gr-work__text">
       <h3>Open-vocabulary, language-driven grasp planning</h3>
-      <p>Combining open-vocabulary image segmentation with LLM reasoning lets the robot work out what to grasp, and how, from a natural-language request. It needs no fixed list of object categories, and it can explain its choices.</p>
+      <p>Combining open-vocabulary image segmentation with LLM reasoning lets the robot work out what to grasp, and how, from a natural-language request. It needs no fixed list of object categories, and it can explain its choices. The clip at the top of this page shows it running.</p>
       <div class="gr-actions">
         {% include youtube-video.html id="FAYOKLMosNI" title="Language-driven grasp planning with open-vocabulary segmentation and an LLM" %}
       </div>

@@ -37,6 +37,13 @@ $gr-accent-soft: #eef3fd;
   }
 }
 
+// Custom poster images keep their own aspect ratio
+.gr-hero__media .yt-thumb--poster img,
+.gr-work__media > .yt-thumb--poster img {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
 // Muted looping clips
 .gr-loop {
   margin: 0;
