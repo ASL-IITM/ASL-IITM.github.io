@@ -690,3 +690,36 @@ $gr-accent-soft: #eef3fd;
     transform-origin: center bottom;
   }
 }
+
+// Loop clips that keep their own aspect ratio (plots, split screens)
+.gr-loop--native video {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+.gr-apps__grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+
+  @include media-query($on-laptop) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gr-figure--medium {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Square-ish clips: keep them from dominating the column
+.gr-loop--narrow video {
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+// Source clip has a ~12% black band at the top: shorter box, cropped from the top
+.gr-loop--trim-top video {
+  aspect-ratio: 16 / 7.9;
+  object-fit: cover;
+  object-position: center bottom;
+}

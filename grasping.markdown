@@ -80,6 +80,18 @@ ribbon_display: no
       <p class="gr-papers"><span class="gr-venue">J. Intell. Robot. Syst. 2025</span> <a href="https://doi.org/10.1007/s10846-025-02307-3">Paper</a> · <span class="gr-venue gr-venue--muted">Indian patent application 202441057093</span></p>
     </div>
   </div>
+
+  <div class="gr-work">
+    <div class="gr-work__media">
+      {% include loop-video.html class="gr-loop--native" src="/videos/grasping/slip_correction.mp4" poster="/videos/grasping/slip_correction.jpg" alt="Three-finger gripper holding a bottle as water is poured into it, next to a live plot of fingertip force" caption="Slip correction: as the bottle fills and gets heavier, the gripper detects slip at the fingertips and tightens its grasp (2× speed)." %}
+    </div>
+    <div class="gr-work__text">
+      <h3>Holding on: force control and slip correction</h3>
+      <p>Heavy-duty grippers like our three-finger Robotiq use non-backdrivable worm gears. They can only cap motor current, so grip force jumps suddenly and cannot be eased off. We added force-sensing pads to each fingertip and closed the loop on fingertip force. This lets the robot hold a soft sponge ball without crushing it.</p>
+      <p>The same sensors detect slip: a sudden spike in the force gradient (more than eight times the local average) signals that the object is moving, and the gripper tightens until it stops.</p>
+      <p class="gr-papers"><span class="gr-venue">IEEE IICAIET 2024</span> <a href="https://doi.org/10.1109/IICAIET62352.2024.10730714">Paper</a></p>
+    </div>
+  </div>
 </section>
 
 <!-- ============================ 02 CLUTTER ============================ -->
@@ -140,6 +152,17 @@ ribbon_display: no
       <p class="gr-papers"><span class="gr-venue">ICRM 2025</span> <a href="https://doi.org/10.1109/ICRM66809.2025.11349032">Paper</a></p>
     </div>
   </div>
+
+  <div class="gr-work">
+    <div class="gr-work__media">
+      {% include loop-video.html src="/videos/grasping/proactive_packaging.mp4" poster="/videos/grasping/proactive_packaging.jpg" alt="A person and a UR5e arm packing items into a blue crate together, with a task-progress dashboard on a screen" caption="Proactive collaboration on a packaging task: the robot tracks the person's progress and does its share at the right moment (2× speed)." %}
+    </div>
+    <div class="gr-work__text">
+      <h3>From avoiding people to anticipating them</h3>
+      <p>Avoiding collisions is only the start. In a collaborative packaging task, the robot tracks the person's arm in 3D, estimates how far through each step they are, and predicts what will be needed next. An agent then splits the task between person and robot, so the robot picks and places its items as the person finishes theirs, instead of waiting to be told. When something goes wrong, the system detects it and asks the operator how to recover.</p>
+      <p class="gr-papers"><span class="gr-venue gr-venue--muted">Ongoing work with Accenture Labs</span></p>
+    </div>
+  </div>
 </section>
 
 <!-- ============================ 04 REASON ============================ -->
@@ -198,16 +221,11 @@ ribbon_display: no
     </div>
   </div>
 
-  <div class="gr-apps__grid">
+  <div class="gr-apps__grid gr-apps__grid--2">
     <div class="gr-app">
       <h3>Robotic rebar placement</h3>
       <p>Measuring how hard rebar placement is for a robot's motion planner, in terms of geometry, space and computation, as a step towards automating construction sites.</p>
       <p class="gr-papers"><span class="gr-venue">ISARC 2026</span> <a href="https://doi.org/10.22260/ISARC2026/0017">Paper</a></p>
-    </div>
-    <div class="gr-app">
-      <h3>Secure grasping on industrial grippers</h3>
-      <p>Force control and slip detection for non-backdrivable grippers, so the robot keeps hold of an object once it has grasped it.</p>
-      <p class="gr-papers"><span class="gr-venue">IEEE IICAIET 2024</span> <a href="https://doi.org/10.1109/IICAIET62352.2024.10730714">Paper</a></p>
     </div>
     <div class="gr-app">
       <h3>Motion planning for redundant arms</h3>

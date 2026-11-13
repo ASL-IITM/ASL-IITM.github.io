@@ -128,6 +128,17 @@ ribbon_display: no
 
   <div class="gr-work gr-work--flip">
     <div class="gr-work__media">
+      {% include loop-video.html class="gr-loop--native gr-loop--narrow" src="/videos/mobile_robot/terrain_costmap.mp4" poster="/videos/mobile_robot/terrain_costmap.jpg" alt="LiDAR point cloud around the robot above two coloured grid maps of terrain elevation and slope" caption="Building terrain cost maps on the move: the LiDAR point cloud (top) turned into robot-centred elevation and slope maps (bottom) (3× speed)." %}
+    </div>
+    <div class="gr-work__text">
+      <h3>Where can the robot safely drive?</h3>
+      <p>Off the pavement, the question becomes which ground is safe to cross: mud, loose gravel and steep slopes can stall or tip a robot. We estimate traversability in two complementary ways. Elevation and slope computed from LiDAR capture the geometry, while a segmentation network trained on camera images recognises surfaces the robot can drive on. Both are fused into one cost map that the planner uses to route around risky ground.</p>
+      <p>Because driving a robot into dangerous terrain to collect data is costly, we also generate training data in simulation (Isaac Sim and Webots), alongside real-world data collected on campus. Applications include agriculture, mining and construction sites.</p>
+    </div>
+  </div>
+
+  <div class="gr-work">
+    <div class="gr-work__media">
       <figure class="gr-figure">
         <img src="{{ '/images/mobile_robot/dfmt_hardware_results.jpg' | relative_url }}" alt="Learned disturbance maps around the robot next to photos of the real test environments" loading="lazy">
         <figcaption>Disturbances learned on our ground robot, mapped back onto the scene.</figcaption>
@@ -189,6 +200,6 @@ ribbon_display: no
 </section>
 
 <section class="gr-funding gr-funding--text">
-  <p>Supported by the <strong>New Faculty Initiation Grant (NFIG), IIT Madras</strong>. In collaboration with <strong>Carnegie Mellon University</strong> and <strong>Deakin University</strong>.</p>
+  <p>Supported by the <strong>New Faculty Seed Grant (NFSG), IIT Madras</strong>, and an industry collaboration with <strong>Caterpillar</strong>. In collaboration with <strong>Carnegie Mellon University</strong> and <strong>Deakin University</strong>.</p>
 </section>
 

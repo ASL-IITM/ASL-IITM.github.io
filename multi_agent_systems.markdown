@@ -24,7 +24,7 @@ ribbon_display: no
     <p>A team is only useful if its members can share space safely. So we start with coordination, carry it into settings where traffic rules matter, and then build towards robots that physically work together on one task.</p>
   </div>
   <div class="gr-hero__media">
-    {% include loop-video.html src="/videos/multi_agent/three_robot_planning.mp4" poster="/videos/multi_agent/three_robot_planning.jpg" alt="Three small robots moving through a walled arena, with their planned paths drawn on a map" caption="Three robots planning decentralised, collision-free paths through a shared arena: planned paths (left), overhead camera (right)." %}
+    {% include loop-video.html class="gr-loop--trim-top" src="/videos/multi_agent/three_robot_planning.mp4" poster="/videos/multi_agent/three_robot_planning.jpg" alt="Three small robots moving through a walled arena, with their planned paths drawn on a map" caption="Three robots planning decentralised, collision-free paths through a shared arena: planned paths (left), overhead camera (right)." %}
   </div>
 </div>
 
@@ -55,6 +55,11 @@ ribbon_display: no
 
       <h3>Task scheduling with time-space networks</h3>
       <p>Before robots can move, someone has to decide which robot does which task, and in what order. We model the workspace as a network across both space and time. This gives schedules that assign tasks and plan routes together, without robots queueing for the same corridor.</p>
+      <figure class="gr-figure">
+        <img src="{{ '/images/multi_agent/tsn_warehouse.jpg' | relative_url }}" alt="Three robots taking separate, non-conflicting routes between three shelves and a drop-off station" loading="lazy">
+        <figcaption>Scheduled routes for three robots picking from shelves and delivering to a drop-off station.</figcaption>
+      </figure>
+      <p>The same approach scales to truck fleets at mine sites, where trucks shuttle material from loading to dumping stations over shared roads. Time-space network schedules finish the day's material moves faster than a greedy dispatcher. Because real sites never run exactly to plan, we also simulate the effect of disturbances in truck speed and loading rate, and learn which ones matter most to the site's output.</p>
       <p class="gr-papers"><span class="gr-venue gr-venue--muted">Indian copyright SW-21808 (multi-agent task scheduling software)</span></p>
     </div>
   </div>

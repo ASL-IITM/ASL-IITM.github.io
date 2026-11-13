@@ -87,6 +87,17 @@ ribbon_display: no
     </div>
   </div>
 
+  <div class="gr-work">
+    <div class="gr-work__media">
+      {% include loop-video.html src="/videos/auto_drive/bev_fusion.mp4" poster="/videos/auto_drive/bev_fusion.jpg" alt="Bird's-eye view of a LiDAR point cloud with detected vehicles and people as 3D boxes, next to the camera views and the vehicle's path" caption="Bird's-eye-view fusion on campus roads: people and vehicles detected as 3D boxes around the vehicle (1.5× speed)." %}
+    </div>
+    <div class="gr-work__text">
+      <h3>Bird's-eye-view fusion</h3>
+      <p>We also bring camera and LiDAR data into a single top-down, bird's-eye view, where a transformer network detects and tracks the people and vehicles around us. This view is a natural input for prediction and planning, which also reason about the road from above.</p>
+      <p class="gr-papers"><span class="gr-venue gr-venue--muted">In collaboration with Zensomy</span></p>
+    </div>
+  </div>
+
   <div class="gr-app gr-app--dataset">
     <p class="gr-kicker">Open dataset</p>
     <h3>Chennai Traffic Dataset</h3>
@@ -108,11 +119,19 @@ ribbon_display: no
 
   <div class="gr-work">
     <div class="gr-work__media">
-      {% include youtube-video.html id="TLtha1oYV9o" title="Multi-hypothesis trajectory prediction of surrounding vehicles" quality="sddefault" %}
+      {% include loop-video.html class="gr-loop--native" src="/videos/auto_drive/trajectory_prediction.mp4" poster="/videos/auto_drive/trajectory_prediction.jpg" alt="Top-down plot of a vehicle approaching a T-junction, with several predicted trajectories coloured by confidence and the true path in green" caption="A vehicle approaching a junction: predicted trajectories coloured by confidence (green high, red low), with the path it actually took." %}
     </div>
     <div class="gr-work__text">
       <h3>Multi-hypothesis trajectory prediction</h3>
       <p>For each detected vehicle, we predict several possible future trajectories over a fixed time horizon, such as going straight or turning at a junction. A Monte Carlo extended Kalman filter, constrained by the road map, keeps each prediction consistent with the road layout and gives each one a confidence. The planner and controller use these predictions to keep the vehicle safe.</p>
+      <ul class="gr-stats">
+        <li><strong>0.13 m</strong> average displacement error, going straight</li>
+        <li><strong>0.16 m</strong> turning right</li>
+        <li><strong>0.17 m</strong> turning left</li>
+      </ul>
+      <div class="gr-actions">
+        {% include youtube-video.html id="TLtha1oYV9o" title="Multi-hypothesis trajectory prediction of surrounding vehicles" %}
+      </div>
       <p class="gr-papers"><span class="gr-venue">IEEE STPEC 2025</span> <a href="https://doi.org/10.1109/STPEC66316.2025.11490651">Paper</a></p>
     </div>
   </div>
@@ -139,7 +158,10 @@ ribbon_display: no
       <p class="gr-papers"><span class="gr-venue">IEEE Access 2026</span> <a href="https://doi.org/10.1109/ACCESS.2026.3716361">Paper</a></p>
 
       <h3>Smooth handover through the steering wheel</h3>
-      <p>Switching between the automation and the driver is one of the riskiest moments in assisted driving. Our interactive steering approach manages the transition through the steering wheel itself, so control changes hands smoothly instead of abruptly.</p>
+      <p>Switching between the automation and the driver is one of the riskiest moments in assisted driving. Our interactive steering approach manages the transition through the steering wheel itself, so control changes hands smoothly instead of abruptly. We test it with drivers in a driving simulator built around a direct-drive steering actuator.</p>
+      <figure class="gr-figure gr-figure--inline">
+        <img src="{{ '/images/auto_drive/steering_simulator.jpg' | relative_url }}" alt="A participant at the lab's driving simulator, holding a steering wheel in front of a screen" loading="lazy">
+      </figure>
       <p class="gr-papers"><span class="gr-venue">IEEE STPEC 2025</span> <a href="https://doi.org/10.1109/STPEC66316.2025.11490991">Paper</a></p>
 
       <h3>An L2 autonomy stack, built from the ground up</h3>
@@ -147,6 +169,11 @@ ribbon_display: no
       <p class="gr-papers"><span class="gr-venue gr-venue--muted">Indian copyright SW-21807 (L2 autonomous driving software stack)</span></p>
     </div>
   </div>
+
+  <figure class="gr-figure gr-figure--wide gr-figure--medium">
+    <img src="{{ '/images/auto_drive/acc_pd_vs_mpc.jpg' | relative_url }}" alt="Plots of separation distance and velocity over time for PD and MPC adaptive cruise controllers bringing the vehicle to a complete stop" loading="lazy">
+    <figcaption>Adaptive cruise control on our vehicle, bringing it to a complete stop behind a stationary obstacle: separation (left) and speed (right) for a PD controller and a model predictive controller (MPC).</figcaption>
+  </figure>
 </section>
 
 <!-- ============================ VEHICLE ============================ -->
@@ -166,6 +193,6 @@ ribbon_display: no
 </section>
 
 <section class="gr-funding gr-funding--text">
-  <p>Supported by the <strong>New Faculty Seed Grant (NFSG), IIT Madras</strong>.</p>
+  <p>Supported by the <strong>New Faculty Initiation Grant (NFIG), IIT Madras</strong> and the <strong>Ministry of Road Transport &amp; Highways (MoRTH), Government of India</strong>.</p>
 </section>
 
