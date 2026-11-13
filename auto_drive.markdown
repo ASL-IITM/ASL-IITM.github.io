@@ -154,7 +154,7 @@ ribbon_display: no
   <h2>Our test vehicle</h2>
   <div class="gr-app-feature">
     <figure class="gr-figure">
-      <img src="{{ '/images/auto_drive/Vehicle_with_sensor.png' | relative_url }}" alt="The lab's test vehicle with an Ouster 32-channel LiDAR, Xsens Vision Navigator, IDS U3 RGB camera and SR75 radar labelled" loading="lazy">
+      <img src="{{ '/images/auto_drive/vehicle_with_sensors.jpg' | relative_url }}" alt="The lab's test vehicle with an Ouster 32-channel LiDAR, Xsens Vision Navigator, IDS U3 RGB camera and SR75 radar labelled" loading="lazy">
     </figure>
     <div class="gr-app-feature__text">
       <p class="gr-kicker">Hardware</p>
@@ -169,11 +169,3 @@ ribbon_display: no
   <p>Supported by the <strong>New Faculty Seed Grant (NFSG), IIT Madras</strong>.</p>
 </section>
 
-<script>
-  // Respect reduced-motion preferences: stop autoplaying loops.
-  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    document.querySelectorAll('.gr-loop video').forEach(function (v) {
-      v.removeAttribute('autoplay'); v.pause(); v.setAttribute('controls', '');
-    });
-  }
-</script>

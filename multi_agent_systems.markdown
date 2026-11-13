@@ -119,11 +119,3 @@ ribbon_display: no
   <p>Supported by the <strong>Start-up Research Grant (SRG), SERB</strong>.</p>
 </section>
 
-<script>
-  // Respect reduced-motion preferences: stop autoplaying loops.
-  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    document.querySelectorAll('.gr-loop video').forEach(function (v) {
-      v.removeAttribute('autoplay'); v.pause(); v.setAttribute('controls', '');
-    });
-  }
-</script>

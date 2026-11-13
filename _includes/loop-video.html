@@ -1,8 +1,4 @@
 <figure class="gr-loop{% if include.class %} {{ include.class }}{% endif %}">
-  <video autoplay muted loop playsinline preload="metadata"
-         poster="{{ include.poster | relative_url }}"
-         aria-label="{{ include.alt }}">
-    <source src="{{ include.src | relative_url }}" type="video/mp4">
-  </video>
+  <video muted loop playsinline preload="none" poster="{{ include.poster | relative_url }}" data-src="{{ include.src | relative_url }}" aria-label="{{ include.alt }}"></video>
   {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
 </figure>

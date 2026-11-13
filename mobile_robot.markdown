@@ -192,11 +192,3 @@ ribbon_display: no
   <p>Supported by the <strong>New Faculty Initiation Grant (NFIG), IIT Madras</strong>. In collaboration with <strong>Carnegie Mellon University</strong> and <strong>Deakin University</strong>.</p>
 </section>
 
-<script>
-  // Respect reduced-motion preferences: stop autoplaying loops.
-  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    document.querySelectorAll('.gr-loop video').forEach(function (v) {
-      v.removeAttribute('autoplay'); v.pause(); v.setAttribute('controls', '');
-    });
-  }
-</script>

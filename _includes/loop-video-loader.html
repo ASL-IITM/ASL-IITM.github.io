@@ -1,0 +1,39 @@
+<!--
+  Lazy loader for muted looping clips (_includes/loop-video.html).
+  Include ONCE in default.html. Only the poster image loads with the page;
+  each clip is fetched when it scrolls near the viewport, and paused when it leaves.
+  With reduced motion, clips are not autoplayed: they get controls instead.
+-->
+<script>
+(function(){
+  var videos = document.querySelectorAll('.gr-loop video[data-src]');
+  if (!videos.length) return;
+  var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function load(v) {
+    if (v.dataset.loaded) return;
+    v.dataset.loaded = '1';
+    v.src = v.dataset.src;
+    if (still) { v.controls = true; v.preload = 'metadata'; }
+  }
+
+  if (!('IntersectionObserver' in window)) {
+    videos.forEach(function (v) { load(v); if (!still) v.play().catch(function(){}); });
+    return;
+  }
+
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      var v = e.target;
+      if (e.isIntersecting) {
+        load(v);
+        if (!still) v.play().catch(function(){});
+      } else if (v.dataset.loaded && !still) {
+        v.pause();
+      }
+    });
+  }, { rootMargin: '200px 0px' });
+
+  videos.forEach(function (v) { io.observe(v); });
+})();
+</script>
