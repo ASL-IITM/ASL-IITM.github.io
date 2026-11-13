@@ -151,6 +151,14 @@ $gr-accent-soft: #eef3fd;
   }
 }
 
+.gr-roadmap--3 {
+  grid-template-columns: repeat(3, 1fr);
+
+  @include media-query($on-laptop) {
+    grid-template-columns: 1fr;
+  }
+}
+
 .gr-roadmap__num {
   font-size: 0.78rem;
   font-weight: 700;
@@ -490,6 +498,17 @@ $gr-accent-soft: #eef3fd;
   .gr-papers {
     font-size: 0.82rem;
     margin-bottom: 0;
+  }
+}
+
+.gr-app--dataset {
+  margin-top: $spacing-unit;
+  border-left: 4px solid $brand-color;
+  background: $gr-accent-soft;
+  padding: 1.1rem 1.25rem;
+
+  h3 {
+    font-size: 1.15rem;
   }
 }
 
