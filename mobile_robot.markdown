@@ -25,7 +25,7 @@ ribbon_display: no
     <p>Each layer builds on the one before. Reliable localisation makes planning possible. Predicting people makes planning safe and polite. Learning from the unexpected takes the robot out of the corridor and into the open. Language turns navigation into useful work.</p>
   </div>
   <div class="gr-hero__media">
-    {% include loop-video.html src="/videos/mobile_robot/outdoor_platform.mp4" poster="/videos/mobile_robot/outdoor_platform.jpg" alt="The lab's four-wheeled mobile robot driving along an unpaved path between buildings on campus" caption="Our mobile robot platform on an unstructured campus path (3× speed)." %}
+    {% include loop-video.html src="/videos/mobile_robot/husky_deer.mp4" poster="/videos/mobile_robot/husky_deer.jpg" alt="A Clearpath Husky robot driving along a campus road while two deer graze on the grass beside it" caption="Our Clearpath Husky on a campus run, sharing the road with the resident deer." %}
   </div>
 </div>
 
@@ -184,9 +184,21 @@ ribbon_display: no
   </div>
 </section>
 
-<!-- ============================ PLATFORM ============================ -->
+<!-- ============================ PLATFORMS ============================ -->
 <section class="gr-apps">
-  <h2>Our platform</h2>
+  <h2>Our platforms</h2>
+  <div class="gr-app-feature">
+    <figure class="gr-figure">
+      <img src="{{ '/images/mobile_robot/husky.jpg' | relative_url }}" alt="Clearpath Husky with a mast-mounted LiDAR standing on open dirt ground" loading="lazy">
+    </figure>
+    <div class="gr-app-feature__text">
+      <p class="gr-kicker">Hardware</p>
+      <h3>A Clearpath Husky for rough ground</h3>
+      <p>For outdoor and off-road experiments we use a Clearpath Husky, a rugged four-wheel skid-steer robot. It carries an Ouster OS0 LiDAR, two Intel RealSense D455 RGB-D cameras and an IMU, with an NVIDIA Jetson AGX and an Intel Core i3 computer on board for processing.</p>
+      <p>It handles dirt tracks, leaf litter and uneven ground across the IIT Madras campus, which sits inside a forest and is shared with deer and other wildlife (see the clip at the top of this page): a natural test of the terrain-aware navigation above.</p>
+    </div>
+  </div>
+
   <div class="gr-app-feature">
     <figure class="gr-figure">
       <img src="{{ '/images/mobile_robot/platform_annotated.jpg' | relative_url }}" alt="The lab's mobile robot with a Velodyne VLP-32 LiDAR, RealSense D455 camera and Xsens IMU labelled" loading="lazy">
@@ -194,7 +206,27 @@ ribbon_display: no
     <div class="gr-app-feature__text">
       <p class="gr-kicker">Hardware</p>
       <h3>Built in the lab, used indoors and out</h3>
-      <p>Most of the work on this page runs on a mobile robot built in our lab. It carries a Velodyne VLP-32 LiDAR, an Intel RealSense D455 RGB-D camera and an Xsens 9-axis IMU, and is driven through ROS 2. The same robot works in corridors, courtyards and unpaved campus paths, so our methods are tested where they are meant to be used.</p>
+      <p>Much of the work on this page runs on a mobile robot built in our lab. It carries a Velodyne VLP-32 LiDAR, an Intel RealSense D455 RGB-D camera and an Xsens 9-axis IMU, and is driven through ROS 2. The same robot works in corridors, courtyards and unpaved campus paths, so our methods are tested where they are meant to be used.</p>
+    </div>
+  </div>
+
+  <div class="gr-apps__grid gr-apps__grid--2">
+    <div class="gr-app gr-app--platform">
+      <figure class="gr-figure">
+        <img src="{{ '/images/mobile_robot/indoor_robot_annotated.jpg' | relative_url }}" alt="The lab's small indoor robot with an onboard laptop, 2D LiDAR, IMU and camera system labelled" loading="lazy">
+      </figure>
+      <p class="gr-kicker">Hardware</p>
+      <h3>A compact indoor robot, also built in the lab</h3>
+      <p>A small differential-drive robot for corridors and offices, with a 2D LiDAR, an IMU and a camera system, and a laptop on board for processing.</p>
+    </div>
+    <div class="gr-app gr-app--platform">
+      <figure class="gr-figure">
+        <img src="{{ '/images/mobile_robot/turtlebot4.jpg' | relative_url }}" alt="TurtleBot 4 Lite and TurtleBot 4 robots on a wooden floor" loading="lazy">
+        <figcaption>Image: Clearpath Robotics.</figcaption>
+      </figure>
+      <p class="gr-kicker">Hardware</p>
+      <h3>TurtleBot 4</h3>
+      <p>A compact ROS 2 research robot built on an iRobot Create 3 base, with a 2D LiDAR and a stereo depth camera. We use it to try out new navigation ideas quickly indoors before moving them to our larger robots.</p>
     </div>
   </div>
 </section>

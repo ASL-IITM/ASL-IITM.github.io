@@ -178,7 +178,7 @@ ribbon_display: no
 
 <!-- ============================ VEHICLE ============================ -->
 <section class="gr-apps">
-  <h2>Our test vehicle</h2>
+  <h2>Our test vehicles</h2>
   <div class="gr-app-feature">
     <figure class="gr-figure">
       <img src="{{ '/images/auto_drive/vehicle_with_sensors.jpg' | relative_url }}" alt="The lab's test vehicle with an Ouster 32-channel LiDAR, Xsens Vision Navigator, IDS U3 RGB camera and SR75 radar labelled" loading="lazy">
@@ -189,6 +189,12 @@ ribbon_display: no
       <p>Our platform is a four-seat electric vehicle with a 5 kW induction motor, built for low-speed operation and retrofitted in the lab for full drive-by-wire. Its sensors are an Ouster 32-channel LiDAR, IDS U3 RGB cameras, an SR75 medium-range radar and an Xsens Vision Navigator.</p>
       <p>We are aiming the stack at low-speed settings where autonomy can be useful soon: campuses and corporate parks, airports, shipyards and other controlled or semi-structured spaces.</p>
     </div>
+  </div>
+
+  <div class="gr-app gr-app--note">
+    <p class="gr-kicker">Hardware</p>
+    <h3>PIXKIT 3.0</h3>
+    <p>Alongside our retrofitted vehicle, we use a PIXKIT 3.0 autonomous-driving development chassis from PIX Moving. It comes drive-by-wire from the factory, so new perception, planning and control software can be tested on a second, independent vehicle.</p>
   </div>
 </section>
 

@@ -120,6 +120,29 @@ ribbon_display: no
   </div>
 </section>
 
+<!-- ============================ PLATFORMS ============================ -->
+<section class="gr-apps">
+  <h2>Our platforms</h2>
+  <div class="gr-app-feature">
+    <div class="gr-app-feature__media">
+      <figure class="gr-figure">
+        <img src="{{ '/images/multi_agent/turtlebot3_fleet.jpg' | relative_url }}" alt="Three TurtleBot 3 robots, each with an AprilTag on top, on the lab floor" loading="lazy">
+        <figcaption>Our three TurtleBot 3s.</figcaption>
+      </figure>
+      <figure class="gr-figure gr-figure--stacked">
+        <img src="{{ '/images/multi_agent/myagv.jpg' | relative_url }}" alt="Two myAGV robots with mecanum wheels" loading="lazy">
+        <figcaption>myAGV. Image: Elephant Robotics.</figcaption>
+      </figure>
+    </div>
+    <div class="gr-app-feature__text">
+      <p class="gr-kicker">Hardware</p>
+      <h3>A fleet for multi-robot experiments</h3>
+      <p><strong>Three TurtleBot 3 robots.</strong> Each carries an AprilTag on top so an overhead camera can track the whole team. They run the decentralised planning experiments in the walled arena shown at the top of this page.</p>
+      <p><strong>Four myAGV robots from Elephant Robotics.</strong> Compact automated guided vehicles with omnidirectional mecanum wheels, which let us take coordination and cooperative transport to a larger team.</p>
+    </div>
+  </div>
+</section>
+
 <section class="gr-funding gr-funding--text">
   <p>Supported by the <strong>Start-up Research Grant (SRG), SERB</strong>.</p>
 </section>

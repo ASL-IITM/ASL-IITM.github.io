@@ -723,3 +723,36 @@ $gr-accent-soft: #eef3fd;
   object-fit: cover;
   object-position: center bottom;
 }
+
+.gr-figure--husky {
+  max-width: 340px;
+  margin-top: 0.5rem;
+}
+
+// Text-only platform card (no photo yet)
+.gr-app--note {
+  margin-top: 1rem;
+  padding: 1rem 1.25rem;
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Platform card with a photo on top
+.gr-app--platform .gr-figure {
+  margin-bottom: 0.8rem;
+
+  img {
+    aspect-ratio: 16 / 10;
+    object-fit: contain;
+  }
+}
+
+.gr-figure--stacked {
+  margin-top: 0.8rem;
+}
