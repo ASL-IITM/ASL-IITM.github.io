@@ -191,10 +191,16 @@ ribbon_display: no
     </div>
   </div>
 
-  <div class="gr-app gr-app--note">
+  <div class="gr-app-feature">
+    <figure class="gr-figure">
+      <img src="{{ '/images/auto_drive/pixkit3.jpg' | relative_url }}" alt="Side view of the PIXKIT 3.0 open-frame autonomous driving development chassis" loading="lazy">
+      <figcaption>Image: PIX Moving.</figcaption>
+    </figure>
+    <div class="gr-app-feature__text">
     <p class="gr-kicker">Hardware</p>
     <h3>PIXKIT 3.0</h3>
     <p>Alongside our retrofitted vehicle, we use a PIXKIT 3.0 autonomous-driving development chassis from PIX Moving. It comes drive-by-wire from the factory, so new perception, planning and control software can be tested on a second, independent vehicle.</p>
+    </div>
   </div>
 </section>
 

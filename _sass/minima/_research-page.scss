@@ -756,3 +756,23 @@ $gr-accent-soft: #eef3fd;
 .gr-figure--stacked {
   margin-top: 0.8rem;
 }
+
+// ---- Consistent media frames ----
+// Every picture or clip beside the text sits in the same 16:9 frame;
+// odd-shaped content is fitted inside (not cropped) on a neutral background.
+.gr-loop--native video,
+.gr-loop--narrow video {
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  max-width: 100%;
+  background: #f4f6f8;
+}
+
+.gr-work__media > .gr-figure:first-child img,
+.gr-figure--capped img {
+  width: 100%;
+  max-height: none;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #fff;
+}
