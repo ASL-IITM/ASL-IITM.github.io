@@ -27,7 +27,7 @@ ribbon_display: no
     <p>We build towards this in layers. Fast, reliable grasps make it possible to work in clutter. Working in clutter and around people makes real deployments possible. Language and memory then let the robot take on whole tasks, not just single picks.</p>
   </div>
   <div class="gr-hero__media">
-    {% include loop-video.html src="/videos/grasping/ur5_multi_pick.mp4" poster="/videos/grasping/ur5_multi_pick.jpg" alt="UR5e arm with a three-finger gripper picking up several objects from a table" caption="Open-vocabulary, language-driven grasp planning on our UR5e testbed (2× speed)." %}
+    {% include loop-video.html src="/videos/grasping/ur5_language_pick.mp4" poster="/videos/grasping/ur5_language_pick.jpg" alt="UR5e arm with a three-finger gripper picking up objects from a table in front of a green screen" caption="Open-vocabulary, language-driven grasp planning on our UR5e testbed (2× speed)." %}
   </div>
 </div>
 

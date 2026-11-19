@@ -24,7 +24,7 @@ ribbon_display: no
     <p>Indian traffic is dense, mixed and unpredictable, and road infrastructure varies from street to street. Rather than adapting a system built elsewhere, we build the whole stack on our own test vehicle: making it drivable by computer, perceiving and predicting the traffic around it, and controlling it safely with a human in the loop.</p>
   </div>
   <div class="gr-hero__media">
-    {% include loop-video.html src="/videos/auto_drive/driverless_dbw.mp4" poster="/videos/auto_drive/driverless_dbw.jpg" alt="The lab's open-frame electric test vehicle driving with nobody in the driver's seat" caption="Our test vehicle driving under computer control, with no one at the wheel." %}
+    {% include loop-video.html src="/videos/auto_drive/city_sim.mp4" poster="/videos/auto_drive/city_sim.jpg" alt="A simulated car driving through a 3D city along a multi-lane road" caption="Our L2 autonomy stack driving a car through a simulated city: route planning with steering and speed control (4× speed)." %}
   </div>
 </div>
 
@@ -150,7 +150,7 @@ ribbon_display: no
 
   <div class="gr-work gr-work--flip">
     <div class="gr-work__media">
-      {% include loop-video.html src="/videos/auto_drive/l2_stack_sim.mp4" poster="/videos/auto_drive/l2_stack_sim.jpg" alt="Simulated city with the vehicle following a planned route, next to plots of planned and tracked paths" caption="Our L2 autonomy stack in simulation: global and local planning with steering and speed control (3× speed)." %}
+      {% include loop-video.html src="/videos/auto_drive/driverless_dbw.mp4" poster="/videos/auto_drive/driverless_dbw.jpg" alt="The lab's open-frame electric test vehicle driving with nobody in the driver's seat" caption="Our test vehicle driving under computer control, with no one at the wheel." %}
     </div>
     <div class="gr-work__text">
       <h3>Adaptive cruise control for stop-and-go traffic</h3>
