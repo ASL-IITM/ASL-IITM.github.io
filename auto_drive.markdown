@@ -80,6 +80,8 @@ ribbon_display: no
 
       <h3>LiDAR-camera fusion for 3D detection</h3>
       <p>Objects detected in the LiDAR point cloud are matched with camera detections, which supply the object class. This gives the planner 3D positions and labels for the traffic around the vehicle.</p>
+      <p>Our journal paper brings perception and prediction together in one multi-modal framework, developed and validated for multi-class, lane-free traffic.</p>
+      <p class="gr-papers"><span class="gr-venue">IEEE Access 2026</span> <a href="https://doi.org/10.1109/ACCESS.2026.3755053">Paper</a></p>
       <div class="gr-actions">
         {% include youtube-video.html id="pXp1Ph0vvJw" title="Perception stack demo" %}
         {% include youtube-video.html id="EiqNRwigJp4" title="Perception for Indian road conditions" %}
@@ -132,7 +134,7 @@ ribbon_display: no
       <div class="gr-actions">
         {% include youtube-video.html id="TLtha1oYV9o" title="Multi-hypothesis trajectory prediction of surrounding vehicles" %}
       </div>
-      <p class="gr-papers"><span class="gr-venue">IEEE STPEC 2025</span> <a href="https://doi.org/10.1109/STPEC66316.2025.11490651">Paper</a></p>
+      <p class="gr-papers"><span class="gr-venue">IEEE STPEC 2025</span> <a href="https://doi.org/10.1109/STPEC66316.2025.11490651">Paper</a> · <span class="gr-venue">IEEE Access 2026</span> <a href="https://doi.org/10.1109/ACCESS.2026.3755053">Paper</a></p>
     </div>
   </div>
 </section>
