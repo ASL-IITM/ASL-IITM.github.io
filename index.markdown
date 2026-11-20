@@ -67,6 +67,10 @@ layout: home
 
         <!-- ===== SET 1 (original items) ===== -->
         <div class="news-ticker__item">
+          <span class="news-ticker__date">Nov 2026</span>
+          <span class="news-ticker__text">Journal paper on multi-modal perception and prediction for lane-free traffic published in IEEE Access.</span>
+        </div>
+        <div class="news-ticker__item">
           <span class="news-ticker__date">Jul 2026</span>
           <span class="news-ticker__text">Journal paper on model-based adaptive cruise control published in IEEE Access.</span>
         </div>
@@ -148,6 +152,10 @@ layout: home
         </div>
 
         <!-- ===== SET 2 (exact duplicate for seamless loop) ===== -->
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Nov 2026</span>
+          <span class="news-ticker__text">Journal paper on multi-modal perception and prediction for lane-free traffic published in IEEE Access.</span>
+        </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Jul 2026</span>
           <span class="news-ticker__text">Journal paper on model-based adaptive cruise control published in IEEE Access.</span>
