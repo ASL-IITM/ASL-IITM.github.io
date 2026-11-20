@@ -111,8 +111,8 @@ layout: home
           <span class="news-ticker__text">Paper on optimal manipulator motion planning published in Springer Computational Kinematics (CK2025).</span>
         </div>
         <div class="news-ticker__item">
-          <span class="news-ticker__date">Nov 2025</span>
-          <span class="news-ticker__text">Indian patent application filed for a UAV-deployable emission flux measurement apparatus.</span>
+          <span class="news-ticker__date">Oct 2025</span>
+          <span class="news-ticker__text">Indian Patent No. 605393 granted for a UAV-deployable emission flux measurement apparatus.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Oct 2025</span>
@@ -149,6 +149,14 @@ layout: home
         <div class="news-ticker__item">
           <span class="news-ticker__date">Apr 2024</span>
           <span class="news-ticker__text">Best Presentation Award at IEEE ICCAR 2024, Singapore.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Aug 2023</span>
+          <span class="news-ticker__text">Indian Patent No. 544379 granted for a bidirectional rotary series elastic actuator.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Jul 2023</span>
+          <span class="news-ticker__text">Indian Patent No. 579416 granted for a compound offset epicyclic drive.</span>
         </div>
 
         <!-- ===== SET 2 (exact duplicate for seamless loop) ===== -->
@@ -197,8 +205,8 @@ layout: home
           <span class="news-ticker__text">Paper on optimal manipulator motion planning published in Springer Computational Kinematics (CK2025).</span>
         </div>
         <div class="news-ticker__item">
-          <span class="news-ticker__date">Nov 2025</span>
-          <span class="news-ticker__text">Indian patent application filed for a UAV-deployable emission flux measurement apparatus.</span>
+          <span class="news-ticker__date">Oct 2025</span>
+          <span class="news-ticker__text">Indian Patent No. 605393 granted for a UAV-deployable emission flux measurement apparatus.</span>
         </div>
         <div class="news-ticker__item">
           <span class="news-ticker__date">Oct 2025</span>
@@ -235,6 +243,14 @@ layout: home
         <div class="news-ticker__item">
           <span class="news-ticker__date">Apr 2024</span>
           <span class="news-ticker__text">Best Presentation Award at IEEE ICCAR 2024, Singapore.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Aug 2023</span>
+          <span class="news-ticker__text">Indian Patent No. 544379 granted for a bidirectional rotary series elastic actuator.</span>
+        </div>
+        <div class="news-ticker__item">
+          <span class="news-ticker__date">Jul 2023</span>
+          <span class="news-ticker__text">Indian Patent No. 579416 granted for a compound offset epicyclic drive.</span>
         </div>
       </div>
     </div>
